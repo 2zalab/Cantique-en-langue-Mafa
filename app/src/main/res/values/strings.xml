@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Cantiques en mafa</string>
+    <string name="tab_text_1">Cantiques</string>
+    <string name="tab_text_2">Favoris</string>
+    <string name="tab_text_3">A Propos</string>
+</resources>
