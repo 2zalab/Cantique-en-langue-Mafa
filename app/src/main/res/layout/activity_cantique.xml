@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".CantiqueActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_cantique"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:titleTextColor="@android:color/white"
+        android:background="?attr/colorPrimary"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+
+            <ImageButton
+                android:id="@+id/previuos"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:layout_marginRight="10dp"
+                android:tint="@android:color/white"
+                android:src="@drawable/ic_baseline_navigate_before_24"
+                android:background="@color/colorPrimary"/>
+
+            <ImageButton
+                android:id="@+id/zoom_moins"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:layout_marginRight="10dp"
+                android:tint="@android:color/white"
+                android:src="@drawable/ic_baseline_zoom_out_24"
+                android:background="@color/colorPrimary"/>
+
+            <ImageButton
+                android:id="@+id/favorite"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:layout_marginRight="10dp"
+                android:tint="@android:color/white"
+                android:src="@drawable/ic_baseline_favorite_border_24"
+                android:background="@color/colorPrimary"
+                />
+
+            <ImageButton
+                android:id="@+id/zoom_plus"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:layout_marginRight="10dp"
+                android:tint="@android:color/white"
+                android:src="@drawable/ic_baseline_zoom_in_24"
+                android:background="@color/colorPrimary"/>
+
+            <ImageButton
+                android:id="@+id/next"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:tint="@android:color/white"
+                android:src="@drawable/ic_baseline_navigate_next_24"
+                android:background="@color/colorPrimary"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/search"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:hint="Entrer un numero"
+                android:drawableLeft="@drawable/ic_baseline_search_24"
+                android:drawableTint="@color/colorPrimary"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
+                android:inputType="phone"
+                android:background="@drawable/bg"
+                android:layout_weight=".7"/>
+
+            <Button
+                android:id="@+id/id_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight=".2"
+                android:layout_marginLeft="20dp"
+                android:background="@color/colorPrimary"
+                android:text="OK"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/titre_cantique"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@android:color/black"
+                android:textSize="22dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="Titre Cantique" />
+
+            <TextView
+                android:id="@+id/parole_cantique"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@android:color/black"
+                android:textSize="17dp"
+                android:gravity="left"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="Parole Cantique" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,6 +1,4072 @@
 <resources>
-    <string name="app_name">Cantiques en mafa</string>
-    <string name="tab_text_1">Cantiques</string>
-    <string name="tab_text_2">Favoris</string>
-    <string name="tab_text_3">A Propos</string>
+    <string name="app_name">Cantiques en Mafa</string>
+    <string name="titre_cantique">Dimèsh Nslébèrdè Zhiklè \n Recueil de Cantiques en Mafa</string>
+    <string name="mafa_name">Dimèsh Nslébèrdè Zhiklè</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="description">
+        Cette Application vous permet d\'avoir accès facilement au recueil de cantiques en langue mafa. Vous pouvez l\'avoir partout avec vous sur votre mobile
+    </string>
+
+    <string name="caracteristiques">
+        \u25CF Utilisation hors ligne \n
+        \u25CF Edition sans musique  \n
+        \u25CF Rechercher un chant à partir de son numéro ou du sommaire. \n
+        \u25CF Ajouter un chant à la liste des favoris
+    </string>
+
+    <string name="encouragement">
+        Vous pouvez nous faire un don pour nous encourager à effectuer les prochaines mises à jour de cette application
+        et à produire d\'avantage d\'autres applications.
+    </string>
+    <string name="remarque">N\'hesitez pas non plus à nous faire parvenir les remarques et critiques sur cette application sur l\'un des adresses ci-dessus.</string>
+
+    <string name="favoris_vide">Vous n\'avez pas encore des chants favoris. Ajouter un chant à votre liste de favoris en cliquant sur l\'icône de coeur se trouvant dans la page de mélodie </string>
+    <string-array name="Titre_cantiques">
+        <item>1 Aman nga co Yèsu a ndav nga ma</item>
+        <item>2 Pombi Bi m’mbel nga</item>
+        <item>3 A pats a vaɗ ka takaha nga</item>
+        <item>4 Bab Zhiklè, i slébèrdè ka</item>
+        <item>5 Bai Yèsu, kra Zhiklè	</item>
+        <item>6 Do a sam Yèsu	</item>
+        <item>7 War a ka co !	</item>
+        <item>8 Ma Zhiklè a ndiv azɓai	</item>
+        <item>9 Nzlembaɗ mbela’a gar Yèsu	</item>
+        <item>10 I sun a vava	</item>
+        <item>11 Yèsu a gaɗa : Vo-washkè arna	</item>
+        <item>12 Civèɗ mbela’a	</item>
+        <item>13 Yèsu a nco wof ngézlèl na	</item>
+        <item>14 Sam a zhè te zhiklè te géɗè’a	</item>
+        <item>15 Yèsu a zhè a nshèffè	</item>
+        <item>16 Nga wuffè a civèɗ Yèsu	</item>
+        <item>17 Bai Yèsu a di a shkè deɓa	</item>
+        <item>18 Slambaɗa, do a sam nhela’a	</item>
+        <item>19 Yèsu Kristi a zhè a woy ka	</item>
+        <item>20 I mana ndav ga	</item>
+        <item>21 Zhiklè ngu maya	</item>
+        <item>22 Zlèzlè’a nga gu ɓèl malai	</item>
+        <item>23 Te nhér gèɗ ga	</item>
+        <item>24 Ka woya njèkeda mali ngaya dè ?	</item>
+        <item>25 Yèsu a hel sam herkeda	</item>
+        <item>26 Mali ngaya ntila ma ɗè ?	</item>
+        <item>27 Va-vau	</item>
+        <item>28 Ndav ga wuffè	</item>
+        <item>29 Pombi herkeda	</item>
+        <item>30 Yèsu a mbad pombaz a hai	</item>
+        <item>31 Wa bab ga, washkè	</item>
+        <item>32 N’azɓai a mpèn ndav ngaya	</item>
+        <item>33 Pats n’ndev matakwan ga t’herkeda	</item>
+        <item>34 Nza a nda nga	</item>
+        <item>35 Yèsu Kristi, pombaz ngaya	</item>
+        <item>36 I war i ngreda mali ga auda	</item>
+        <item>37 M’mbel nga ma	</item>
+        <item>38 I sun woyam staɗ a iyam mbela’a	</item>
+        <item>39 A gèɗ pombi man a ndiv azɓai	</item>
+        <item>40 Wof ngézlèlè a Yèsu Krist	</item>
+        <item>41 Yèsu ndo madzaf nzura’a	</item>
+        <item>42 I mana ndav ga	</item>
+        <item>43 Ka gu zlau ɓai, Zhiklè woy ka	</item>
+        <item>44 Nga wuffè a géɗ Zhiklè	</item>
+        <item>45 Ɗakwa, gol Yèsu, ka zlatsahi ɓai !	</item>
+        <item>46 Man tolom Zhiklè a ɓica nga	</item>
+        <item>47 Ka te zhiklè, i t’herkeda	</item>
+        <item>48 Man ka woya ka ngècè nshèffè mbia’a	</item>
+        <item>49 Zhiklè nzlündo Yèsu a herkeda	</item>
+        <item>50 I jèjèr sak Yèsu	</item>
+        <item>51 Mandal ga washkè co ma Zhiklè	</item>
+        <item>52 Bab ga te géɗè’a, i da pca ka a gèɗ ɓai	</item>
+        <item>53 Na haha kra tambak Zhiklè	</item>
+        <item>54 I sun ɓai èhèmè i mbel ga	</item>
+        <item>55 Alleluya, slu dimèsh a sam Yèsu	</item>
+        <item>56 Bab nga Zhiklè a bèhè	</item>
+        <item>57 Washkè, ngo-dokona, a gi Bab nga	</item>
+        <item>58 Mpi ndohi Zhiklè tèlèba	</item>
+        <item>59 Mandal ga washkè !	</item>
+        <item>60 Ngray civèɗ movar nshèffè	</item>
+        <item>61 Ko wawa a nshèffè mɓua’a	</item>
+        <item>62 Slambaɗa, mizlinè Yèsu a n’ndev di ɓai	</item>
+        <item>63 Mwuɗitepa…	</item>
+        <item>64 Yèsu a tsi ntamagi ndav nga	</item>
+        <item>65 A ndohi kin pela ɗè ?	</item>
+        <item>66 Ha m’metsi nga	</item>
+        <item>67 Washkè, ka njèy ma Yèsu	</item>
+        <item>68 Ndo m’mɓer tambaki a bèhè	</item>
+        <item>69 Yèsu a sun civèɗ	</item>
+        <item>70 Va-nju ma m’mbel ndo Yèsu Krist	</item>
+        <item>71 Va-fa na gèɗ a ma Yèsu	</item>
+        <item>72 Kinè, kin ndohi nderɗe Zhiklè krèh	</item>
+        <item>73 Zhiklè a ɓer skwi tèlèba	</item>
+        <item>74 Movar man i ndia, movar nshèffè	</item>
+        <item>75 Yowa, ara Daniel	</item>
+        <item>76 Woba ndo	</item>
+        <item>77 Nzlembaɗ Yèsu, nzlembaɗ mbia’a	</item>
+        <item>78 Pierre te wurom	</item>
+        <item>79 Va-pu di sèi a Yèsu !	</item>
+        <item>80 Va-slambaɗa a Yèsu	</item>
+        <item>81 Nshèffè mɓua’a a gèɗ ndohi tèlè	</item>
+        <item>82 Ko ahngwa ahngwa a gèɗ herkeda	</item>
+        <item>83 Zhiklè a bèhè ndohai	</item>
+        <item>84 Zhiklè a woy herkeda	</item>
+        <item>85 I woy man i rka ka	</item>
+        <item>86 Fali ga i va na Yèsu	</item>
+        <item>87 Yèsu, i herda ka va	</item>
+        <item>88 I hér mwoy-ndo ngaya	</item>
+        <item>89 Ndav ga nkezla	</item>
+        <item>90 Yèsu nga shkè a sam ngaya	</item>
+        <item>91 Ndohai 5000	</item>
+        <item>92 Nza a tsagi ga	</item>
+        <item>93 Yèsu, herde nga, a sam ngaya	</item>
+        <item>94 Yèsu ndo m’mbel ndohai, i woya’a	</item>
+        <item>95 Zhiklè nga shid gèɗ	</item>
+        <item>96 Yèsu a pra nga malai	</item>
+        <item>97 Zhiklè Bab nga te géɗè’a	</item>
+        <item>98 Zhiklè mbia’a nga slébèrdè ka	</item>
+        <item>99 Ntilyè a mali ga tèlèba wa ?	</item>
+        <item>100 T’hwaɗ ki mamokwa’a	</item>
+        <item>101 Ta yu ndo m’mbel ndo a patsna	</item>
+        <item>102 Skwi nhél sam	</item>
+        <item>103 Vo-washkè a sam ndo m’mbel ndo	</item>
+        <item>104 Ka Zhiklè, ndha nga a Mèzhèɓ ngaya	</item>
+        <item>105 A patsna ta yu Yèsu Kristi	</item>
+        <item>106 Ma mbela’a man i tsena’a	</item>
+        <item>107 M’metsi a zlèzlèmè a gèɗ herkeda	</item>
+        <item>108 Zhiklè nga shid gèɗ	</item>
+        <item>109 Yèsu a m’mets na ma	</item>
+        <item>110 Vo-washkè, va-ngwod ndav kinè !	</item>
+        <item>111 Dalahimam ga vo-washkè	</item>
+        <item>112 Skwi mwuffè te ndav ga	</item>
+        <item>113 Ntétékè ara skwi ambalai	</item>
+        <item>114 Yèsu a n’ngul m’metsi a patsna	</item>
+        <item>115 Ngodokoy a sam Bab nga	</item>
+        <item>116 Yèsu a mshkè, a m’mets na	</item>
+        <item>117 Maya maya, vaɗ a shkè	</item>
+        <item>118 Yèsu Bai a gèɗ bihai	</item>
+        <item>119 Do, a ka gaɗa ta tèlè	</item>
+        <item>120 Yèsu Bi m’mbel ndo klèng, nya ma	</item>
+        <item>121 Washkè tsena da’ai Zhiklè !	</item>
+        <item>122 Ndo m’mbel ndo man i co a ndav	</item>
+        <item>123 Kin rka nrkedi cè ?	</item>
+        <item>124 Vo-washkè ndo tèlè	</item>
+        <item>125 Mèzhèɓ Zhiklè man nkezla’a	</item>
+        <item>126 Gu susai…	</item>
+        <item>127 Yèsu civèɗ nshèffè ga	</item>
+        <item>128 Yèsu, kra Bi Zhiklè	</item>
+        <item>129 A pats man Bi Yèsu	</item>
+        <item>130 Nga da ga na mbali a Bi nga	</item>
+        <item>131 Zhiklè a woy ndo nhadka ma	</item>
+        <item>132 Nga ɓica va a haha	</item>
+        <item>133 Wa ndohi Yèsu Kristi, ngo-gokoy malwuɗai	</item>
+        <item>134 Zhiklè a woy nga	</item>
+        <item>135 Ko wawa a nshèffè mɓua’a	</item>
+        <item>136 Ndo man a woy Yèsu	</item>
+        <item>137 Zhiklè a ntsu kokwar Egypte	</item>
+        <item>138 Herkeda haha	</item>
+        <item>139 Wa Zhiklè !	</item>
+        <item>140 Yèsu a woy ndo	</item>
+        <item>141 I gu zlau a géɗ Adam a Eve	</item>
+        <item>142 Va-war Yèsu kra Zhiklè	</item>
+        <item>143 Vo-washkè, va-tsena ma Zhiklè	</item>
+        <item>144 Zhiklè a woy mandazlihai	</item>
+        <item>145 Wa Bi Zhiklè	</item>
+        <item>146 Ndo nwush tser skwai	</item>
+        <item>147 Dimèsh Marai a géɗ Noel	</item>
+        <item>148 Zhiklè a ngau giɗfèk, a ngau géɗ herkeda	</item>
+        <item>149 Iyè a sam nangwa, man Yèsu a shkè deɓa ?	</item>
+        <item>150 Bi Zhiklè a rka kinè te matakwan	</item>
+        <item>151 Wa Yèsu, kra Zhiklè	</item>
+        <item>152 A mshkè herkeda a géɗ mali nga	</item>
+    </string-array>
+
+    <string-array name="textes_cantiques">
+        <item>
+        1.	Yèsu a gaɗa : Vo-washkè arna…\n
+         Man a mbel nga arna. \n\n
+        2.	Yèsu a gaɗa : Va-tsu ri arna… \n
+        A tsena ma nga arna.  \n\n
+        3.	 Yèsu a gaɗa : Va-dzodzor arna… \n
+        A da de nga arna.\n\n
+        4.	 Yèsu a gaɗa : Vo-zhoro arna… \n
+        A shkè deɓa arna. \n\n
+        5.	 Yèsu a baha nga a ndohi mpèr ndohai\n
+         Aman ta zi azɓai.\n
+        </item>
+
+        <item>
+        Pombi Bi m’mbel nga Yèsu Kristi.\n
+         A Zhiklè man a woy nga.\n
+         A Mèzhèɓ nshèffè aman a humda nga, \n
+        Da zhè a nda nga tèlèba………Amen !  \n
+        </item>
+
+        <item>
+            1.	A pats a vaɗ ka takaha nga,\n
+             a vava, ka Bab pombai !\n
+             Nga ngots pombai a sam Yèsu,\n
+             a vava ka Bab pombai ! \n\n
+                                     Allèluya, Bi-mbelyè,\n
+                                     ka fena skwi tèlèba !\n
+                                     Allèluya, Bi-mbelyè,\n
+                                      ka fena skwi tèlèba ! \n \n
+            2.	Ka mbel ta ndohi ngaya ma,\n
+            a vava, ka Bab pombai !\n
+             Ka sen ta staɗ, staɗ tèlèba,\n
+             a vava, ka Bab pombai ! \n\n
+
+            3.	Ka hér ndo tèlè t’herkeda,\n
+            a vava, ka Bab pombai !\n
+             Ka woya ta metsi te mali ɓai,\n
+             a vava, ka Bab pombai !\n\n
+
+            4.	Ka baha nga wud ngaya,\n
+             a vava, ka Bab pombai !\n
+             Nga ngreda ma haha auda,\n
+             a vava, ka Bab pombai !\n
+            </item>
+
+        <item>
+        Bab Zhiklè, i slébèrdè ka. I tsi ri a ka (2)\n
+        1. A géɗ man ka woyè, i ba i woy ka.\n
+         2. A géɗ man Yèsu a mets na a géɗ mali ga. \n
+        3. A géɗ man ka ckay auda te matakwan.\n
+         4. A géɗ man i kuɗai, ka vay mwuffè.\n
+         5. A géɗ man ka lèmdyè ara kra ngaya.\n
+        </item>
+
+        <item>
+        1.	Bi Yèsu, kra Zhiklè, kra na staɗgenè,\n
+        A yakay t’Mèzhèɓ na, na zhè te ndav ga.\n
+        A til nshèffè ga, man i slébèrdè’a,\n
+        I fu géɗ a ma na, i kre nenga’a ma.\n\n
+        2.	Bi Yèsu, kra Zhiklè, man a bahayè,\n
+        Washkè a sam ga, washkè, a gaɗayè,\ n
+        I pi di a skwi tèlè man a gia’a,\n
+        I fu gèɗ a ma na, i bi gol na ma. \n\n
+        3.	Bi Yèsu, kra Zhiklè a nzlindekayè,\n
+        Do a haha, do auna ; a i dé genè. \n
+        I nzi a hi azɓai, Bi ga mbia’a,\n
+        I fu gèɗ a ma na, i ndo sak na ma.\n\n
+        4.	Bi Yèsu, kra Zhiklè, a mvay mizlinè,\n
+        A vi ba, a ngwar ba, mizlinè na a zhè.\n
+        Skwi mèmè a gaɗayè, i gia’a,\n
+        I fu gèɗ a ma na, i ndo mizlinè na.\n
+    </item>
+
+        <item>
+        1.	Do a sam Yèsu antanta\n
+         A baha ka antanta\n
+         A da tilyè antanta A takaha ka antanta\n
+         Ndav na a woy ka… \n\n
+
+        2.	 Ngodokona antanta\n
+         Nga dè tèlè antanta\n
+         Nga da tsi rai…\n
+         I dè mènè antanta\n
+         Allèluya, Amen !\n
+    </item>
+
+        <item>
+        1.	Sèi ka pi di ngaya a Yèsu te Golgotha !\n
+         Sèi ka da rka a wof ngèzlèl na, \n
+        Ndo m’mbel ngaya te pa,\n
+         Sèi ka cè a ndav ngaya,\n
+         Mpcokodai, a ka mbel ngaya ma.\n\n
+
+          War a ka co !\n
+          Skwi mpil gèɗ a nsheffè, \n
+         Ta shkè a hai te Golgotha,\n
+          Sèi ka pi di a pa, a ka co ! \n\n
+
+        2.	 Sèi huro èhèmè Zhiklè a nkeɗa’a !\n
+         Ehèmè ta dzawda a wof ngèzlèl na ?\n
+         Ehèmè ta teza medi nenga’a a vatak ?\n
+         Sèi suna, a geɗ mali ngaya ! \n\n
+
+        3.	 Aman n’nzi ngay a zhè,\n
+         Ma Zhiklè mpca ka a gèɗ,\n
+         Ko a nkuɗai ka til mali ngaya azɓai,\n
+         Nga shkè auda te malai,\n
+         Nga mbel nga, nga wèl va.\n
+        </item>
+
+        <item>
+        1.	Ma Zhiklè a ndiv azɓai,\n\n
+         a vava a ndiv azɓai, \n\n
+        a mèdèp a nzi arsa, a vava nzi arsa.\n\n
+        2.	 Wuɗi Zhiklè a ndiv azɓai. \n\n
+        3.	 Pombi Zhiklè a ndiv azɓai.\n\n
+        4.	 Gumi Zhiklè a ndiv azɓai.\n\n
+        5.	 Mwoy-ndo Zhiklè a ndiv azɓai.\n\n
+        6.	 Civèɗ Yèsu a ndiv azɓai.\n
+        </item>
+
+        <item>
+        1.	Nzlembaɗ mbela’a gar Yèsu\n
+         te herkeda asaɓai.\n
+         Ndav ga a woya holhola’a,\n
+         Skwi ngiɗè gar nenga asaɓai. \n\n
+         Yèsu Krist, civeɗ nga \n
+         A sam Bab nga nte zhiklè \n
+          Yèsu Krist, civeɗ nga \n
+         Nga ngotso te ma Zhiklè. \n\n
+
+        2.	 Ndo man nzlembaɗ na a vata,\n
+         Ndo man skwi na zhè a vata,\n
+         Yèsu Krist a fen ta tèlè.\n
+         Ma nenga’a skwi nhél sam nga. \n\n
+         Yèsu Krist, ndo nzura’a\n
+          Ma nenga’a a zli ma azɓa\n
+        i  Yèsu Krist, ndo nzura’a \n
+         A mva ta nzura’a a ndohai.\n\n
+
+        3.	 Man va ga a ndav ga a dzayè \n
+        Man i ndo a matakwan\n
+         Man mali a gedassay ndav\n
+         Yèsu Krist a tilyè. \n \n
+         Yèsu Krist, nshèffè nga\n
+          T’herkeda, te zhiklè \n
+         Yèsu Krist, nshèffè nga \n
+         Nga ngotso te ma Zhiklè.\n
+        </item>
+
+        <item>
+        1.	I sun a vava, Yèsu a gè\n
+         Mali ga tèlè, Zhiklè mpra ma\n
+         Ndav ga mpana, a pombaz na,\n
+         Mezhèɓ te ndav ga a ndèda pa.  \n\n
+
+         I gèɗè te tsaval, a dimèsh ga\n
+          Pècèk ma Yèsu, ndo m’mbel nga\n
+          I gèɗè te tsaval, a dimèsh ga\n
+          Pècèk ma Yèsu, ndo m’mbel nga\n\n
+
+        2.	I sun a vava, i ngots nshèffè \n
+        Nshèffè man a ndiv azɓai a mèdèp,\n
+         Golahi Zhiklè ta ngredayè\n
+         Ara Zhiklè a da ɓeryè. \n\n
+
+        3.	 Nshèffè ga tèlè te ri Zhiklè staɗ\n
+         Iyè a nda Yèsu, Yèsu a nda nga\n
+         Skwi man i tsi rai, Yèsu a cè’a\n
+         Menda na Bab na, Zhiklè a tsena’a\n
+        </item>
+
+        <item>
+        1.	Yèsu a gaɗa : Vo-washkè arna… \n
+        Man a mbel nga arna.\n\n
+        2.	Yèsu a gaɗa : Va-tsu ri arna…\n
+         A tsena ma nga arna. \n\n
+        3.	Yèsu a gaɗa : Va-dzodzor arna… \n
+        A da de nga arna.\n \n
+        4.	Yèsu a gaɗa : Vo-zhoro arna… \n
+        A shkè deɓa arna.  \n\n
+        5.	Yèsu a baha nga a ndohi mpèr ndohai\n
+         Aman ta zi azɓai.\n\n
+        </item>
+
+        <item>
+        1.	Civèɗ mbela’a te Yèsu Zhiklè a ngra nga\n
+         Kokwar-bi arsa Bi Zhiklè a woy ava nga \n
+         Amba a gèɗ ko wawa \n
+        Man a woy m’mbél nshèffè na\n
+         Nga wuffè man nga slaha nga dè a pa. \n\n
+
+                Washkè, ka ba, ka dzodzor\n
+          Civèɗ Bab nshèffè\n
+         I ba i woy man i dè\n
+         A civèɗ m’mbela sa\n
+         Yèsu civèɗ nzura’a \n
+         Man a zhè a nshèffè \n
+        Kokwar ngiɗè ambahayè arsa asaɓai. \n\n
+
+        2.	Matakwan a slaha ngi a sam na azɓai  \n
+        Skwi ngiɗè azɓai man a fena wuɗi nenga’a \n
+        Mèzhèɓ m’metsi tèlèba\n
+         Yèsu a gi ngula’a \n
+        Kokwar ngiɗe ambahayè arsa asaɓai.\n\n
+
+        3.	Yèsu a pèr mdohi na\n
+          A gèɗ sam n’nzhihi tèlèba\n
+         Mwuffè a sam ndohi man ta ndikè a pa\n
+         Ko matakwan mèmè tèlè ta gi a ngula’a\n
+         Kokwar ngiɗè ambahayè arsa asaɓai. \n\n
+
+        4.	Ko wawa a woy ndè a pa a civèɗ te Yèsu \n
+         Te m’metsi Yèsu a wof  \n
+        Nshèffè nga a n’ngots pombai \n
+        Wudi mbia’a arsa, sèi man nga co a ndav\n
+         Kokwar ngiɗè ambahayè arsa asaɓai.  \n\n
+
+        5.	Pats sa skwi mpi ndo a wai\n
+         a n’ndev na tèlèba.\n
+         Maya Sadan zlèzlè’a a tsa na ruva a da\n
+        i Nshèffè mɓua’a te Yèsu a ngreda auda\n
+         Kokwar ngiɗè ambahayè arsa asaɓai.\n
+        </item>
+
+        <item>
+        1.	Yèsu a nco wof ngézlèl na\n
+         A mdo a Golgotha Nga\n
+         woya nga nkeɗa’a, \n
+         a gèɗ mali nga.\n\n
+
+         Mali ga, mali ga\n
+        N’nga na mblè a va Yèsu\n
+        Yèsu Kristi, pray malai \n
+        I sun skwi man i gia ɓai. \n\n
+
+        2.	Yèsu a msau matakwan\n
+          A nkuɗai a mbèhè\n
+         Zhiklè, Bab ga, te zhiklè \n
+        Ka jèkyè èhèmè ? \n\n
+
+        3.	Yèsu a nfa na gèɗ a Zhiklè\n
+         M’manda na gèɗ a hai, \n
+         A nfa na gèɗ, ha a m’mets na\n
+         A wof ngézlèl na. \n\n
+
+        4.	Yèsu a nrka nga te malai \n
+        A ntsu rai a gèɗ nga Bab nga, \n
+         pra ta mali haha\n
+         Ta sun skwi man ta gia ɓai. \n\n
+
+        5.	Yèsu, nga shida ka gèɗ\n
+         Ndav nga a gi langlanga’a\n
+         Skwi man nga slaha a ri nga ɓai\n
+         Te ka n’nga ma. \n
+        </item>
+
+        <item>
+        1.	Sam a zhè te zhiklè te géɗè’a\n
+         Man Yèsu, ndo m’mbel ndo, a ntila nga ma\n
+         Yèsu a zhèr ndohi nenga’a a pa\n
+         A ta nzi a sam mbela’a a vna. \n\n
+
+          Nshèffè mbia’a a zhè \n
+        Te civèɗ mandai a Zhiklè\n
+         Mwuffè mbia’a a zhè\n
+         Man a pa ndohi na ta zli gèɗ. \n\n
+
+        2.	Ahngata sam hela, di a rka\n
+         Skwi azɓai man a pizleda pa \n
+        Skwi man antanta nga co a ndav\n
+         A zhèr nga, nga ngotso a vava. \n\n
+
+        3.	Nga da sli dimèsh nga a pa  \n
+        Dimèsh ndohi man maslaka mpana\n
+         Nga njèl kra tambak Zhiklè a vna\n
+         Te pombaz nenga’a ndav nga mpana. \n
+        </item>
+
+        <item>
+        1.	Yèsu a zhè a nshèffè, halau a nshèffè\n
+         Yèsu Kristi, kra Zhiklè, na zhè a nshèffè \n
+        Na zhè te ri mandi Zhiklè – na zhè a nshèffè\n
+         Ko man ta ga na kita a gèɗ -\n
+         Na zhè a nshèffè\n\n
+
+        2.	Yèsu a zhè a nshèffè, halau a nshèffè\n
+         Yèsu Kristi, kra Zhiklè, na zhè a nshèffè\n
+         A nslambada, a ngu ngul metsai\n
+         Na zhè a nshèffè \n
+         Ndul ndul Bi-mbel nga a shkè deɓa \n
+        Na zhè a nshèffè. \n
+          </item>
+
+        <item>
+        1.	Nga wuffè a civèɗ Yèsu  \n
+        Nenga’a ndo m’mbel nga \n
+        A nco mali nga a deb wof na\n
+         I co a ndav ga. \n\n
+
+          Co nshèffè ga tèlè antanta \n
+        Tèlè nkwer ngaya\n
+          Ko ka te kokwar-bi ngaya\n
+          ɓer na te ri malai. \n\n
+
+        2.	Ko nhér gèɗ a mwuffè nga tèlè\n
+         Yèsu a zhè a ma\n
+         I woy i cè ngiɗè asaɓai \n
+        Sèi na Yèsu staɗ.  \n\n
+
+        3.	I gi zlau a civèɗ azɓai\n
+         Yèsu a ɓeryè \n
+        I gi maya a ndo mpiyè a wai\n
+         A da kaldyè a hai  \n\n
+
+        4.	Matakwan man a zhè a gèɗ herkeda\n
+         Tèlè i sia’a\n
+         Pombai Yèsu skwi mpi ndav ga\n
+         Mwuffè arsa azɓai\n\n
+
+        5.	Nga ngredè njèl Yèsu audav\n
+         Nga ndohi nhél sam\n
+         Nga njèl bi nga a dimèsh nga\n
+         Nga njèlè a nshèffè nga. \n
+        </item>
+
+        <item>
+        1.	Bai Yèsu a i a shkè, \n
+         a deɓa herkeda. \n
+         A da ɓic ta ndohi na, \n
+         a gi a sam na.v\n\n
+
+          Vo-zhoro, a kinè nzhun ɓai  \n
+        A shkè man kin hur ɓai \n
+         Vo-zhoro, va gu maya \n
+          Sèi va-nza a dai ! \n\n
+
+        2.	Na haha, a i shkè ndul ndul, \n
+         Ma nenga’a a gaɗa. \n
+         A i va na a ndo staɗ staɗ \n
+        Skwi mizlinè na. \n\n
+
+        3.	Gar a shkè man a prèk vaɗ, \n
+         Gar a shkè gèɗ pats. \n
+         Gar a shkè man a pats dakwaɗ\n
+         Gar a shkè gèɗ vaɗ. \n \n
+
+        4.	Ngozi cèw ta sam nshid ta, \n
+        Ndohi cèw te gi dau\n
+         Staɗ a nco, staɗ a njèkeda, \n
+         Ko a gi wobau ! \n
+     </item>
+
+        <item>
+          Slambaɗa, do a sam nhela’a 	 (2) \n
+         Aman skwi nhél sam ngaya a shkè. \n
+          Bab zhiklè, i slébarde ka 	 (2) \n
+        i tsi ri a ka. \n\n
+
+         A géɗ man ka woyè, i ba i woy ka. \n
+         A géɗ man Yèsu a mets na a géɗ mali ga. \n
+         A géɗ man ka ckay auda te matakwan. \n
+         A géɗ man i kuɗai, ka vay mwuffè. \n
+         A géɗ man ka lèmdyè ara kra ngaya. \n
+     </item>
+
+        <item>
+        1.	Yèsu Kristi a zhè a woy ka, na tema ? \n
+         Mandal ga ka sun ɗè ? \n\n
+         I sun ɓai, mandal ga. \n
+        2.	 Washkè, i ngra ka a ka suna, halau ɗè ? \n
+        3.	 Yèsu Kristi a mshkè a mbél ndo, halau ɗè ? \n
+        4.	 Yèsu Kristi civèɗ mbel ndo, halau ɗè ? \n
+        5.	 Nenga a slaha a va ka nshèffè, halau ɗè ? \n
+        6.	 Yèsu Kristi a mshkè a mets na, èhèmè ? \n
+        7.	 A vau nshèffè na a gèɗ nga, halau ɗè ? \n
+        8.	 Washkè a ka co a haha ka, na tema ? \n
+        9.	 Yèsu a zhè a tsi ndav ngaya, a war mè ? \n
+        10.	 A war ka, ka winè na, a ndè a pa, èhèmè ? \n
+        11.	 A woy man a nzi te pa a mber ka, da shkè ma \n
+        12.	 Yèsu Bi a gèɗ bihi tèlè, \n\n
+        a vava  Mandal ga ka sun ɗè ? \n
+         I sun ma, mandal ga. \n
+        </item>
+
+        <item>
+            1.	I mana ndav ga, i jèjèr Yèsu, \n
+             I mana ndav ga, i jèjèr Yèsu, \n
+             I mana ndav ga, i jèjèr Yèsu, \n
+             I dè deɓa deɓa azɓai. \n \n
+
+            2.	Ko ndo ngiɗè a nshkè ɓai, i jèjèr Yèsu, \n
+             Ko ndo ngiɗè a nshkè ɓai, i jèjèr Yèsu, \n
+             Ko ndo ngiɗè a nshkè ɓai, i jèjèr Yèsu, \n
+             I dè deɓa deɓa azɓai. \n\n
+
+            3.	Skwi herkeda te deɓa, sèi Yèsu Krist a ma, \n
+             Skwi herkeda te deɓa, sèi Yèsu Krist a ma, \n
+             Skwi herkeda te deɓa, sèi Yèsu Krist a ma, \n
+            I dè deɓa deɓa azɓai\n\n
+     </item>
+        <item>
+        1.	Zhiklè ngu maya aman a mbel ndo \n
+         Zhiklè ngu maya a mali ndo. \n\n
+
+        I gaɗa ka za\'a : \n
+         Zhiklè a woy ndo \n
+         Zhiklè a woy ndo  \n
+        A woy iyè ba. \n\n
+
+        2.	I zhè a malai, gumai i ngatsa ɓai\n
+         I zhè a malai, ndo mprayè azɓai. \n\n
+
+        3.	A nzlündo Yèsu, aman a ntilyè \n
+         A nzlündo Yèsu, a ntakahayè \n \n
+
+        I gaɗa ka za’a : \n
+        Yèsu a mbel ndo \n
+        Yèsu a mbel ndo\n
+         A m’mbelyè ba. \n\n
+
+        4.	Yèsu ndo m’mbelyè, aman I shid geɗ  \n
+        Yèsu ndo m’mbelyè, ciyè tèlè. \n\n
+
+            I gaɗa ka za’a : \n
+         Yèsu a woy ndo\n
+          Yèsu a woy ndo\n
+          A woy iyè ba ! \n\n
+
+        5.	Zhiklè a woy ndo, Yèsu a mbel ndo \n
+         Sèi ndohi tèlèba da tsena’a ! \n\n
+
+          I gaɗa ka za’a : \n
+         Yèsu a woy ndo \n
+        Yèsu a woy staɗ staɗ tèlèba. \n
+        </item>
+
+        <item>
+        1.	Zlèzlèa nga gu ɓèl malai, \n
+         nga su Zhiklè te va. \n
+         A nzlündo Yèsu Kristi, \n
+         man a sa mbelka auda. \n\n
+
+        2.	Yèsu a ngu a ngul m’metsai, \n
+         te pombi Bab Zhiklè. \n
+         Aman ko a geɗ herkeda, \n
+         wuɗi sèi te Yèsu staɗ. \n\n
+
+        3.	Zlazlar nhala\'a a civèɗ, \n
+         Yèsu a m’mbeɗdaussa ma. \n
+         Bab Zhiklè a woy herkeda, \n
+         a maya tsaɗ tsaɗ kumba. \n\n
+
+        4.	Ko wawa a woy nshèffè, \n
+         sèi da co Yèsu a ndav. \n
+          Man ka goɗ : Sèi angoslèm ! \n
+          Wobau a ngaya, ngwod ga ! (Mandal ga) \n\n
+
+        5.	Zhiklè a ngu skwi tèlè, \n
+         Te giɗfèk, t’herkeda. \n
+          Aman ani bi madzagai, \n
+         A gi var a Zhiklè. \n\n
+
+        6.	Ka sun civèɗ Zhiklè ma ɗè ? \n
+          A ka co a ndav cè ? \n
+         Herkeda ndul ndul a ndiv na. \n
+         Vo-washkè, vo-co Yèsu a ndav ! \n\n
+
+        7.	Nga sun Zhiklè a humdè, \n
+         a skwi nlizhè’a azɓai. \n
+         Aman anai te Yèsu, \n
+         herkeda n’ngots mprè malai. \n\n
+
+        8.	Man ka suna ka gu malai, \n
+        washkè, co Yèsu a ndav ! \n
+         Yèsu a m’mets na a deɓ wof, \n
+         a geɗ ko wawa man a kuɗai. \n
+    </item>
+
+        <item>
+        (a sli lèmèlèmè ara : «Zlèzlèa nga gu ɓèl malai») \n\n
+
+        1.	Te nhér gèɗ ga i woy man i rka, \n
+         sam n’nzi Bi ga. \n
+        Ndo ntakahayè asaɓai, \n
+         sèi Yèsu staɗ a slaha. \n\n
+
+         A pats ngiɗè i woy man i rka, \n
+        sam n’nzi Bi ga, \n
+         Bi nga Yèsu mbia’a, \n
+         i co nenga’a a ndo mbelyè. \n\n
+
+        2.	Ndav ga kuɗi pèc pècèk, \n
+         Sadan a gay matakwan\n
+         Yèsu nenga’a ndo mbelyè\n
+         Sèi nenga staɗ a ɓeryè.  \n\n
+
+        3.	Ndohi shèwahi kumba ta zhè\n
+         Ndav ga a gi zlau pèc pècèk, \n
+         Ndav ga a gudzi kumba, \n
+        Sèi Yèsu staɗ a ɓeryè. \n\n
+
+        4.	Skwi mali a piyè a wai\n
+        Sèi i pi di ga a Yèsu \n
+        Yèsu nega’a ndo mɓeryè \n
+        Sèi nenga staɗ a slaha. \n\n
+
+        5.	Ndohi Yèsu ta wuffè \n
+        Pèc pècèk ta zhèrè’a\n
+         A di Yèsu a da hel ta\n
+         A ta wuffè tèlè a sam na. \n\n
+
+        6.	A paka nga di pèc pècèk\n
+         A woy a hel nga a sam na \n
+        Yèsu nenga’a ndo mbelyè, \n
+        Sèi nenga’a staɗ a slaha. \n
+     </item>
+
+        <item>
+            1.	Ka woya njèkeda mali ngaya ɗè ? \n
+             Wuɗi t’Yèsu a zhè, wuɗi t’Yèsu a zhè. \n
+             Washkè, ka ngècè a mbelmbelmbela\n
+             Aman Yèsu a takaha ka. \n\n
+
+             Wuɗi a zhè, a zhè, wuɗi mbela’a \n
+            Te pombaz Yèsu staɗ\n
+             Wuɗi a zhè, a zhè, wuɗi mbela’a \n
+            Te pombaz Yèsu Krist staɗgenè. \n\n
+
+            2.	Ka woya ndav ngaya a gi nslekaɗa ɗè ? \n
+             Wuɗi t’Yèsu a zhè, wuɗi t’Yèsu a zhè. \n
+             Yèsu a mpana’a derɗa tèlèba \n
+            Ara gogumai, kuɗèkuɗè’a. \n\n
+
+            3.	Ka woya a ntétékè a nkeɗ ka bi ɗè ? \n
+             Wuɗi t’Yèsu a zhè, wuɗi t’Yèsu a zhè. \n
+             Pombaz te Golgotha a ndeva’a, \n
+             Pombaz Yèsu Krist ngula’a. \n\n
+
+            4.	Ka woya a ka takaha Yèsu ɗè ? \n
+             Wuɗi t’Yèsu a zhè, wuɗi t’Yèsu a zhè. \n
+             Goɗo ndo tèlè ma wof ngézlèlè’a\n
+             Man Yèsu a mets na a pa. \n\n
+        </item>
+
+        <item>
+            1.	Yèsu a hél sam herkeda\n
+             Da hela ndav ga ! …Ndèyè’a ! \n\n
+
+            2.	Ka vu vogwa a hwaɗ skwi ɓai, \n
+             Da hela sam nga ! .... Ndèyè’a ! \n\n
+
+            3.	Nga vi vogwa a géɗè’a, \n
+            Da hela ngwi nga ! …. Ndèyè’a ! \n\n
+
+            4.	Sadan a woya a mbatsa’a, \n
+             Sèi nga gi maya ! …. Gu maya ! \n\n
+
+            5.	Nga zhèr Yèsu a vogwa t’rai, \n
+            Da hela civèɗ nga ! …. Ndèyè’a ! \n
+          </item>
+
+        <item>
+            1.	Mali ngaya ntila ma ɗè, ka mbela ɗè ? \n
+              Pombaz Yèsu a mpana ka ɗè ? \n
+             Ka yu mɓua’a ara macecèwa’a ɗè ? \n
+             Pombaz Yèsu a mpana ka ɗè ? \n\n
+
+             Ndav ngaya mpana ɗè ? \n
+             A pombaz Yèsu Krist, kra Zhiklè. \n
+             Maslaka ngaya a nslekaɗa ma ɗè ? \n
+             Pombaz Yèsu a mpana ka ɗè ? \n \n
+
+            2.	Ka sun wof ngézlèlè’a te Golgotha ? \n
+             Pombaz Yèsu a mpana ka ɗè ? \n
+             Ka feda mali ngaya a verzia ɗè ? \n
+             Pombaz Yèsu a mpana ka ɗè ? \n\n
+
+            3.	Pats man ntsim ngaya a shkè, ka tila ma ɗè ? \n
+             Pombaz Yèsu a mpana ka ɗè ? \n
+             Va ngaya a gi latsatsa’a ma ɗè ? \n
+            Pombaz Yèsu a mpana ka ɗè ? \n\n
+
+            4.	Anai kwola malai, woy Yèsu staɗgenè \n
+            Tsu rai : Yèsu, panay ndav ga ! \n
+             Do a pa, a pombaz Yèsu shulok ba\n
+             A malai ngay ntila, a vava. \n
+        </item>
+
+        <item>
+         Va-vau     (bis) \n
+         Va-na Bi nga, va-na a mwuffè  (bis) \n
+         Va-vau a mwoy-ndo ! \n\n
+
+         A kin ngurhi ba\n
+         A kin ngwozi ba\n
+         A kin babgihi ba\n
+         Kin wudahi ba\n
+         Kinè bihi ba\n
+         Kinè gombambihi ba…  \n
+          </item>
+
+        <item>
+            1.	Ndav ga wuffè, i sun Yèsu \n
+            Bi mbel ndohai te herkeda \n
+            M’mets na te di man a ga ga\n
+             A ndo a wof ngézlèlè’a \n\n
+
+                I wuffè, i wuffè \n
+             Bai Yèsu Krist, ndav ga wuffè\n
+              A pats a vaɗ i dzadzar ka \n
+             A i fi gèɗ a ma ngaya\n
+              I wuffè, i wuffè \n
+             Bai Yèsu Krist ndav ga wuffè. \n\n
+
+            2.	Ndav ga wuffè a ma Yèsu\n
+             Te ɗèlèwèr i jèngè’a\n
+             Skwi herkeda a da ndev na\n
+             Sèi ma Yèsu a dè a ma. \n\n
+
+            3.	Ndav ga wuffè, Bi Yèsu Krist, \n
+             Ndo nzi pècèk, i nzi a ka\n
+             Ka shkè deɓa, ka hel nga arsa \n
+            A nga rka ka, ara ngi ngaya. \n
+             </item>
+
+        <item>
+            1.	Pombi herkeda a da ndiv na\n
+             Yèsu Kristi a ngaɗa    (2) \n\n
+
+            2.	Kalda va ngaya a hwaɗ ri Yèsu\n
+             Ga man a m’metsi a shkè a ce ka  (2) \n\n
+
+            3.	Ndohi man ta mets ta t’hwaɗ malai\n
+             Sam nshèk va tenga’a te ma ?  (2) \n\n
+
+            4.	Ndohi man ta mets ta t’hwaɗ malai \n
+            Ta si matakwan te ruva   (2) \n\n
+
+            5.	A gaɗa ka a patsna, wa kramam ga ! \n
+             Ngotso mpshè ma nenga’a a patsna (2) \n
+              </item>
+
+        <item>
+        1.	Yèsu a mbad pombaz a hai, \n
+         a deɓ wof ngézlèl na. \n
+         Ndo man a pènè ndav na a pa, \n
+         mpana te mali na. \n\n
+
+         I sun te ndav, i co a ndav \n
+         Yèsu nco kita ga  \n
+        Pombaz nkezla’a, pombaz nzala’a \n
+         A mbada a gèɗ mali ga. \n\n
+
+        2.	Ndo nshèlèkura’a a wuffè, \n
+         a gèɗ pombaz m’mbel ndo. \n
+         Ndo nkeɗe ndo man gezlala, \n
+         a nda Yèsu te Golgotha. \n\n
+
+        3.	Pombaz Yèsu a n’ngots wuɗai\n
+         man a ndiv asaɓai. \n
+         A mva ta gumi hala’a ; \n
+         A va ta a patsna ba. \n\n
+
+        4.	Daga pats man i co a ndav, \n
+         I rka pombi m’mbel ndo. \n
+         A dimèsh ga, i slébèrdè’a, \n
+         a nshèffè i nzala’a. \n
+   </item>
+
+        <item>
+            1.	Wa bab ga washkè Zhiklè woy ka ba\n\n
+
+             Yèsu ba a woy ndo\n
+             Yèsu Kristi a woy ka\n
+             Allèluya amen Yèsu Kristi a mbél ndo \n
+            Allèluya amen Yèsu Kristi a mbél nga\n\n
+
+            2. Wa mam ga washkè… \n\n
+            3. Kramam ga washkè…\n\n
+            4. Deman ga washkè…\n\n
+            5. Ndohi tèlè vo-washkè… \n
+        </item>
+
+        <item>
+            1.	N’azɓai a mpèn ndav ngaya, \n
+             N’azɓai sèi pombaz Yèsu, \n
+             N’azɓai a ntil mali ngaya, \n
+             N’azɓai sèi pombaz Yèsu. \n\n
+
+             Pombaz Yèsu staɗgenè\n
+             A cko mali auda te ndav tèlè \n
+            Skwi ngiɗè a slaha ɓai\n
+             N’azɓai sèi pombaz Yèsu\n\n
+
+            2.	N’azɓai a nsumka ka deɓa, \n
+            N’azɓai sèi pombaz Yèsu, \n
+             N’azɓai a da ckè ka auda, \n
+             N’azɓai sèi pombaz Yèsu. \n\n
+
+            3.	N’azɓai a da ngwèd ndav ngaya, \n
+             Sèi Yèsu a gèɗ nenga’a, \n
+            N’azɓai a ge nga a mɓua’a, \n
+            Sèi Yèsu a gèɗ nenga’a. \n\n
+
+            4.	N’azɓai a senda nga Zhiklè, \n
+             Sèi Yèsu Kristi staɗgenè, \n
+             N’azɓai a sun ndav nga tèlè, \n
+             Sèi Yèsu Kristi staɗgenè. \n\n
+
+            5.	N’azɓai a i gso a ndav tèlè, \n
+             Sèi Yèsu Kristi staɗgenè, \n
+             N’azɓai man a da mbelyè, \n
+            Sèi Yèsu Kristi staɗgenè. \n
+        </item>
+
+        <item>
+                1.	Pats n’ndev matakwan ga t’herkeda\n
+                 I slèmbèɗè a i dè a géɗè’a\n
+                 I nzi a tsagi Yèsu, ndo m’mbel nga\n
+                 Pombi a mvayè a mpay a pa ndav. \n\n
+
+                 Yèsu, Bi ga, ka woyè kumba, \n
+                 Yèsu, Bi ga, i ba i woy ka. \n
+                 Ara ngèɗè ngaya nga nzi a nda ka, \n
+                 te kokwar-Bi ngaya. \n\n
+
+                2.	I slaha ɓai man i dè a gèɗ ga\n
+                 I cka a ndav, a nga dè cèw a ka\n
+                 Yèsu, Bi ga, man i woy ka a ndav ga\n
+                 Pombi a mvayè a mbelyè arsa. \n \n
+
+                3.	Pats ndikè-ma skwi te kokwar Zhiklè, \n
+                 Ndohi Yèsu ta haya a pa klèk, \n
+                 Yèsu a zlècè te ndeva’a, a war nga\n
+                 Pombi a mvayè, a i rka di na. \n
+                </item>
+
+        <item>
+            1.	Nza a nda nga, Bi Yèsu pats, a kèl na. \n
+            A vaɗ a gai, a guva nga a hai\n
+             Nga ɓica va tèlèba, a nga tsi rai : \n
+             Nza a nda nga, Bi Yèsu, nza a nda nga. \n\n
+
+            2.	Nza a nda nga, Bi Yèsu, ndo ncè nga ma \n
+            Te ka ndav nga a ngots skwi nhél sam na\n
+             Nga tèlèba nga ngeza a sam Bi ruva\n
+             Nza a nda nga, Bi Yèsu, nza a nda nga ! \n\n
+
+            3.	Nza a nda nga, Bi Yèsu nshèffè ngaya\n
+             A va nga mwuffè zura’a a ndav\n
+             A yi wuda dizhuɓa’a njèl ngaya \n
+            Nza a nda nga, Bi Yèsu, nza a nda nga ! \n\n
+
+            4.	Nza a nda nga, Bi Yèsu, a ka ndeva \n
+             skwi man amba ka huno te ndav nga. \n
+             A ka da paɗa nga gèɗ a sam ngaya\n
+             Nza a nda nga, Bi Yèsu, nza a nda nga ! \n
+        </item>
+
+        <item>
+                1.	Yèsu Kristi pombaz ngaya,  \n
+                pana mali ga tèlèba. \n
+                Gaɗayè te Mèzhèɓ ngaya : \n
+                 Kra ga, a vava i pra ka… \n
+                Nzi a zhè i sassaya ndav ga\n
+                 Ko arsa ka woyè a ndav ngaya\n
+                 Anai iyè a deɓ sak ngaya\n
+                 I vi va ga a ri ngaya. \n\n
+
+                Pombaz Yèsu Kristi, \n
+                a pan nga te malai. \n
+                 A mali staɗ staɗ tèlèba \n
+                 a ndav nga a ngi a nshlekaɗa’a. \n\n
+
+                2.	Mali man a nzalayè kumba, \n
+                Bi Yèsu, ka zuɓda a wof. \n
+                 I woy man i ngreda auda, \n
+                 Yèsu a mbél ndo a vava. \n
+                Yèsu, a wof ngézlèl ngaya, \n
+                 Ka ngreda nga mwoy-ndo ngaya mbia’a. \n
+                 Antanta a deɓ sak ngaya, \n
+                  i vi va ga a ri ngaya.  \n\n
+
+                3.	Yèsu Kristi, pombaz ngaya\n
+                 Pana ndav ga ndzwoɗaɗa’a. \n
+                I tsena Mèzhèɓ ngaya te ndav ga, \n
+                 Mali ga mpra a vava. \n
+                 I shibèndè wof ngézlèl ngaya; \n
+                I gi a ndo malwuɗi ngaya. \n
+                Antanta a deɓ sak ngaya, \n
+                  i vi va ga a ri ngaya. \n
+        </item>
+
+        <item>
+            1.	I war i ngreda mali ga auda \n
+            Mali te ndav ga ambahay ɓai\n
+             Skwi man i gau, i rka ara skwi horai\n
+             Skwi man i gau, a ndarayè ma. \n\n
+
+             Mali, i gau, i ngreda ka Yèsu\n
+             I kuɗi a gèɗ mali ga ma\n
+             Pombaz ngaya a slaha a mpana’a\n
+             Pray mali, Yèsu, i pu gèɗ cèw. \n\n
+
+            2.	Madzagi a woy a mbèh wali a iyè\n
+             A piyè a wai, a gedasyè, \n
+             Mali man i ngheda a mbeɗamay ndav ga\n
+             Bab nshèffè, i va ka va ga. \n\n
+
+            3.	Ka tsena man i kuɗi a i tsi rai\n
+             I pa na hori a di a nzlembaɗ ngaya\n
+             I war a i til civèɗ a sam ngaya, \n
+            I war aman i slébèrdè ka. \n\n
+
+            4.	I menkaɗa deɓa a sam ngaya\n
+             Skwi herkeda a mvay mwuffè a ndav ɓai\n
+             Pakay di staɗ, a i wuffè ma.  \n
+            </item>
+
+        <item>
+            1.	M’mbel nga ma, m’mbel nga ma\n
+             Ngo-slubordokoy Yèsu !   (3)\n\n
+
+             A ndo m’mbelyè ! Ngo-slubordokoy\n
+              Nzlembaɗ nenga’a a mèdèp. \n\n
+
+            2.	Te mwoy-ndo na, te mwoy-ndo na.  (3) \n
+             Nsumkay a deɓa. \n\n
+
+            3.	I jèjèrè’a, i jèjèrè’a    (3) \n
+             Pèc pècèk a mwuffè. \n\n
+
+            4.	 Allèluya, allèluya,    (3) \n
+             Ngo-slubordokoy Yèsu ! \n
+        </item>
+
+        <item>
+            1.	I sun woyam staɗ a iyam mbela’a\n
+             Te herkeda tèlè a hai \n
+            A ndo man mpan va a iyam sa \n
+            A m’mbel na ndzowaɗaɗa’a  \n\n
+
+            Wa masla, kam kam, washkè dai\n
+             Woyam ngiɗè az arha ɓai. \n
+             Iyam nenga’a ka ngotsa ambalai, \n
+             Sèi co, a ngaya ba a hai. \n\n
+
+            5.	 woyam haha a iyam nshèffè, \n
+             A ruɓ herkeda tèlèba. \n
+             A ndo man msau a iyam nasa, \n
+             Ngeza, a iyam deha na. \n\n
+
+            2.	Iyam mrkedai sèi pombaz Yèsu Krist \n
+            Pombaz a mbada a gèɗ ndohai\n
+             A mpil gèɗ nga a nshèffè nga\n
+             A nzal nga, a mva nga wuɗai. \n\n
+        </item>
+
+        <item>
+            1.	A gèɗ pombi man a ndiv azɓai, Allèluya. \n
+             Man ka feda a nda ga, Allèluya. \n\n
+
+            2.	I woy nsli dimèsh a ndo mbelyè, Allèluya. \n
+            Halau, Yèsu ndo mbelyè, Allèluya. \n\n
+
+            3.	I woy a i za gèɗè za’a, Allèluya. \n
+            A gèɗ ga Yèsu a m’mets na, Allèluya. \n\n
+
+            4.	Rka’a a gèɗ nenga’a i tsi rai, Allèluya. \n
+             Nenga’a staɗ skwi mèshèl ga, Allèluya. \n\n
+
+            5.	A woy a pats a vaɗ ba, Allèluya. \n
+             A tsagi ga sam n’nzi ngaya, Allèluya. \n\n
+
+            6.	A woy nshèffè ga ara mwurzhè wof, Allèluya\n
+             Nara ɓurdi a sam ndo mbelyè, Allèluya. \n
+        </item>
+
+        <item>
+            1.	Wof ngézlèlè a Yèsu Krist\n
+             Sam mpènè ndo te mali na\n
+             Ndo man mali a lizha ndav \n
+             A nzi a ndzwoɗaɗa’a. \n\n
+
+             Anai, i va na ndav ga a Yèsu\n
+             A verzi wof ngézlèl na\n
+             Da panayè te mali ga\n
+             A i ngècè ndav mpana. \n\n
+
+            2.	Wof ngézlèlè a Yèsu Krist\n
+             Sam mbèd pombaz a herkeda\n
+             Ndo man Sadan a ga na ma a va\n
+             Pombaz a ɓerè’a. \n\n
+
+            3.	Wof ngézlèlè a Yèsu Krist\n
+             Sam n’ndev ma maya t’herkedav
+             Yèsu a gaɗa : pra ta malai, \n
+            Ta sun skwi man ta gia ɓai. \n\n
+
+            4.	Wof ngézlèlè a Yèsu Krist\n
+             Sam nderzla ma nga a Zhiklè \n
+            Civèɗ mwinè’a za’a\n
+             Man tsakwal a mɓara’a. \n\n
+
+            5.	Wof ngézlèlè a Yèsu Krist \n
+            Sam ntil nshèffè ndzakaɓa’\n
+            a Ka zuɓ skwi mwuɗitepa a geɗ, \n
+             Kalda a verzia’a ! \n
+        </item>
+
+        <item>
+                1.	Yèsu ndo madzaf nzura’a, \n
+                Bab nshèffè, ndo ntil nga. \n
+                 Ndul ndul a zhè a tsagi nga\n
+                 Nga baha na sèi Yèsu. \n\n
+
+                 Dalahimam ga, va tsena’a, \n
+                 Atutsa i ndo nlizhè’a, \n
+                 Antanta i suɗ ga ma, \n
+                Yèsu ndo madzaf ga. \n\n
+
+                2.	Mali tèlèba a mpra nga \n
+                Nga tsi ri sèi a Yèsu \n
+                A til ndav nga, a nga slaha\n
+                 nga ngècè nshèffè mbia’a. \n\n
+
+                3.	Skwi ndzi nga a nzuɓda a wof, \n
+                 te Golgotha a m’mets na. \n
+                Nkuɗai klèng, nga jèkeda, \n
+                 nga co Yèsu a ndav nga. \n\n
+
+                4.	Skwi m’mbel ndo te ndo ngiɗè azɓai, \n
+                Ndo m’mbel ndohai, sèi Yèsu. \n
+                T’hwaɗ giɗfèk nzlembaɗ ngiɗè azɓai, \n
+                Sèi staɗgenè, nzlembaɗ Yèsu.  \n
+        </item>
+
+        <item>
+          I mana ndav ga, Bab ga nyakayè (2) \n\n
+         I jèjèr Yèsu, Bab ga, nyakayè  (2) 3x\n \n
+          I dè deɓa asaɓai \n\n
+         Ka mana ma cè ?   (2) 3x \n\n
+         Ka jèjèrè ma cè ?   (2)  \n\n
+          Ko do deɓa asaɓai ! \n
+        </item>
+
+        <item>
+                1.	Ka gu zlau ɓai, Zhiklè woy ka\n
+                 Yèsu Bi m’mbél nga a gaɗa, \n
+                 Ma Yèsu tèlèba i tsena a i co a ndav\n
+                 Mblom a vrai a gèɗ pats zlèzlè’a \n
+                I bazl ta tèlèba ma\n
+                 Yèsu, Bi mbelyè a shkè a ndav ga, \n
+                a nga dé cèw cèw a vna. \n\n
+
+                        Halau a vava na zhè a sam ga  \n
+                Iyè a gèɗ ga ka ɓai.  \n
+                Yèsu Bi mbelyè, nga shèwèlè a vna, \n
+                 I fau a ndo ga. \n
+                 Halau a vava na zhè a sam ga\n
+                  Iyè a gèɗ ga ka ɓai. \n
+                 Yèsu, Bi mbelyè a shkè a ndav ga, \n
+                 a nga dé cèw cèw a vna. \n\n
+
+                2.	Man vaɗ n’nga, a i dè te ruva \n
+                Yèsu a ri na a hél sam\n
+                 A hél civèɗ man i dè a pa, \n
+                 A vay gumi a ndav. \n
+                 Civèɗ mali man a dyè a ruvav
+                 Klèng, i jèkeda ma, \n
+                 Yèsu, Bi mbelyè a shkè a ndav ga, \n
+                 a nga dé cèw cèw a vna. \n\n
+
+                3.	Pats man i slèmbèɗè a i dè ga \n
+                Nga slèmbèɗè cèw a Yèsu, \n
+                Nenga’a a waray di a civèɗ\n
+                 A vay gumi a ndav. \n
+                Pats man i da nzi a kokwar ngiɗè, \n
+                Yèsu ba a nzi a sam ga, \n
+                 Ha nshèwèlè t’herkeda klèng ma\n
+                 A nga dè a zhiklè a vna. \n
+                </item>
+
+        <item>
+            1.	Nga wuffè a géɗ Bab Zhiklè, Alleluya \n
+            A rka nga za’a mèdèp, Alleluya \n\n
+
+            2.	A nzlundoko Yèsu Kristi, Alleluya\n
+             A mbél ta ndohi tèlè, Alleluya \n\n
+
+            3.	A nyakay te Mezhèɓ na, Alleluya \n
+            A vay nshèffè a mèdèp, Alleluya\n\n
+
+            4.	I wuffè a gèɗ Yèsu Kristi, Alleluya\n
+             A gèɗ mwoy-ndo nenga’a, Alleluya\n\n
+
+            5.	A cka nga auda te malai, Alleluya\n
+             Arsa nga ngotso nshèffè ma, Alleluya\n\n
+
+            6.	Hala nga sun ma Zhiklè ɓai, Alleluya \n
+            Antanta n’ndikeda nga a va ma, Alleluya\n\n
+
+            7.	Nga ngots pombai te Yèsu, Alleluya\n
+             Mwuffè a zhè a sam nenga’a, Alleluya\n\n
+
+            8.	A via ba, a ngwar ba, Alleluya\n
+             Vo-slubordo Bab Zhiklè, Alleluya\n\n
+
+            9.	Yèsu a rka nga te malai, Alleluya\n
+             A nco wof ngézlèl na, Alleluya \n\n
+
+            10.	Ta gezlala’a te Golgotha, Alleluya\n
+             Nshkè na auda te vèvèɗ, Alleluya \n \n
+
+            11.	Te deɓa’a a ndo a zhiklè, Alleluya\n
+             A da til sam n’nzi a ga hai, Alleluya \n \n
+
+            12.	Yèsu a per ndohi na, Alleluya\n
+             A va ta nshèffè tèlèba, Alleluya \n \n
+
+            13.	Ngo-dokoya a sam Yèsu, Alleluya\n
+             Alleluya, Bi mbel nga, Alleluya \n \n
+
+            14.	Nenga’a movar nshèffè, Alleluya \n
+            Arsa nga ndia’a a patsna, Alleluya \n\n
+
+            15.	Alleluya Bi Zhiklè, Alleluya\n
+             Alleluya, Bi Yèsu, Alleluya \n
+        </item>
+
+        <item>
+            1.	Ɗakwa, gol Yèsu, ka zlatsahi ɓai ! \n
+            Peda di ngaya a zhiklè ! \n
+             Ko patshi mwuɗitepa ta da ndev ta, \n
+            Te deɓ man nhi klèng ma. \n\n
+
+             Ko ntétékè a pceda gumi azɓai  \n
+            Ko nhér gèɗ tsaɗ tsaɗ, ka hérè azɓai \n
+             Skwi man ka dzhoɗo, \n
+             Zhiklè a tsena, a mco  \n
+            Te ngwi ngaya te géɗè’a. \n\n
+
+            2.	Civèɗ ndè a kokwar Bi-Zhiklè dra ka ɓai, \n
+             Sèi do, ka dzara sak ɓai. \n
+             Man mblè a dza ka, ntulè a keɗ ka, \n
+             Pats staɗ ka ndikè a pa. \n\n
+
+            3.	Yèsu, man kin dè a vna, nlèɓèslè’a, \n
+             Atutsa a ndo a civèɗ sa. \n
+             A zhè a tsagi ngaya pèc pècèk, \n
+             A kin ndikè zura’a. \n\n
+
+            4.	Man ndohi Yèsu ta humda va ta, v
+             a sam Yèsu, ndo m’mbel ta. \n
+            Skwi man ka zuɓa, ka rka’a ara nkèshè’a, \n
+             a sam njèlè mbia’a. \n
+        </item>
+
+        <item>
+            1.	Man tolom Zhiklè a ɓica nga \n
+            Man herkeda a ndev na. \n
+             Nshèffè mbia’a te zhiklè a zhè ma, \n
+             Man ndohai, Yèsu a m’mbel ta ma \n
+            ta gudko va ta ma, \n
+            Bi Zhiklè a baha nga a kita nga. \n\n
+
+            Man a baha ta a nzlembaɗ ndo tèlè, \n
+             Man a baha ta a nzlembaɗ ndo tèlè, \n
+            Susai Yèsu, man a bahayè, \n
+             Nzlembaɗ ga te ɗèlèwèr nshèffè a zhè.  \n\n
+
+            2.	Man sam nciɗa a nga te zhiklè te géɗè’a \n
+            A nga slambaɗa, a nga rka Yèsu Krist, \n
+             A nga da rka Zhiklè a sam\n
+             nslébèrdè nenga’a, \n
+             Bi Zhiklè a baha nga a kita nga. \n\n
+
+            3.	Ngo-do tsam tsam,  \n
+            nga gi mizlinè Yèsu, ga vaɗ a shkè, \n
+            Pats a di a ndev na, a kita mwuɗitepa, \n
+             Mizlinè n’nga ma, nga slaha a  \n
+             nga wuffè : klèng ma ! \n
+             Bi Zhiklè a baha nga a kita nga. \n
+        </item>
+
+        <item>
+            1.	Ka te zhiklè, i t’herkeda\n
+             Yèsu, i ga ka susai. \n
+             I zlèkai, ka gi man a fcè, \n
+            A grè, a yi wuda. \n\n
+
+             Skwi man amba a shkè sèi te ka, \n
+             Ka kra ndo te géɗè’a, \n
+             Pombi ngaya a va nga skwi n’ndai,  \n
+             Yèsu, i ga ka susai ! \n\n
+
+            2.	Ka gu pats, a iyam, a kozlar, \n
+            Yèsu, i ga ka susai. \n
+             Via a ngwar, a kuso a zovaɗ, \n
+            A ga nga langlanga’a. \n\n
+
+            3.	I ba man i gèɗè a haha, \n
+            Yèsu, i ga ka susai. \n
+             Ka vay nshèffè te Mèzhèɓ ngaya, \n
+            I wuffè a gèɗ ngaya. \n\n
+
+            4.	Ka wusheda ma mbela’a a ndav nga\n
+             Yèsu, i ga ka susai. \n
+             Ma ngaya a winay di ga, \n
+             I wuffè a gèɗ ngaya. \n
+        </item>
+
+        <item>
+            1.	Man ka woya a ka ngècè nshèffè mbia’a\n
+             Do a sam Yèsu, do a sam Yèsu ! \n
+             Man ka woya Zhiklè a mjèke ka, \n
+             Sèi do a sam Yèsu ! \n\n
+
+             Do a sam Yèsu, do a sam Yèsu ! \n
+             A ngra ka a vava,  \n
+            A mpra nga malai te man a mets na \n
+             Sèi do a sam nenga’a ! \n\n
+
+            2.	Man ka ngeza’a kotèkotè a kuɗa, \n
+             Gaɗa na Yèsu, gaɗa na tèlèba ! \n
+             Pèc pècèk a woya a ntsena ma ngaya, \n
+             Tèlèba ka gaɗa na ! \n \n
+
+             Gaɗa na Yèsu, gaɗa na tèlèba ! \n
+             A cè ma ngaya, \n
+             a tsena amba, a woy a ntakaha ka, \n
+             Sèi gaɗa na tèlèba ! \n \n
+
+            3.	Man ndav ngaya n’ndha a skwi man ambaɓai, \n
+             Tsu ri a Yèsu, tsu ri a Yèsu ! \n
+             Pats man ta woya a ta peka a wai, \n
+             Sèi tsu ri a Yèsu ! \n\n
+
+             Tsu ri a Yèsu, tsu ri a Yèsu !  \n
+            Nenga’a a bid ka,  \n
+            Wuɗi na a fena skwi te herkeda, \n
+             Sèi tsu ri a nenga’a ! \n\n
+
+            4.	Ka gu zlau, ka za a civèɗ herkeda, \n
+             Sèi dzodzor Yèsu, sèi dzodzor Yèsu ! \n
+             Yèsu a ɓer wudahi na tèlèba, \n
+             Sèi dzodzor ma nenga’a ! \n \n
+
+             Sèi dzodzor Yèsu, sèi dzodzor Yèsu ! \n
+             Yèsu a ce ka a rai, \n
+             A rka tèlè, a suna, a ngul metsai, \n
+             Sèi dzodzor ma nenga’a ! \n
+        </item>
+
+        <item>
+            1.	Zhiklè nzlündo Yèsu a herkeda  \n
+            man a da mbel ndohai\n
+             Yèsu a m’mets na a gèɗ mali nga \n
+            A nsumka nga a nshèffè na. \n\n
+
+             Ndo m’mbel ndo i sun te ndav ga \n
+             Ndo m’mbel ndo sèi na Yèsu  \n
+            Ndo m’mbel ndo i sun te ndav ga  \n
+            Sèi Yèsu, sèi nenga’a staɗ\n\n
+
+            2.	Ndo m’mbelyè man i jèjèrè’a\n
+             I kwola ngi ɓèl malai \n
+            Yèsu a ri na a ngwèdè ndav ga \n
+            Pombi na a mpayè pa ndav.  \n\n
+
+            3.	Ko njèvèlè-ma a hinè a slèmbèɗè\n
+             A slahayè asaɓai \n
+            Te ntsi ri ga Yèsu a ɓeryè\n
+             I gi zlau skwi ngiɗè azɓai. \n\n
+
+            4.	Ko mèmè woy mpiyè a wai\n
+             Ndo mɓeryè a zhè ndul ndul \n
+            Yèsu a ɓèr ndohi nenga’a \n
+             pèc pècèk t’herkeda. \n\n
+
+            5.	Ka tsena ma ɗè ? A ka co a ndav ɗè ? \n
+            Yèsu a woy ko ka ba \n
+            A woya a da gèɗè a sam bab na : \n
+            Na haha mandal ga. \n\n
+
+            6.	Man ka tsena’a, a ka sassaya ndav \n
+            A pats kita mwuɗitepa\n
+             Yèsu a da pin ka aranta : \n
+             Nenga’a ndo mparahayè. \n
+        </item>
+
+        <item>
+            1. I jèjèr sak Yèsu, Yèsu ndo mɓeryè\n
+            Skwi ambahayè arsa azɓai, sèi Yèsu Krist\n
+            A tilay sam n’nzi a hai, a i da shèk va a pa\n
+            A panay ndav ga ndzowaɗaɗa’a.\n\n
+
+            Ndo sak Yèsu Krist a ngotso nshèffè ma\n
+            Yèsu a ngreda na civèɗ ndè a sam Zhiklè\n
+            Wuɗi na a fena metsai, a nslambaɗkaɗ na\n
+            A mva ta tambakihi na nshèffè a mèdèp.\n\n
+
+            2. Yèsu a ndo matakwan ga, a mpray mali ga\n
+            A dzadzaryè a civèɗ aman a i zlèkè azɓai\n
+            Ko matakwan a shkè a va ga, Yèsu a mbelyè\n
+            Kwa a tsi sak ga azɓai, Yèsu a zhè ndul ndul.\n\n
+
+            3. M’metsi a woy a shkèhi a gèɗ herkeda\n
+            Yèsu a da war nga, nga gokoy zlau ɓai\n
+            Ma Zhiklè a n’ngwod na a skwi nhèl sam ga\n
+            A pombi ncè a ndav ga i nzi te nenga’a.\n\n
+
+            4. Sadan a nza nga a civèɗ a mpra nga zlau a va\n
+            Yèsu a mwoy ndo na a kwèlè azɓai\n
+            A ɗüfkoy kra ri na a di te giɗfèk\n
+            Nga su Zhiklè te va a woy a mbid nga.\n\n
+
+            5. Ndohi njèkèɗia ani man ta te ruva dai\n
+            Ta sun civèɗ nshèffè ɓai\n
+            Ndo m’mbel ndo tèlè a woy ta tèlè\n
+            Tenga’a ba a ta ngècè nshèffè mbia’a.\n
+        </item>
+
+        <item>
+            1. Mandal ga washkè co ma Zhiklè\n
+            Halau, a vava, co ma Zhiklè\n\n
+
+            Yèsu a di a shkè a deɓa\n
+            a da hel ta ndohi man ta co a ndav\n
+            Aman a de ta a sam Zhiklè\n
+            A sam bab nga te zhiklè\n\n
+
+            2. Mi asaɓai a sam Zhiklè…\n
+            Halau, a vava, mi klèng\n\n
+
+            3. Nkuɗi asaɓai a sam Zhiklè…\n\n
+            4. M’metsi asaɓai a sam Zhiklè…\n\n
+            5. Mwuffè a zhè a sam Zhiklè…\n\n
+            6. Yèsu a nkol ka asaɓai…\n\n
+            7. A da shkè a da hel nga a mwuffè\n\n
+        </item>
+
+        <item>
+            1. Bab ga te géɗè’a, i da pca ka a gèɗ ɓai, \n
+            te kokwar-Bi ngaya !\n\n
+            2. Yèsu a zuɓ malihi ga a mvay nshèk va,\n
+            te kokwar bi ngaya !\n\n
+            3. Malihi ngaya Ndo m’mbel ndo a nzuɓda\n
+            A gèɗ na mèdèp.\n\n
+            4. Ndo ncè a ndav man nlèɓèslè’a a ngècè\n
+            skwi ntul na\n\n
+            5. Ndo nfena skwi mpia wai a gi bi a nda Yèsu\n
+            man a da shkè a deɓa\n\n
+            6. Bab ga te géɗè’a, i da pca ka a gèɗ ɓai,\n
+            Te kokwar-Bi ngaya !\n
+        </item>
+
+        <item>
+            1. Na haha kra tambak Zhiklè \n
+            nenga’a a m’mbel ndohai.\n
+            Yèsu a mshkè a mbad pombaz na\n
+            A gèɗ ga, ko a ka ba.\n\n
+
+            Mwuffè a zhè, mwuffè a zhè\n
+            Man mali nga mpra ma.\n
+            Ta gezlala a wof te Golgotha\n
+            A nzuɓ mali herkeda tèlèba a gèɗ na.\n
+            Nga ngots pombi te Yèsu Kristi.\n\n
+
+            2. Pau dai a Yèsu a deɓ wof na\n
+            Mali nga a va na\n
+            A woya a nsumka nga deɓa\n
+            Ko wawa a ngècè nshèffè.\n\n
+
+            3. Yèsu a m’mets na a gèɗ ngaya\n
+            Ka sun arsa a vava\n
+            Nenga’a a nhur sèi nshèffè ngaya\n
+            War a ka ciɗè dai !\n\n
+
+            4. Ka tsena Yèsu a bèhè\n
+            Mbeɗka na a ma yau !\n
+            Ka sun Yèsu a woy ka,\n
+            Winè na ndav ngaya !\n\n
+
+            5. Ko man ndav ngaya ara kwa\n
+            Madzagi a peka a wai\n
+            Tsu ri a Yèsu, a pra ka malai\n
+            A ngwoda ka ndav ngaya.\n\n
+
+            6. Co ma Yèsu a ndav ngaya !\n
+            Ka ngècè ndav mɓua’a !\n
+            A da windè nzlembaɗ ngaya a hai\n
+            A ɗèlèwèr nshèffè.\n
+        </item>
+
+        <item>
+            1. I sun ɓai èhèmè i mbel ga \n
+            A Yèsu a woyè a ndav na\n
+            I sun ɓai èhèmè a mpana\n
+            Ndav ga a pombaz nenga’a\n\n
+
+            Sèi skwi staɗ i sun a vava\n
+            I ngots nshèffè te nenga’a\n
+            I suna, a nghedyè te ri na\n
+            A i zhèr pats man a shkè deɓa\n\n
+
+            2. I sun ɓai ara man ma nenga’a\n
+            A nhela a n’ngwodamay ndav ga\n
+            Ara man i hur ma matakwan ga,\n
+            A i co mdo m’mbel ga a ndav.\n\n
+
+            3. I sun ɓai mwuffè a skwi ndzi ga\n
+            Man Zhiklè a livè a iyè\n
+            I sun ɓai skwi man a da vayè,\n
+            A skwi man a da dzhaɗyè.\n\n
+
+            4. I sun ɓai pats man a baha nga\n
+            a ntsim ga a gi ngolala.\n
+            I sun ɓai a ngèmè a woya a\n
+            hil medemi nenga’a.\n
+        </item>
+
+        <item>
+           1. Allèluya, allèluya, allèluya\n
+            slu dimèsh a sam Yèsu,\n
+            slu dimèsh allèluya !\n\n
+
+            2. Va-nga gumai, pombai a mwuffè, allèluya.\n
+            Va-nga gumai, pombai a mwuffè\n
+            slu dimèsh allèluya !\n\n
+
+            3. Va-nga movar, iyam a nshèffè, allèluya.\n
+            Va-nga movar, iyam a nshèffè\n
+            Slu dimèsh allèluya ! \n
+        </item>
+
+        <item>
+            1. Bab nga Zhiklè a bèhè a gèɗ mizlinè na \n
+            A njè ta ma nshèffè a ndohi ncè a ndav,\n
+            Ka sassaya ndav ɓai, war a ka co antanta,\n
+            Rka dai, a ka ndi a ndo nwosla’a !\n\n
+
+            Ma Yèsu Kristi a shkè te zhiklè\n
+            Aman a ndohi tèlè ta ngècè nshèffè\n
+            Pats man a da shkè deɓa a herkeda\n
+            A da va nga skwi ara ngi mizlinè nga.\n\n
+
+            2. Man ka jèjèr Yèsu, ka pu di a deɓa ɓai\n
+            Herkeda a gaɗa ka azɓai : Yèsu a zhè a vava\n
+            Do a ka nju ma Yèsu, nenga’a a va ka wuɗai\n
+            Man ka co ma Yèsu, ka ndo malwuɗai !\n\n
+
+            3. Man ka njè ta ma azɓai, ta da zlak ta tèlè\n
+            Va-njè ta nshèffè, va-piɗèkwude ta\n
+            Nga tèlèba nga tsena, aman nga cè a ɓai\n
+            Aranta Zhiklè, a gi ndav a gèɗ nga !\n\n
+
+            4. Pats a de na ma, ruva a hin te deɓa’a\n
+            Ka gu ndudoh kumba ɓai, sam a kézhaw na\n
+            Ɓèlè a gèɗ herkeda a da ngècè pombai\n
+            Bihi ta da minè a sam n’nzi ɓèlèlihai !\n
+        </item>
+
+        <item>
+           1. Washkè, ngo-dokona, a gi Bab nga\n\n
+              a sam Yèsu, ndo m’mbel nga\n\n
+            2. Malai asaɓai, te gi Bab nga\n\n
+            3. Matakwan azɓai… te gi Bab nga\n\n
+            4. Mi asaɓai… te gi Bab nga\n\n
+            5. Nkuɗi asaɓai… te gi Bab nga\n\n
+            6. M’metsi asaɓai… te gi Bab nga\n\n
+            7. Kata ndav nga amba… te gi Bab nga\n\n
+            8. Kata tèlè amba… te gi Bab nga\n
+        </item>
+
+        <item>
+            1. Mpi ndohi Zhiklè tèlèba\n
+            Ngo-slokoy dimèsh nga\n
+            Ngo-slubordokona Yèsu Krist\n
+            Kra Zhiklè, Bi m’mbel nga\n\n
+
+            Nga slébèrdè Yèsu\n
+            a nsumka nga deɓa\n
+            Nga slébèrdè Yèsu\n
+            a pombaz nenga’a\n\n
+
+            2. Halau, nga tsunokoy a va’a\n
+            Ma a gèɗ nshèffè nga\n
+            Nshèffè te skwi ngiɗè ka ɓai\n
+            Sèi te pombaz Yèsu staɗ.\n\n
+
+            3. Ko nkuɗi man ka kuɗa na\n
+            Ko ntsi ri ngaya arsa\n
+            A slaha a mpana mali ɓai\n
+            Sèi pombaz Yèsu staɗ.\n\n
+
+            4. Zhiklè a nzlündoko nga pombai\n
+            A jhèdè skwa a pa azɓai\n
+            A gèɗ ngi-zura nga ɓai\n
+            Pombai, skwi nshum ka ɓai\n\n
+
+            5. Mpi ndohi Zhiklè tèlèba\n
+            Ngo-woyokoy Bi Zhiklè\n
+            Ngo-pokoy di a civèɗ na\n
+            Kra Zhiklè a zhè a nshèffè\n
+        </item>
+
+        <item>
+            1. Mandal ga washkè, co ma mɓua’a\n
+            Mandal ga washkè, co ma mɓua’a\n
+            Mandal ga washkè, co ma mɓua’a\n
+            Yèsu a has ka lèk lèk.\n\n
+
+            Yèsu a shkè herkeda a gèɗ nga\n
+            Ndohi tèlè a gèɗ herkeda\n
+            Nga wuffè tèlèba a gèɗ ma haha\n
+            Ngo-holokoy sam zura’a !\n\n
+
+            2. A sam Yèsu skwi nlizhè ndo asaɓai -\n
+            Yèsu a n’ngwoda ndav nga.\n\n
+
+            3. Sadan a gi bi sèi te herkeda -\n
+            A sam Yèsu a da zena.\n\n
+
+            4. A sam Yèsu matakwan ba asaɓai -\n
+            Mali nga klèng a mèdèp.\n\n
+
+            5. Va-suna, mwuffè na a da nzi a mèdèp -\n
+            Yèsu a wara nga dai.\n\n
+
+            6. Skwi herkeda tèlèba nga kwola’a -\n
+            Ko wawa a skwi ntul na.\n
+        </item>
+
+        <item>
+            1. Ngray civèɗ movar nshèffè\n
+            N’nzi a zhè, ndav ga ngwora\n
+            Yèsu a shkèhai, aman a mbel nga\n
+            Ko wawa a nco a mbél na.\n\n
+
+            Feday ma a sam Yèsu Kristi\n
+            I suna, a woy iyè a vava\n
+            I co a ndav, Yèsu a mbelyè\n
+            Skwi man a slaha bai, azɓai.\n\n
+
+            2. Ndohi nco mizlinè Bi Yèsu\n
+            Ta sun mwuffè mbia’a\n
+            Civèɗ nshèffè az cèw bai\n
+            Sèi te nzlembaɗ Yèsu Krist.\n\n
+
+            3. Ndohi mwoy mwuffè a gèɗ herkeda\n
+            Ta jèjèr ntétékè ndav ta\n
+            Tenga’a man ta beza a ruva\n
+            Ta sun civèɗ ta tema ?\n\n
+
+            4. Ma Zhiklè nga a ngwèd azɓai\n
+            Ma Zhiklè sèi Yèsu staɗ\n
+            Na zhè a pats, na zhè a vaɗ ba\n
+            A nzi arsa a mèdèp.\n\n
+
+            5. Ma Zhiklè n’ndha a gumi te pa\n
+            Ma Zhiklè, sèi Yèsu staɗ\n
+            Ma Zhiklè, civèɗ nshèffè\n
+            Ma Zhiklè, movar nshèffè.\n
+        </item>
+
+        <item>
+            1. Yèsu a baha nga,\n
+            a woy aman a mbel nga :\n\n
+
+            Yèsu a woy man ko wawa\n
+            a nzi a nshèffè mɓua’a.\n\n
+
+            2. Dalahimam ga, vo-washkè\n
+            a sam Bi Yèsu Krist !\n\n
+
+            3. Civèɗ ngiɗè asaɓai,\n
+            man a slaha a mbel nshèffè nga\n\n
+
+            4. I sun a vava,\n
+            Yèsu nenga’a nshèffè nga antanta\n\n
+
+            5. Pats man i co a ndav,\n
+            sèi nenga’a staɗ a gi bi ga\n\n
+
+            6. Yèsu a di a shkè a deɓa\n
+            A sam ndohi na nkezla’a\n\n
+
+            7. Zhiklè a woy ndo,\n
+            a va nga Yèsu kra nenga’a\n\n
+
+            8. Sussi Bab Zhiklè,\n
+            man nga ndikè a sam nshèk va.\n
+        </item>
+
+        <item>
+            1. Slambaɗa, mizlinè Yèsu a n’ndev di ɓai \n
+            Mali a zhè, mbia dai\n
+            Ko kramamhi nga ba ta kumba\n
+            ta a civèɗ m’metsai.\n\n
+
+            A ma ma ! tèlèba a ma – a ma ma !\n
+            Wuɗi Bi nga a zhè a vata,\n
+            Te ntsi ri nga a nga mbi a vna\n
+            Te mwoy-ndo a ma ma !\n\n
+
+            2. Slambaɗa, mizlinè Yèsu a n’ndev di ɓai\n
+            Ngo-gokoy a ma ma !\n
+            Wof ngézlèl Yèsu, ta sen nga te pa\n
+            Nga gi a ngula’a.\n\n
+
+            3. Slambaɗa, mizlinè Yèsu a n’ndev di ɓai\n
+            Ngo-mbokoy a wuɗai !\n
+            Ngiɗè da woy ngiɗè, nga prè malai,\n
+            Mizlinè nga gia’a, a Bai !\n\n
+
+            4. Bi Zhiklè, a ngi mizlinè Yèsu,\n
+            Va-nga maya te Yèsu Krist,\n
+            Va-nga skwi nhél sam ngaya a ri nga,\n
+            Va-nga Mèzhèɓ ngaya a ndav !\n
+        </item>
+
+        <item>
+            1. Mwuɗitepa, nga a gèɗ herkeda\n
+            Ndav nga ngwora’a, a skwi mpa nga a wai\n
+            Yèsu Kristi a ri na til sam n’nzi nga\n
+            Herkeda skwi ambalai, Yèsu staɗ nshèffè.\n\n
+
+            Yèsu Bi nga, nga njèl wuɗi ngaya\n
+            Zlündoko nga gumai,\n
+            A da nzi te ndav nga\n
+            Nga gshè te ndav nga arsa\n
+            Yèsu nshèffè nga\n
+            A vava herkeda a sun civèɗ nshèffè ɓai\n\n
+
+            2. Giɗfèk a herkeda a ndiv na tèlèba\n
+            Yèsu a sun arsa, a til sam n’nzi nga hai\n
+            Madzagi a n’ngwod nga, a fi va na a ndo nshèffè\n
+            A vava mwuffè herkeda a dè a ma ma azɓai.\n\n
+
+            3. Man nshèffè ga te ri Yèsu, i wuffè\n
+            Madzagi a pi va nga, sèi nga gi maya a pa\n
+            Skwi man ka gu t’ruva, Yèsu a sun tèlè\n
+            Gu maya, mandal ga, a gèɗ nshèffè ngaya !\n\n
+
+            4. I kwola skwi tèlè, i hér sèi Yèsu staɗ\n
+            Lèk lèk a pakay dai, a zhèr ma te ndav ga\n
+            A gidè vogwa a ma ga, a woy a i rka dai\n
+            Tè ngèmè herkeda a ngècè pombi azɓai ?\n
+        </item>
+
+        <item>
+           1. Yèsu a tsi ntamagi ndav nga : Winè na !\n
+            Gumi a pombai a va ka : Winè na !\n
+            A war a nzi a ndav ngaya\n
+            Ka gu ndudoh ɓai, winè tsam tsam\n
+            A war a mbel ka a patsna : Winè na !\n\n
+
+            2. Winè’a, Yèsu a til ndav nga : Winè na !\n
+            A cè kita auda a gèɗ nga : Winè na !\n
+            Hala’a ndohi ta sun ɓai\n
+            Antanta ma Zhiklè kalkaɗai\n
+            Tsam tsam matakwan a ndiv na : Winè na !\n\n
+
+            3. Koskosai a patsedaussa : Winè na !\n
+            Mblè a pana’a, a mènè’a : Winè na !\n
+            Skwi a dzaw nga a ngesldaussa\n
+            Skwi a dza nga a da tilè’a\n
+            A ka nzi a sam vara mpra’a : Winè na !\n\n
+
+            4. Va-tsena, a tsi zhèhèɗ zhèhèɗè’a : Winè na !\n
+            Kazladai, te deɓ dai, kin goɗ ɓai : Winè na !\n
+            Yèsu ndo m’mbel ndo a ri na\n
+            A erɗe kinè te mwoy-ndo\n
+            A gèɗè a gèɗ nshèffè ngaya : Winè na !\n
+        </item>
+
+        <item>
+            1. A ndohi kin pela ɗè ? A’ai nga pela ɓai (2)\n
+            Yèsu a m’mets na a gèɗ mali nga\n
+            man nga pela ɓai.\n\n
+
+            2. Ngurhi kin pela ɗè ?\n\n
+            3. Ngwozihi kin pela ɗè ?\n\n
+            4. Wudahi kin pela ɗè ?\n\n
+            5. Dalahi kin pela ɗè ?\n\n
+            6. Golahi kin pela ɗè ?\n\n
+            7. Pasteurs-hi kin pela ɗè ?\n\n
+            8. Flambeaux-hi kin pela ɗè ?\n\n
+            9. Maitres-hi kin pela ɗè ?\n
+        </item>
+
+        <item>
+            1. Ha m’metsi nga, nga woy n’ngredè njèl ngaya auda\n
+            Ko te m’metsai, Yèsu Kristi, Bi nga\n
+            Te kokwar-bi ngaya ka baha nga tèlè,\n
+            Nga dè a wuɗi te ncè-a-ndav nga.\n
+            Ha m’metsai nga,\n\n
+
+            Nga sli dimèsh nga arsa,\n
+            Da’ai ndohi man ta nzala te pombaz.\n
+            Ko te m’metsai,\n
+            Nga hér sèi ka te ndav nga,\n
+            Pombaz ngaya man ka bad a gèɗ nga.\n\n
+
+            2. Pombaz ngaya a ɓer nshèffè nga tèlè,\n
+            Civèɗ ngaya a va nga gumi a ndav.\n
+            Pombaz kra Zhiklè, man ta kwola tèlè,\n
+            Ka co wof ngézlèlè a gèɗ nga.\n\n
+
+            3. Ko te m’metsai, nga zhè a wuɗi ngaya\n
+            Nga jèjèr ka ara ma nkwer ngaya\n
+            Nga ngots maya nlèɓèslè’a te ka antanta\n
+            Nga zhüɓ wof ngézlèl ngaya ko a m’metsai\n\n
+
+            4. Wa Bi nga, ka ba, ka sun wuɗi nga azɓai\n
+            A nga da wushe nga hai a civèɗ\n
+            Gu te ndav ara mwoy-ndo ngaya\n
+            Ko te m’metsai, ɓer nga t’hwaɗ ri ngaya !\n\n
+
+            5. Zlündo Mèzhèɓ ngaya, man a ndhè ndav nga\n
+            A sam tèlè a hél sam te ndav nga\n
+            A nga slaha arsa a nga kezla ndav nga\n
+            A nga gi n’ngula’a, ko te metsai !\n
+        </item>
+
+        <item>
+            1. Washkè, ka njèy ma Yèsu,\n
+            Windèy a ndav ga tèlè !\n
+            Washkè, ka ngray ma mbia’a\n
+            Ma m’mbel ndo, a ma mwuffè.\n
+            Washkè, ka njèy ma Yèsu,\n
+            Mi ma Zhiklè a keɗyè\n
+            Pombi Zhiklè man a ndikedakaɗa\n
+            A ma Yèsu a sam ga !\n\n
+
+            Washkè, ka njèy ma Yèsu,\n
+            Windèy a ndav ga tèlè !\n
+            Washkè, ka ngray ma mbia’a\n
+            Ma m’mbel ndo, a ma mwuffè.\n\n
+
+            2. Washkè, ka njèy ma Yèsu,\n
+            Nenga’a ndo ntakahayè,\n
+            Sendayè ma man a gaɗa,\n
+            I woy a i jèjèrè’a.\n
+            Washkè ka ngray civèɗ Yèsu\n
+            Man nenga’a a mbazlayè,\n
+            Ndohi ta ngots sam n’nzi mbela’a\n
+            Man Yèsu ntila nga ma.\n\n
+
+            3. Washkè, ka njèy ma Yèsu,\n
+            Nenga’a ndo malwuɗi ga,\n
+            A ngreda nga man a mbel nga,\n
+            A va nga ngi-zura’a.\n
+            Ndav ga wuffè a gèɗ Yèsu,\n
+            A shkè deɓa, a hil nga.\n
+            Nga-vendokona ma nenga’a\n
+            A sam ndohai te herkeda !\n
+        </item>
+
+        <item>
+            1. Ndo m’mɓer tambaki a bèhè \n
+            T’kokwar, te za, te hèshèkèɗ\n
+            Tambaki ngiɗè ta zlak ta\n
+            A baha ta a deɓa a sam na.\n\n
+
+            Va-war ta, va ɓic ta\n
+            Va-lèka ta a sam mali tenga’a\n
+            Va-war ta, va ɓic ta\n
+            Va-lèka ta a ngwi a sam Yèsu.\n\n
+
+            2. Ta metsi ta a mtasl, a mai\n
+            Ta kuɗi a ndo a tsena ɓai\n
+            Te di vatak, a te di kwa\n
+            Kokoya, a da par ta ma.\n\n
+
+            3. Ndo m’mɓer tambaki nlèɓèslè’a\n
+            A woya man a nga takaha\n
+            A reɓekokwa’a tambakai\n
+            A sam man skwa a dza ta azɓai\n\n
+
+            4. Nga mbeɗa na ma azɓai ɗè ?\n
+            Nga dè tèlèba ka ɓi ɗè ?\n
+            Gaɗa ta ndohai man ta zlak ta :\n
+            Yèsu a woy kinè deɓa !\n
+        </item>
+
+        <item>
+            1. Yèsu a sun civèɗ man a zhè a ma ga\n
+            I dè a verzi nenga’a…\n\n
+
+            A mvay wuɗai, a i zhècèhai\n
+            A sam mpay zlau a gèɗ a skwi mpiyè wai\n\n
+
+            2. Yèsu a sun skwi zlèzlè’a man i shkè te pa\n
+            I jèkeda a ri nenga’a.\n\n
+
+            3. Yèsu a sun skwi tèlè man a gayè a patsna\n
+            Tèlè a shkè te ri nenga’a.\n\n
+
+            4. Yèsu a livayè skwi man a ntilyè\n
+            Ko te matakwan, ko te mwuffè.\n
+        </item>
+
+        <item>
+            1. Va-nju ma m’mbel ndo Yèsu Krist\n
+            Va-nju ma mbela’a\n
+            Va-nju ma haha pèc pècèk\n
+            Va-vak a vna lèk lèk !\n
+            Ma m’mbel ndo sèi ma Yèsu.\n
+            Mva nga nshèffè, sèi Yèsu.\n\n
+
+            Va-nju ma’a, va bidkoɗa\n
+            Ndohi te civèɗ herkeda\n
+            Va-nju ma’a, a nda pe ta\n
+            A civèɗ mbela’a.\n\n
+
+            2. Va-nju ma Yèsu a civèɗ\n
+            Va-slebda ta te ngwai\n
+            Va-nju ma a sam nshèwèlè\n
+            Kin da por sam mpèr ɓai !\n
+            Man kin ngreda ma Yèsu\n
+            Kin ndikè a sam mwuffè !\n\n
+
+            3. Va-nju ma’a a sam nhèyè ndo,\n
+            Va-nju ma a ndo staɗ ba.\n
+            Yèsu a woy ndo rèdèdè’a\n
+            A woy staɗ a gèɗ na.\n
+            Va-nju ma a sam luma\n
+            Va-nju ma a sam ncèmma\n\n
+
+            4. Va-nju ma’a a mizlinè kinè\n
+            A mizlinè man amba\n
+            A ta slébèrdè Bab kinè\n
+            Ta cè ma nenga’a.\n
+            Va-lèmdè nshèffè tèlè\n
+            A nshèffè te ma Yèsu.\n
+        </item>
+
+        <item>
+            1. Va-fa na gèɗ a ma Yèsu \n
+            Vo-co ma nenga’a !\n
+            Woy Zhiklè a ndav tèlè, a nslamagi ngaya\n
+            Ndo man a sun civèɗ di ɓai.\n
+            Slambaɗda man a nkalahai,\n
+            Pra na mali man a tsi rai,\n
+            A ka ngècè wuɗai.\n\n
+
+            2. Vo-do a sam a dala, do a zolom civèɗ\n
+            Baha ta ndohi malai, ndul ndul vaɗ a gai\n
+            Mwuɗitpa, nga a sam Yèsu\n
+            Man skwa te ri nga ɓai\n
+            Nga dè, a nga ngèzhè azɓai\n
+            Nga da rka nrkedai.\n\n
+
+            3. Ko civèɗ nga a dè a slrats\n
+            Nga cid gèɗ a Zhiklè,\n
+            Skwi mizlinè, skwi ntul nga,\n
+            A sam Yèsu a zhè.\n
+            Mwoya man a ngi zlau nda wa ?\n
+            Mslaha man a sala va wa ?\n
+            Sèi ngo-voko n’va tèlè\n
+            A humde nga a Zhiklè !\n
+        </item>
+
+        <item>
+            1. Kinè, kin ndohi nderɗe Zhiklè krèh  \n
+            Vo-washkè, va-tsena’a !\n
+            Ma Zhiklè, ma Yèsu, nenga’a vava\n
+            Civèɗ m’mbel kinè.\n\n
+
+            Co ndav ngaya, a ka va na Yèsu\n
+            Ko zhor angoslèm ɓai !\n
+            Ma Zhiklè ma nzura’a, nenga’a staɗgenè\n
+            Civèɗ m’mbel ndohai.\n\n
+
+            2. Kinè, kin ndohi nderɗe Zhiklè krèh,\n
+            Vo-washkè, vo-jongo !\n
+            Zhiklè ba a war man a ntakaha nga\n
+            A ngra nga njèngè ma na.\n\n
+
+            3. Kinè, kin ndohi nderɗe Zhiklè krèh,\n
+            Vo-washkè, va-huro !\n
+            Yèsu ntamagai a civèɗ nshèffè, mwinèa a nga\n\n
+
+            4. Kinè, kin ndohi nderɗe Zhiklè krèh,\n
+            Vo-washkè a nda nga !\n
+            Kokwar-Bi Zhiklè na staɗ, az cèw ɓai,\n
+            Staɗ man nga dè a pa.\n
+        </item>
+
+        <item>
+            1. Zhiklè a ber skwi tèlèba a ri na,\n\n
+            A ɓer skwi tèlè t’hwaɗ ri na.\n\n
+            2. A ɓer wudahi nga t’hwaɗ ri na…\n\n
+            3. A ɓer nga tèlèba t’hwaɗ ri na…\n\n
+            4. Zhiklè ndo wuɗi nga tèlèba…\n\n
+            5. A ɓer patshi nga man a ma a ri na…\n\n
+            6. Nga gi zlau ndo ngiɗè azɓai a ri na…\n\n
+        </item>
+
+        <item>
+            1. Movar man i ndia, movar nshèffè \n
+            Iyam man i sia, iyam nshèffè\n
+            Ndawa ndawa ndo man a gi arsa\n
+            Iyam a da dza na azɓi ba.\n\n
+
+            Mi a ga na azɓi ɗè ?\n
+            Ayah ! Mi a ga na azɓai !\n
+            Iyam a dza na azɓi ɗè ?\n
+            Ayah ! Iyam a dza na azɓai !\n
+            A vava, Yèsu, Bi nga, a ngaɗa\n
+            Iyam a da dza na azɓi ba.\n\n
+
+            2. I ba i ngècè skwi n’ndi haha,\n
+            Te ri Yèsu man a i jhèɗè’a.\n
+            Movar nshèffè, a iyam nshèffè matsa,\n
+            Ta shkè te zhiklè cèw cèw ba.\n\n
+
+            3. Movar nshèffè, zluèɗ va Yèsu Krist,\n
+            A vau va na, a mbél ndo a vna.\n
+            Ndawa ndawa ndo man a nco a ndav,\n
+            A ngèzhè a skwi tèlèba.\n\n
+
+            4. Yèsu woyam iyam, nshèffè nga,\n
+            Ambalai nga slaha a nga sia’a.\n
+            Kinè ndohai, man iyam a dza kinè,\n
+            Vo-washkè, va sau iyam nshèffè !\n\n
+
+            5. Yèsu a gaɗa nga te ma na :\n
+            Ndo nzi a nshèffè na haha,\n
+            A gèɗ ma staɗ staɗ te ma Zhiklè,\n
+            A gèɗ skwi n’ndi genè ka ɓai\n
+        </item>
+
+        <item>
+            1. Zlèzlèa te kokwar dra\n
+            Ma Zhiklè a zhè\n
+            Ndohi Daniel ta te pa\n
+            Ta tsi ri a Zhiklè.\n\n
+
+            Yowa ara Daniel\n
+            Ko nga a gèɗ nga\n
+            Sèi nga ngreda Yèsu auda\n
+            A sam herkeda !\n\n
+
+            2. A bi Nebukadnetsar a mpe ta wai,\n
+            A nrom skwi ara va na, man ta gurɓahai.\n\n
+
+            3. Daniel staɗ man nga ɓai, ko ta ga na ndzoan,\n
+            A sun Zhiklè staɗgenè, ngiɗè asaɓai.\n\n
+
+            4. Ta da a gi marizlèlè, a gi kokoya,\n
+            Bigol Zhiklè a mɓer va na a wuɗi nenga’a.\n\n
+
+            5. Bi a mbaha na auda : Washkè, bigol ga !\n
+            Anai i ba i suna, Zhiklè a zhè a nshèffè !\n
+        </item>
+
+        <item>
+            1. Woba ndo man a woy wuɗi na te ndo\n
+            Man a fu va na a ndo n’nzala’a.\n\n
+
+            Nslubordokoy Yèsu (ndohi tèlèba)\n
+            A vi nshèffè a ndo (nshèffè a mèdèp)\n\n
+
+            2. Ndav ndo nlizhè’a a sam di Zhiklè\n
+            A lèɓèslè azɓai te skwi tèlèba.\n\n
+
+            3. Mwuffè mbia’a a zhè a sam ndo Zhiklè\n
+            Man a fu Zhiklè a ndo n’nzala’a\n\n
+
+            4. Nzalayè cè-a-ndav ga a Zhiklè Bi ga\n
+            Wuɗi ga a shilè ɓai te skwi tèlèba.\n\n
+
+            5. Zhiklè Bi nga a wuzhè ndav ndohi tèlè\n
+            Mva nga skwi ntul nga ara mizlinè nga\n
+        </item>
+
+        <item>
+            1. Nzlembaɗ Yèsu, nzlembaɗ mbia’a \n
+            Yèsu Kristi, kra Zhiklè\n
+            Labar ma skwi man a gia’a\n
+            A zlèzlèmè, a zlèzlèmè.\n\n
+
+            Nzlembaɗ Yèsu, Zhiklè a mva na\n
+            Man a til mali ndohai\n
+            Nga wuffè a nzlembaɗ Yèsu\n
+            A gèɗ man a mpra nga malai.\n\n
+
+            2. Nzlembaɗ Yèsu, nzlembaɗ mbia’a\n
+            A géɗ na ta hodko ma :\n
+            Ndo wuɗai, ndo n’ngra nga maya,\n
+            Ndo gumai, Bab nga a mèdèp.\n\n
+
+            3. Nzlembaɗ Yèsu, nzlembaɗ mbia’a\n
+            Yèsu a winè nga dai,\n
+            Ko wawa a nco nzlembaɗ Yèsu\n
+            Da zeda nshèffè na asaɓai !\n\n
+
+            4. Nzlembaɗ Yèsu, nzlembaɗ mbia’a\n
+            Kala a géɗè’a a gèɗ,\n
+            Gar haha nga ngwoda ndav nga,\n
+            A nga hera na gèɗ a va.\n
+        </item>
+
+        <item>
+           1. Pierre te wurom, te ndav iyam \n
+            A ngaɗa na a Yèsu :\n
+            Yowa, gud rai, ka gso ri ga,\n
+            i dè a gèɗ iyam.\n\n
+
+            2. Yèsu a m’mbeɗa na a ma :\n
+            Pierre washkè a sa ga !\n
+            A Pierre a mpu di a Yèsu,\n
+            A njèkeda wurom.\n\n
+
+            3. A mdo a sak a gèɗ iyam\n
+            Ta da zli gèɗ a Yèsu.\n
+            A ngél di na a sam ngiɗè,\n
+            a iyam mbia’a.\n\n
+
+            4. Pierre a ngudzi kwor-kwora’a\n
+            A gi zlau kozlar sa,\n
+            A hinè ndè a va iyam\n
+            A mbaha na a Yèsu.\n\n
+
+            5. Yèsu a wuɗi nenga’a\n
+            A ngso ri nenga’a\n
+            Ta cèw ta teva a wurom\n
+            Kozlar a njèkeda.\n\n
+
+            6. Golahi Yèsu tèlèba,\n
+            A ta rka nrkedai.\n
+            Ta rzl ta, a ta huro :\n
+            Sèi Yèsu ndo ngul skwai !\n
+        </item>
+
+        <item>
+            1. Va-pu di sèi a Yèsu, \n
+            Na zhè a tsagi nga !\n
+            Vo-gso ri mandi Yèsu,\n
+            A gshè ri kinè ba !\n\n
+
+            Va-pu di sèi a Yèsu,\n
+            Na zhè a tsagi nga !\n
+            Vo-gso ri mandi Yèsu,\n
+            A gshè ri kinè ba !\n\n
+
+            2. Ma haha ambaha nga,\n
+            Yèsu feda nga ma !\n
+            Skwi mèmè a gèɗ herkeda,\n
+            Nga ngula’a a nda ka !\n\n
+
+            3. Va-pu di sèi a Yèsu,\n
+            Ndohi nca Yèsu a ndav !\n
+            Ndo ncè nga ma sèi Yèsu,\n
+            A ɓer nga a wuɗai !\n\n
+
+            4. Halau, i ba i pi dai\n
+            A verzi kra Zhiklè\n
+            I peda di ga aussa,\n
+            I kwola skwi ngiɗè !\n\n
+
+            5. Sadan a pi va ambalai,\n
+            A ngatsyè asaɓai !\n
+            Yèsu a nkerɗda géɗè’a\n
+            T’hwaɗ sak na, halakai !\n
+        </item>
+
+        <item>
+            1. Va-slambaɗa a Yèsu, ara ndohi godoma.\n
+            Va-nzala wof ngézlèlè’a.\n
+            A kin nza tara’a,\n
+            Yèsu a de nga amba\n
+            A njèr mayamhi nga\n
+            Ha pats ngiɗè ta tèlè ta gurɓe a sam na.\n\n
+
+            2. Va-slambaɗa a Yèsu, a baha nga, ngo-do !\n
+            Man wuɗitepa a va nga wuɗi macecèwa’a.\n
+            Ko man nga dè a nkulgodok,\n
+            Mèzhèɓ m’metsi te pa,\n
+            A nga gudzi te ri zlau ɓai,\n
+            Yèsu a tsagi nga.\n\n
+
+            3. Va-slambaɗa a Yèsu, nga gi var ndo azɓai\n
+            Var man nga gi a malai,\n
+            A skwi man ambaɓai,\n
+            Yèsu a ndar ta aussa, a mfena Sadan ma.\n
+            A Golgotha nga pi dai,\n
+            A nga ngècè wuɗai.\n\n
+
+            4. Va-slambaɗa a Yèsu, a wuɗi nenga’a,\n
+            Va-zlatsahai, va-nzu dai,\n
+            Vo-do a ma a ma !\n
+            Va-feda skwi var tèlè a va,\n
+            a kin tsi rai\n
+            Va-hur ma Yèsu staɗgenè,\n
+            Va-gu Yèsu a Bai !\n
+        </item>
+
+        <item>
+            1. Nshèffè mɓua’a a gèɗ ndohi tèlè\n\n
+            Yèsu a gaɗa\n
+            Vo-washkè tèlè, a nga tsi rai\n
+            Yèsu a gaɗa\n\n
+
+            2. Ka zhor angoslèm ɓai, a shkè a patsna !\n\n
+            3. Sadan a gaɗa : zhor angoslèm !\n\n
+            4. Ndo ntsu ri ɓai, a mbél azɓai\n\n
+            5. Ndo nhadka ma ngiɗè a mbel ka azɓai\n\n
+            6. Jèkeda ntétékè a ka da tsu rai\n\n
+            7. Jèkeda mwoy ngwoz a ka da tsu rai\n\n
+            8. Jèkeda metsar a ka da tsu rai\n\n
+            9. Jèkeda ncèkèlma a ka da tsu rai\n\n
+            10. Jèkeda ngi gada a ka da tsu rai\n\n
+            11. Jèkeda ngi srak a ka da tsu rai\n\n
+            12. Jèkeda ngi bai a ka da tsu rai\n\n
+            13. Jèkeda malai a ka da tsu rai\n\n
+            14. Jèkeda doloh a ka da tsu rai\n\n
+            15. Jèkeda vrai a ka da tsu rai\n\n
+            16. Nshèffè herkeda a nzi a vata azɓai\n\n
+            17. Ambaha ka a patsna, a n’ndev na angoslèm\n\n
+            18. Nshèffè ndo, nwurzhè ambalai\n\n
+            19. Nshèffè ndo, votsok ambalai\n\n
+            20. Nshèffè mɓua’a a gèɗ ndohi tèlè !\n
+        </item>
+
+        <item>
+            1. Ko ahngwa ahngwa a gèɗ herkeda,\n
+            I sun ndohai ta zhè.\n
+            I woy man a ta tsena’a,\n
+            Ma Yèsu, kra Zhiklè.\n
+            Zhiklè a nzlündo Yèsu,\n
+            Man a ngra nga tèlè.\n
+            A woya ndohi ta tsena’a,\n
+            Ma Bab nga te zhiklè.\n\n
+
+            2. Te herkeda haha ruva,\n
+            Ndohi mandazlihai.\n
+            Yèsu a nshkè ta sun ɓai,\n
+            Ta sun ndo m’mbel ndo ɓai.\n
+            Skwi man i sun te ndav ga,\n
+            I ngheda te pa ɓai.\n
+            I ngra ta ndohi tèlè,\n
+            Man i winè ta dai.\n\n
+
+            3. Ndo man a nco ma Yèsu,\n
+            A gi a bigol na.\n
+            A nco a ndav, ta ga na,\n
+            Baptême nkezla’a.\n
+            A nzlembaɗ Zhiklè, Bab nga\n
+            A nzlembaɗ Yèsu Krist.\n
+            A nzlembaɗ Mèzhèɓ nshèffè,\n
+            A derzla nga gèɗ.\n\n
+
+            4. Va-gaɗa ta, va-bid ta,\n
+            Ma Zhiklè a gaɗa.\n
+            Ta woy man a ta mbel ta,\n
+            A ta da gi me kè ?\n
+            Zhiklè a nzlündo Yèsu,\n
+            Vo-co a ndav kinè !\n
+            Ma mofa, nasara, wondala,\n
+            Ma m’mbel ndo staɗgenè !\n
+        </item>
+
+        <item>
+            1. Zhiklè a bèhè ndohai a da’ai mbia’a, \n
+            ko te hèshèkèɗ, ko te kwazlazlam\n\n
+
+            Zhiklè a gi ndav\n
+            a gèɗ ndohi nfi va kumba.\n
+            Ta ngwoda ma Zhiklè\n
+            a ncèkèl ma\n\n
+
+            2. Nga da ngècè kita mwuɗitepa a gèɗ mphömè nga,\n
+            Te man Yèsu a ngreda nga ma\n\n
+
+            3. Yèsu a da shkè, a nga rka ara ndidiyam,\n
+            Klèng, a hel nga a sam na.\n\n
+
+            4. Va-huro a gèɗ nshèffè kinè, ndohi mèshèlè,\n
+            Skwi herkeda a pèt kinè ambalai.\n\n
+
+            5. Nga ndohi man nga co nzlembaɗ Bi Yèsu a ndav,\n
+            Nga ngurdokoya ma Zhiklè auda !\n\n
+
+            6. Man nga njè ma Yèsu haha a sam ndohi herkeda,\n
+            Nga da ngècè skwi ntul nga !\n\n
+
+            7. Va-wuffa, kinè ndohi ntawassa’a antanta,\n
+            Man Zhiklè a pshè kinè ma !\n\n
+
+            8. A pats man herkeda a n’ndev na ma,\n
+            Ka kuɗai, ka da peɗi zlè’èn.\n\n
+
+            9. A ksar ka lèmèlèmè ara topok dau mènè,\n
+            Ka si Zhiklè te va azɓai a mèdèp.\n
+        </item>
+
+        <item>
+            1. Zhiklè a woy herkeda, herkeda, herkeda\n
+            ndav na a woya’a.\n\n
+            2. A nzlündo Yèsu a herkeda\n
+            kra nenga’a staɗ\n\n
+            3. Ko wawa man a nco a ndav\n
+            a ngècè pombi Zhiklè\n\n
+            4. Pombaz na a pèn ndav nga\n
+            A ndzowaɗaɗa’a\n\n
+            5. Yèsu a n’nza a herkeda\n
+            ara man Zhiklè a ngra na\n\n
+            6. Yèsu Kristi a m’mets na\n
+            te di malihi nga\n\n
+            7. Yèsu a nslambaɗkaɗ na\n
+            auda te gi dzavai\n\n
+            8. Yèsu a ndo na a zhiklè\n
+            ngwi bab na te géɗè’a\n\n
+            9. Ndul ndul Yèsu a shkè deɓa\n
+            a sam ndohi nco a ndav\n\n
+            10. A hel nga ngwi a sam na\n
+            a sam kokwar-Bi na\n\n
+            11. Nenga’a a da wèr di nga\n
+            pèc pècèk a mèdèp\n\n
+            12. Mwuffè a sam ndohi na\n
+            a da nzi a mèdèp\n\n
+            13. A ta slébèrdè kra Zhiklè\n
+            man n’ndha a gumai\n
+        </item>
+
+        <item>
+            1. I woy man i rka ka \n
+            Ka Bi ncè-a-ndav ga\n
+            I shkè a deɓ sak ngaya\n
+            I ndo wudar mbia’a.\n\n
+
+            A pats ba, ko vaɗ ba\n
+            I zhè man i woy ka\n
+            Washkè, nga nza a ka, Yèsu\n
+            I woy ka kumba.\n\n
+
+            2. Herkeda a woy mpiyè a wai,\n
+            Yèsu nza te ndav ga,\n
+            Ta njèl wuɗi ngaya,\n
+            I slaha a i zlècèhai.\n\n
+
+            3. Man zlau a ngso ndav ga,\n
+            A gèɗ man ruva te pa,\n
+            Washkè a Mèzhèɓ ngaya\n
+            A ka dzor zlau tèlèba.\n\n
+
+            4. Yèsu, nshkè ngaya,\n
+            Nshèffè a gumi a zhè,\n
+            Gumi te matakwan,\n
+            Nasa nshèffè mbia’a.\n
+        </item>
+
+        <item>
+            1. Fali ga i va na Yèsu,\n
+            I tsena ma man a ngra nga.\n
+            Skwi man a woya a va nga,\n
+            Atutsa i kwola’a.\n\n
+
+            Aman antanta i huro\n
+            I co ma Yèsu a ndav,\n
+            Ma Yèsu pitirla sak ga\n
+            Skwi nhél sam a civèɗ ga.\n\n
+
+            2. Mali tèlèba te ndav ga,\n
+            I mandahai a gèɗ Yèsu.\n
+            Pombaz na a pènè ndav ga,\n
+            A ɓeryè te skwi nlizhè’a.\n\n
+
+            3. Nlèyè ga i va na Yèsu,\n
+            Yèsu staɗ a ciyè auda.\n
+            Ko var t’uda, zlau te ndav ga,\n
+            I ngots sam ga nlèa’a.\n\n
+
+            4. Mwuffè ga i va na Yèsu,\n
+            Yèsu staɗ i nzala’a.\n
+            Skwi tèlèba man i ngotso,\n
+            I ngots sèi te ri nenga’a.\n\n
+
+            5. Nshèffè ga i va na Yèsu,\n
+            Tèlè, va nga a ndav nga.\n
+            Skwi man a zhè ma, i va na,\n
+            A skwi man i zhèrè’a.\n
+        </item>
+
+        <item>
+            1. Yèsu, i herda ka va \n
+            Yèsu, i herda ka va\n
+            Ka verzi nshèffè, ka verzi nshèffè\n
+            Ndo m’mbelyè, a Bi ga.\n\n
+
+            2. Gso ndav ga a ri ngaya\n
+            Gso ndav ga a ri ngaya\n
+            Ndheda a ma ngaya, ndheda a ma ngaya\n
+            Skwi ngiɗè wusheda !\n\n
+
+            3. Vay Mèzhèɓ ngaya a ndav,\n
+            Vay Mèzhèɓ ngaya a ndav\n
+            Mizlinè ngaya, mizlinè ngaya\n
+            I woy a i gia’a.\n\n
+
+            4. Man ka shkè deɓa\n
+            Man ka shkè deɓa\n
+            Ka bahayè i ba, ka bahayè i ba\n
+            Ɓèl ngaya nlèɓèslè’a.\n\n
+
+            5. Ka, kra tambak Zhiklè\n
+            Ka, kra tambak Zhiklè\n
+            Yèsu te Nazareth, Yèsu te Nazareth\n
+            Sussi ngaya, a njèlè !\n
+        </item>
+
+        <item>
+            1. I hér mwoy-ndo ngaya, a i rzl ga a pa\n
+            Ka woyè, ha ka metsi ngaya\n
+            Njèl Zhiklè te géɗè’a, tèlè ka jèkeda\n
+            A ka gu a ndo, ara nga nga.\n\n
+
+            I hér mwoy-ndo ngaya,\n
+            a i rzl ga a pa ;\n
+            Ka woyè, ha ka metsi ngaya\n
+            Zlündo Mèzhèɓ ngaya,\n
+            Da gu bi te ndav nga,\n
+            Nga, gi ngaya, ka staɗ Bi te pa.\n\n
+
+            2. Ka dzodzor Bab ngaya\n
+            Ko te matakwan ngaya\n
+            Ka ngots wuɗi te ntsi ri ngaya\n
+            Ka hera skwi ngaya ɓai,\n
+            Man ka woya ka ɓai,\n
+            Ara man Zhiklè a woya’a.\n\n
+
+            3. Naha, i va ka ndav ga, a i va ka a va ga\n
+            Nshèffè ngaya, co tèlè a deɓa !\n
+            Gau skwi man ka woya’a,\n
+            Gu mizlinè ngaya a vna,\n
+            I zhè ma, a sam mvi skwi a ka.\n\n
+
+            4. Ara man ka gaɗa, a sam ɗèlèwèr ngaya,\n
+            I shiɗèf, ka man ka rèmè’a,\n
+            Tilyè, ka ndo m’mbelyè\n
+            Ndaryè a vogwa,\n
+            Giyè a skwi mbela’a a sam di ngaya.\n
+        </item>
+
+        <item>
+            1. Ndav ga nkezla te Yèsu Kristi,\n
+            Kra Zhiklè, ndo nsu te va !\n
+            Mali a ndevdyè, Yèsu a mbelyè,\n
+            Kra Zhiklè, ndo nsu te va !\n
+            Skwi man i gau, i ba i sun ɓai,\n
+            Wa Zhiklè, pray mali ga !\n
+            Sadan a dzawyè, Yèsu a mbelyè,\n
+            Kra Zhiklè, ndo nsu te va !\n\n
+
+            2. Ndav ga nkezla te Yèsu Kristi,\n
+            Kra Zhiklè, ndo nsu te va !\n
+            I gaɗ i gi skwi man amba,\n
+            Kra Zhiklè, ndo nsu te va !\n
+            I woya a i ɓer va ga,\n
+            Ka Yèsu, vay wuɗai !\n
+            A gèɗ ga i slaha azɓai,\n
+            Kra Zhiklè, ndo nsu te va !\n\n
+
+            3. Ndav ga nkezla te Yèsu Kristi,\n
+            Kra Zhiklè, ndo nsu te va !\n
+            N’ngél ma a gedasyè, Yèsu a mbelyè,\n
+            Kra Zhiklè, ndo nsu te va !\n
+            I ngwoda ma zura’a, ha Yèsu a winay dai,\n
+            Mwoy-ndo Zhiklè, Yèsu a mfenyè,\n
+            Kra Zhiklè, ndo nsu te va !\n\n
+
+            4. Ndav ga nkezla te Yèsu Kristi,\n
+            Kra Zhiklè, ndo nsu te va !\n
+            I ngwoda na deɓa a Sadan,\n
+            Kra Zhiklè, ndo nsu te va !\n
+            Yèsu a nsumkay a deɓa,\n
+            A gani nenga’a kumba !\n
+            Ndav ga nkezla te Yèsu Kristi,\n
+            Kra Zhiklè, ndo nsu te va !\n
+        </item>
+
+        <item>
+            1. Yèsu nga shkè a sam ngaya\n
+            A hwaɗ ri ngaya, a haha\n
+            Man ka lama nga, wuɗi ngaya\n
+            A mbel nga a nasa nasa.\n\n
+
+            Yèsu Bi nshèffè ndo tèlè\n
+            Ka woya ka pshè nga ma\n
+            Sèi ka staɗ i gsa te ndav ga\n
+            Ka slaha, ka woy mbel nga.\n\n
+
+            2. Pats man na a gèɗ herkeda\n
+            Ndo matakwan m’mbela’a\n
+            Ndohi ndaɓazlam ta goɗ ma\n
+            Ndohi mandazlai ta rka’a.\n\n
+
+            Wuɗi a shkè sèi te ka\n
+            Mèzhèɓ ngaya a ngu arsa\n
+            Mpi di ngaya staɗ, ngèɗ-ma ngay staɗ\n
+            a ka pre ka ta auda ma.\n\n
+
+            3. Ka va nga te nshèffè ngaya\n
+            Skwi man ambaha ndav nga\n
+            Ka derzla nga ma a Bab nga\n
+            Man a pra nga mali nga.\n\n
+
+            Yèsu Bi nshèffè ndo tèlè\n
+            Ka woya ka pshè nga ma\n
+            Sèi ka staɗ i gsa te ndav ga\n
+            Ka slaha, ka woy mbel nga.\n
+        </item>
+
+        <item>
+
+            1. Ndohai ta haya va kumba,\n
+            a gi ndo gozhèm zlam.\n
+            Ta shkè ndul ndul, a ta shkè dra,\n
+            a dak a sam Yèsu.\n\n
+
+            2. Ta vak a sam Yèsu lèk lèk,\n
+            ta woy ma nenga’a.\n
+            Golahi Yèsu ta gu zlau,\n
+            Ta hur : Skwi n’ndi tema ?\n\n
+
+            3. Kra nkèshè’a a hakaɗai,\n
+            Movar a klèf te rai.\n
+            Movar ta zlam, klèf cèw genè,\n
+            a mva na Yèsu.\n\n
+
+            4. Yèsu a nco, te deɓ nshid gèɗ\n
+            A mpu di a zhiklè.\n
+            A mva ta staɗ staɗ tèlèba\n
+            Movar njèkeha.\n\n
+
+            5. Hur nrkedi Yèsu haha\n
+            Ndo a gi gozhèm zlam.\n
+            Ndo nza a pa, a ta ndau skwai,\n
+            A tèlè ta ngeza.\n
+            </item>
+
+
+                    <item>
+            1. Nza a tsagi ga ndo m’mbelyè !\n
+            Yèsu, i kuɗai !\n\n
+
+            Vay gumi a pombi ngaya,\n
+            Ka jèkyè a pa ɓai !\n
+            Yèsu, Yèsu, i tsi ri a ka,\n
+            Vay gumi a pombi ngaya,\n
+            Vay wuɗi ngaya\n\n
+
+            2. I suna, ka staɗ ka slaha a ka takahayè\n
+            I kala a deɓ sak ngaya, sèi ka slambaɗdyè !\n
+
+            3. Daga nyakaɗ ga ka senyè, ka hur nlèyè ga,\n
+            Ntulè a keɗyè, ka suna, a ka vay nshèk va.\n\n
+
+            4. Ko skwi mèmè a gèɗ herkeda, a hinè te ka\n
+            Washkè, tsu gumi a ndav ga, i shid gèɗ a ka !\n
+            </item>
+
+                    <item>
+            1. Yèsu, herde nga, a sam ngaya !\n
+            Nenga’a ntsi ri nga, a sam ngaya.\n
+            Pats man skwi mwuɗitepa\n
+            A pra nga zlau a va, ɓer nga a sam ngaya,\n
+            T’hwaɗ kelpasl ngaya !\n\n
+
+            2. Yèsu, herde nga, a sam ngaya !\n
+            Ndul ndul a sam ngaya, sam ga nga nlèa’a.\n
+            Sadan a pa nga dai,\n
+            A kalda nga a malai, ɓer nga a sam ngaya,\n
+            T’hwaɗ kelpasl ngaya !\n\n
+
+            3. Yèsu, herde nga, a sam ngaya !\n
+            Ko a dimèsh nga ba, nga jhèɗè’a\n
+            Va-wuffa, ka gaɗa,\n
+            Va-wuffa va za’a, ɓer nga a sam ngaya,\n
+            T’hwaɗ kelpasl ngaya !\n\n
+
+            4. Yèsu, herde nga, a sam ngaya !\n
+            Nga pi ndav nga a ka, te ma ngaya.\n
+            Skwi man nga zhèrè’a,\n
+            Sèi nderzlè-ma ngaya, ɓer nga a sam ngaya,\n
+            T’hwaɗ kelpasl ngaya.\n
+            </item>
+
+
+                    <item>
+            1. Yèsu ndo m’mbel ndohai, i woya’a\n
+            Yèsu ndo m’mbelyè ba, Yèsu Bi ga\n
+            I bizhè a civèɗ na, Mèzhèɓ na a tsagi ga,\n
+            A sam man iyè a pa, Yèsu ba a pa.\n\n
+            2. Yèsu m’mbel ndohai, i woya’a\n
+            A humbatyè a rai, Yèsu Bi ga\n
+            Sadan a piyè a wai, skwi man a gia ambalai\n
+            Yèsu ndo mɓer ndohai, nfena’a.\n\n
+            3. Yèsu ndo m’mbel ndohai, i woya’a\n
+            Pats staɗ a shkè deɓa herkeda.\n
+            Pècèk i zhèrè’a, i woy man a hel nga\n
+            Sèi a tilèy ndav ga, ma Yèsu Bi ga !\n
+            </item>
+
+                    <item>
+            1. Zhiklè nga shid gèɗ a Yèsu kra ngaya\n
+            A mshkèhai a herkeda, a m’mets na,\n
+            a m’mbel ndo.\n\n
+            Alleluya, Yèsu mbelyè\n
+            Alleluya, Amen\n
+            Alleluya, Yèsu mbelyè,\n
+            I dè ngwai a zhiklè !\n\n
+            2. Zhiklè nga shid gèɗ a gèɗ pombaz Yèsu\n
+            Yèsu mbad pombaz a hai, a nzave nga\n
+            auda te malai.\n\n
+            3. Zhiklè nga shid gèɗ, ka va nga ma Yèsu\n
+            Ma Yèsu amba a vata, ma nga nzura’a a vava.\n\n
+            4. Nga dè ngwai a zhiklè,\n
+            nga da nzi a nda nenga’a\n
+            Kokwar Zhiklè nasa amba,\n
+            Az aranta ɓai t’herkeda !\n
+            </item>
+
+                    <item>
+            1. Yèsu a pra nga malai nga man a mets na\n
+            Yèsu a m’mets na a gèɗ nga (2) Alleluya !\n\n
+            2. Yèsu a pra nga mali nga man a mets na…\n\n
+            3. Yèsu a nzuɓa mali nga a gèɗ nenga’a…\n\n
+            4. Yèsu a humde nga a nda Zhiklè man a mets na…\n\n
+            5. Yèsu a mpana mali nga man a mets na…\n\n
+            6. Yèsu a m’menda nga gumi a hai man a mets na…\n\n
+            7. Yèsu a va nga civèɗ man a nga dè a zhiklè…\n\n
+            8. Yèsu a va nga pombai man a mets na…\n\n
+            9. Sussi a Yèsu man ka pra mali nga…\n\n
+            </item>
+
+
+                    <item>
+            1. Zhiklè Bab nga te géɗè’a\n
+            Nzlembaɗ ngaya nkezla\n
+            Sèi kokwar-Bi ngaya da shkè\n
+            A haha a herkeda.\n\n
+            2. Zhiklè Bab nga te géɗè’a\n
+            Skwi man ka woya’a,\n
+            Ara man ta gi te zhiklè,\n
+            Ta gia t’herkeda.\n\n
+            3. Zhiklè Bab nga te géɗè’a\n
+            Ka gu dau a mftsa\n
+            Skwi n’ndai nga ndia pèc pècèk,\n
+            Vaka nga a patsna ba !\n\n
+            4. Zhiklè Bab nga te géɗè’a\n
+            Kam kam pra nga mali nga,\n
+            Ko nga, nga pra mali ndohai,\n
+            Man ta gu a sam nga.\n\n
+            5. Zhiklè Bab nga te géɗè’a\n
+            War ndo ngedasse nga\n
+            ɓer nga, a ka da de nga ɓai\n
+            A sam skwi mpe nga a wai !\n\n
+            6. Zhiklè Bab nga te géɗè’a\n
+            Kokwar-Bi a ngaya\n
+            A njèlè a wuɗi tèlè\n
+            Te nhinkaɗ na a mèdèp ! \n
+            </item>
+
+                    <item>
+            1. Zhiklè mbia’a nga slébèrdè ka\n
+            Ndo nzi pèc pècèk nga njèl wuɗi ngaya,\n
+            Herkeda tèlèba nte ri ngaya\n
+            Ta rka mizlinè ngaya a ta rzl ta.\n\n
+            Lèmèlèmè ara nzlèzlè’a,\n
+            Ka, ka zhè, ka nzi a mèdèp ba.\n
+            Lèmèlèmè ara nzlèzlè’a,\n
+            Ka, ka zhè, ka nzi a mèdèp ba.\n\n
+            2. Zhiklè, nga gi huyokoko’a\n
+            Nga gi hori malai man nga gia’a\n
+            Skwi man ndo a ngècè a gèɗ mali na,\n
+            Sèi m’metsai, ara ngèɗè ngaya a vava.\n\n
+            3. Zhiklè mbia’a nga gi susai,\n
+            Nga se ka te va, a ka phömde nga azɓai.\n
+            Skwi Yèsu a mva nga ambalai,\n
+            Nshèffè mbia’a ara nshèffè ngaya.\n\n
+            4. Ndav ga, slubordo Zhiklè, Bab nga,\n
+            Nzala Mèzhèɓ nshèffè man nkezla’a.\n
+            Ngo-slubordokoy Yèsu Krist,\n
+            Ndo m’mbel nga, kramam nga, mandal ga !\n
+            </item>
+
+        <item>
+            1. Ntilyè a mali ga tèlèba wa ?\n
+            Sèi Yèsu\n
+            Slambaɗdyè man i kal ga hi wa ?\n
+            Sèi Yèsu\n
+            Nenga’a giyè a mɓua’a\n
+            Skwi m’mova’a tèlèba nkal na\n
+            Manam a mwuffè zura’a a nvayè wa ?\n
+            Sèi Yèsu\n\n
+            2. Mɓeryè a ngredayè gadahi ba wa ?\n
+            Sèi Yèsu\n
+            Nslaha man a mɓeryè pècèk ba wa ?\n
+            Sèi Yèsu\n
+            Ko skwi mwuɗitpa a gèɗ ga\n
+            Ko matakwan a dè a va ga,\n
+            Mɓeryè aman i gi ndav azɓai wa ?\n
+            Sèi Yèsu\n\n
+            3. Ani haha i gi slagama a sam Yèsu\n
+            Zlau a nkuɗai tèlè ta kal ta,\n
+            a sam Yèsu\n
+            Skwi a vayè man i jhèɗè’a,\n
+            Ara mèshèlè a pombi nenga’a,\n
+            Tèlèba, tèlèba i ngotso\n
+            a sam Yèsu.\n\n
+            4. I sli dimèsh man i nzal ka,\n
+            Yèsu, ndo mɓeryè,\n
+            Ka ndha ndav ga pèc pècèk,\n
+            Yèsu ndo, mɓeryè.\n
+            Skwi mèmè i zli gèɗ a vna,\n
+            I metsi ga, i dzodzor ka,\n
+            Ha pats ngiɗè i rka ka a dai,\n
+            Yèsu ndo mɓeryè.\n
+        </item>
+
+        <item>
+            1. T’hwaɗ ki mamokwa’a\n
+            Zhiklè a nzlündo Gabriel\n\n
+            2. Nzlembaɗ kokwara’a\n
+            Herkeda Nazareth\n\n
+            3. Zhiklè a nzlündo bigol na\n
+            A mshkè a sam Marie\n\n
+            4. A nga na mbali te rai\n
+            Marie a nco a zlau te ndav\n\n
+            5. A nga na mbali a va’a\n
+            Te Mèzhèɓ nkezla’a\n\n
+            6. Ka da gi a hwaɗ\n
+            Marie a gaɗ i sun baki ɓai\n\n
+            7. Ka da yi ngura’a\n
+            Te Mèzhèɓ nkezla’a\n\n
+            8. Ka da yia’a a Bethléhem\n
+            Te kokwar Israël\n\n
+            9. Gol Zhiklè a gaɗa na :\n
+            Ka hur gèɗ zlau ɓai !\n\n
+            10. I cko ma nzura’a\n
+            a hai a herkeda.\n\n
+            11. Mwuffè a zhè a patsna\n
+            a sam ndohi tèlè\n\n
+            12. Nga njèl Yèsu\n
+            Allèluya, Yèsu Bai !\n
+            </item>
+
+                    <item>
+            1. Ta yu ndo m’mbel ndo a patsna,\n
+            te kokwar Bethléhem.\n\n
+            2. A mshkèhai man a mbel nga,\n
+            tèlè a gèɗ herkeda.\n\n
+            3. Yèsu Kristi kra Zhiklè te\n\n
+            géɗè’a.\n\n
+            4. A mshkè man a ngra nga civèɗ\n
+            ndè a sam Zhiklè.\n\n
+            5. Nga dè a civèɗ nzura’a\n
+            a gumi te ndav\n\n
+            6. Yèsu a woy nga a vava,\n
+            A ɓer nshèffè nga\n\n
+            7. Pombaz na a pèn ndav nga,\n
+            a va nga gumai\n\n
+            8. Kra Zhiklè a n’ngots wuɗai,\n
+            a va nga mwuffè\n\n
+            9. Allèluya, Allèluya, Allèluya !\n
+            </item>
+
+                    <item>
+            1. Skwi nhél sam amen, skwi nhél sam te Yèsu\n
+            Yèsu a baha ka, washkè mandal ga,\n
+            nga te skwi nhél sam.\n\n
+            2. Ko ta liv ka, washkè mandal ga,\n
+            nga te skwi nhél sam.\n\n
+            3. Ko ta tse ka, washkè mandal ga,\n
+            nga te skwi nhél sam.\n\n
+            4. Ko ta pin ka, washkè mandal ga,\n
+            nga te skwi nhél sam.\n\n
+            5. Ko ta kalde ka, washkè mandal ga,\n
+            nga te skwi nhél sam.\n\n
+            6. Ko ta gezlal ka, washkè mandal ga,\n
+            nga te skwi nhél sam.\n\n
+            7. Ko ka ambaha ta ɓai, washkè mandal ga,\n
+            nga te skwi nhél sam.\n
+            </item>
+
+
+                    <item>
+            1. Vo-washkè a sam Bi m’mbel ndo Yèsu\n
+            Vo-washkè a woy kinè tèlèba,\n
+            nenga’a a ɓic kinè, a woy kin suna\n
+            Ri nenga’a mwinè’a.\n\n
+            Mwuffè mbia’a, m’mbel ndo mbia’a\n
+            man nga zhè, nga thè va nenga’a\n
+            A nshèffè nga haha a gèɗ herkeda\n
+            Nga til nshèffè man a ma.\n\n
+            2. Ndohi malai, vo-washkè tèlè\n
+            Skwi m’mbel kinè a zhè a sam na\n
+            Ndav kinè ngwora ara kwa, va-va na\n
+            Va-jèka na a ri na !\n\n
+            3. Mvi a dè auda, nshèffè a n’ndev na\n
+            Angoslèm gar nga zhè, wa a nsun wa ?\n
+            Yèsu a zhè a haha te ndav nga,\n
+            Vo-gso ri nenga’a !\n
+            </item>
+
+
+                    <item>
+            1. Ka Zhiklè, ndha nga a Mèzhèɓ ngaya\n\n
+            2. Sèi giɗfèk da ndha a Mèzhèɓ ngaya\n\n
+            3. Ka Yèsu, ndha nga a Mèzhèɓ ngaya\n\n
+            4. Sèi herkeda da ndha a Mèzhèɓ ngaya\n\n
+            5. Ka Kristi, ndha nga a Mèzhèɓ ngaya\n\n
+            6. Sèi ndav nga da ndha a Mèzhèɓ ngaya\n\n
+            7. Sèi ngurhai da ndha a Mèzhèɓ ngaya\n\n
+            8. Ka Zhiklè, ndha nga a Mèzhèɓ ngaya\n\n
+            9. Sèi ngwozi da ndha a Mèzhèɓ ngaya\n\n
+            10. Ka Yèsu, ndha nga a Mèzhèɓ ngaya\n\n
+            11. Ko dalahai da ndha a Mèzhèɓ ngaya\n\n
+            12. Ko wudahai da ndha a Mèzhèɓ ngaya\n\n
+            13. Nga tèlèba, ndha nga a Mèzhèɓ ngaya\n
+            </item>
+
+
+        <item>
+            1. A patsna ta yu Yèsu Kristi\n
+            Bi mɓua’a te kokwar Bethléhem\n
+            Ma nyi Yèsu Kristi a hüno aranta\n
+            Nenga’a Bi a gèɗ bi tèlè.\n\n
+            2. Bihi man ta tsena aranta\n
+            Ta woya a ta da rka’a\n
+            A ta shkè, ta gurɓahai a sam kra Zhiklè\n
+            Ta tsi ria’a, a ta shida na gèɗ.\n\n
+            3. Na haha ndul ndul ta shkè a sam Yèsu\n
+            Te kokwar ngi bi Hérode,\n
+            Kra Zhiklè man ta yu mɓua sa na tema ?\n
+            Nga shkè a nga da shida na gèɗ.\n\n
+            4. Tèlè te kokwar Jérusalem\n
+            Ta sli dimèsh a ta wuffè,\n
+            Kra Zhiklè da gu bi a gèɗ bi tèlèba\n
+            A da nzi a gèɗ bi Hérode.\n\n
+            5. A ta jhèɗ ma nyi Yèsu a mama :\n
+            Kos ta yu Yèsu tema ?\n
+            Banti staɗ a ngra nga ara Yèsu nya ma\n
+            Nga shkè a nga da tsi ria’a.\n\n
+            6. Ma haha a nshkè a sam bi Hérode\n
+            Tsam-tsam a n’gwodama na ndav\n
+            A nbidè ma t’hwad bihi a maya maya :\n
+            Ta yu Bi mbia’a sa tema ?\n\n
+            7. A ta bèzl ngurhi man ta yu tok tok\n
+            Tèlè te kokwar Bethléhem\n
+            Ko staɗ man a se ta te va ba azɓai\n
+            Rachel amba a mbidè ɓai.\n\n
+            8. A patsna nga wuffè, Alleluya,\n
+            Noël a ngredè nyi Yèsu\n
+            Ndohi tèlè ta sun a patsna a vava,\n
+            Kra Zhiklè a mshkè ara kra-ndo !\n
+            </item>
+
+
+        <item>
+            1. Ma mbela’a man i tsena’a\n
+            A gèɗ nyi Yèsu Krist\n
+            Zhiklè nzlündo a herkeda\n
+            A woy ndo tèlè.\n\n
+            2. A nzlündo ma a hèshèkèɗ\n
+            A sam ndohi mɓer skwai\n
+            Mwuffè te zhiklè te géɗè’a\n
+            Gumai a herkeda !\n\n
+            3. Vo-do, va-war skwi mbia’a\n
+            Te kokwar Bethléhem !\n
+            A gau ara ndo nhadka ma\n
+            A goɗ te va nasa !\n\n
+            4. A ta ngots Yèsu, kra Zhiklè\n
+            Man a ngu ara kra-ndo\n
+            A ta shüd gèɗ a ta wuffè,\n
+            Ta suna, Bi m’mbel ndo.\n\n
+            5. A bihi ba ta slambaɗa\n
+            Te man a verzi gai\n
+            Bantai a nde ta a sam kra\n
+            Bi Juifs, a Bi m’mbel nga.\n\n
+            6. Ta hulko skwihi mbela’a\n
+            Ta cko skwi Bi a rai\n
+            Ta gurɓahai, a ta shüd gèɗ\n
+            Ta suna, Yèsu Bai.\n\n
+            7. Bi Hérode staɗ a mwuffa ɓai\n
+            Ndav na ngedassa\n
+            A zlau, a srak, ndav a ndza na,\n
+            A woy bi nshèffè ɓai\n\n
+            8. A patsna nga gi ngolala\n
+            Nga hér nyi Yèsu Krist\n
+            Nga tèlèba man nga woya’a\n
+            Bab Zhiklè, Bab nshèffè !\n
+            </item>
+
+
+
+                    <item>
+            1. M’metsi a zlèzlèmè a gèɗ herkeda\n
+            A sam golahi Yèsu arsa\n
+            Wuɗi Yèsu staɗ da nzala ndav nga\n
+            A ɓer nga tèlè nte ri ncèkèl-na.\n\n
+            A pats ngiɗè, pats ngiɗè\n
+            Nga da rka ka a dai\n
+            Patsa a zhè a ka sun nga tèlè\n
+            Ka pi di a kramam ngaya a mwuffè\n
+            Yèsu a gi skwi tèlè arsa.\n\n
+            2. Ndav nga a gèɗ skwi mèshèlè t’herkeda\n
+            Tèlè a shkè te ri Bi Zhiklè nga\n
+            Sèi maya maya a gèɗ ncè-a-ndav nga\n
+            Ngo-zhorokoy mwuffè Bi Yèsu Krist.\n\n
+            3. Mali mbia a gèɗ kramam ngaya\n
+            Ko kra nkèshè’a, ko mama’a\n
+            Nga jhèɗ sèi Zhiklè a pènè ndav nga\n
+            Mana ndav zura’a, ga ka tsi rai.\n\n
+            4. Di nga ngawala a gèɗ skwi tsaɗ tsaɗ\n
+            Aman maya a ngècè tsam-tsam azɓai\n
+            Gu zlau Bi Yèsu, hur nshèffè ngaya\n
+            Wuɗi Zhiklè a zhè a sam tèlè !\n
+            </item>
+
+                    <item>
+            1. Zhiklè nga shid gèɗ\n
+            Zhiklè nga shid gèɗ\n
+            A gèɗ ma nyi Yèsu Krist.\n\n
+            2. Yèsu a shkè a m’mets na\n
+            A gèɗ mali ndohi na.\n\n
+            3. Pombaz na a pèn ndav nga,\n
+            A pra nga auda te malai.\n\n
+            4. Zhiklè nzlündo golahi na ;\n
+            Ta co kwa auda ma dzavai.\n\n
+            5. Herkeda tèlè a gudzai ;\n
+            Pats nslèmbèɗè Yèsu auda.\n\n
+            6. Zlau a keɗa sojèhai ;\n
+            Ta sun maya te pa ɓai.\n\n
+            7. Marie Magdala ;\n
+            Marie a ma gi dzavai.\n\n
+            8. A hodko na ma a Pierre ;\n
+            Yèsu a nslambaɗkaɗ na auda.\n\n
+            9. A Pierre a nslambada ;\n
+            A ta da wèr gi dzavai.\n\n
+            10. Pierre a mshkè a ndo a vèvèɗ ;\n
+            Aman a ngatsa Yèsu ɓai.\n\n
+            11. Marie a hinè nkuɗai ;\n
+            A sun Yèsu Bi nshèffè.\n\n
+            12. Golahi Zhiklè a tsagi na ;\n
+            Ta gaɗa : Ngwoz ka kuɗ mè ?\n\n
+            13. Marie a ngaɗa ta :\n
+            I kuɗi Yèsu Bi ga. \n\n
+            14. Golahi Zhiklè ta gaɗa na :\n
+            Da wora a Galilée.\n\n
+            15. Ka woy Yèsu a vava ;\n
+            Yèsu a woy ndo aranta.\n\n
+            16. Te deɓa m’men makar,\n
+            Yèsu nslambaɗkaɗ na auda.\n\n
+            17. Tèlè ta peckoda ma na,\n
+            Skwi man Yèsu a ngra ta.\n\n
+            18. Marie staɗ a nhuro,\n
+            Yèsu a woy a ngreda na va.\n\n
+            19. Yèsu a hèsh Marie,\n
+            Marie a m’meda na ama.\n\n
+            20. Ndav Marie a wuffè kumba\n
+            A woy a ngshè ri Yèsu.\n\n
+            21. Yèsu a gaɗa na : Ka lamayè ɓai,\n
+            I do a sam Bab ga di ɓai.\n\n
+            22. Da ngra ta kramamhi ga,\n
+            I dè a sam Bab ga dai.\n\n
+            23. Marie a mshkè a njè ta,\n
+            Tsaval a gèɗ ma Zhiklè.\n\n
+            24. Yèsu a mshkè a njè ta,\n
+            Tsaval a gèɗ ma Zhiklè.\n\n
+            25. Yèsu a mshkè a sam ta,\n
+            A Mèzhèɓ nkezla’a.\n\n
+            26. Yèsu a wèr di ta,\n
+            A pshè ta ma tèlèba.\n\n
+            27. Nga wuffè tèlè, Allèluya,\n
+            Ngo-zhorokoy Bi Yèsu.\n\n
+            28. Alleluya, Allèluya,\n
+            Alleluya, Amen !\n
+            </item>
+
+        <item>
+            1. Yèsu a m’mets na ma, Yèsu a m’mets na ma\n
+            Yèsu a m’mets na ma, à gèɗ mali nga\n\n
+            Alleluya, Alleluya\n\n
+            Alleluya, Yèsu a mbel nga !\n\n
+            2. Pombaz na m’mbada, a gèɗ mali nga.\n\n
+            3. Ndav na a hér ka, pèc pècèk arsa.\n\n
+            4. Matakwan ngiɗè, a sam na asaɓai.\n\n
+            5. Te skwi tèlèba, Yèsu ngula’a.\n\n
+            6. Yèsu civèɗ ga, Zhiklè a va nga.\n\n
+            7. Yèsu a gi Bai, a gèɗ madzagai.\n\n
+            8. Yèsu a shkè herkeda, aman a mbel nga.\n\n
+            9. Nga da nzi a vna, te kokwar-Bi na.\n\n
+            10. A woy nga a sam na, a va nga mwuffè na.\n\n
+            11. Mwuffè mbia’a a zhè, a sam ndohi na.\n\n
+            12. Ko wawa a nco a ndav, a cè mwuffè Bi sa.\n
+            </item>
+
+        <item>
+            1. Vo-washkè, va-ngwod ndav kinè,\n
+            Vo-washkè, a kin tsena da’ai Bi Yèsu a bèhè\n\n
+            2. Ndo nzi pècèk a woy ta ndohi nte deɓa…\n\n
+            3. Kin ndohi falihai, vo-washkè a sam Yèsu…\n\n
+            4. Vo-washkè kin zlèzlèa ɓèl malai…\n\n
+            5. Yèsu ndo mbel ndohai,\n
+            a woy nga tèlè a sam na…\n\n
+            6. Pombaz kra Zhiklè a pènè ndav nga…\n\n
+            7. Ncèkèl-ma a piyè a wai, a i zlak ga a va za’a…\n\n
+            8. Vo-washkè kin zlèzlè’a t’hwaɗ malai…\n\n
+            9. Madzagi a pe nga a wai,\n
+            a de nga a civèɗ malai\n\n
+            10. Vo-washkè kin ndohi mpara’a…\n\n
+            11. Kin sassaya ndav bai, Bi nga a gada…\n\n
+            12. Bi m’mbel ndo Yèsu Kristi\n
+            a zhè ndul ndul a sam nga\n\n
+            13. Ndul ndul Yèsu a shkè a deɓa,\n
+            a nga wuffè tèlèba\n\n
+            14. Wa mam ga, Zhiklè woy ka…\n\n
+            15. Wa bab ga, Zhiklè woy ka…\n\n
+            16. Pombi Zhiklè a shkè te Yèsu Kristi…\n\n
+            17. Va-sala ndav kinè a sam kilèa Sadan…\n\n
+            18. Wa mam ga, Zhiklè zhèr ka…\n\n
+            19. Wa bab ga, Zhiklè zhèr ka…\n\n
+            20. Kwola ncèkèl-ma a gèɗ ndo ngiɗè…\n\n
+            21. Senda ta civèɗ nshèffè a wudahi ngaya…\n\n
+            22. Ngreda Bi Yèsu auda a sam ndohi herkeda\n\n
+            23. Nju ma Bi Yèsu Krist a sam ndohi nhala’a\n\n
+            24. Mwoy-ndo Zhiklè a zhè a sam nga tèlè a vava\n\n
+            25. Mwuffè nga a grè a ma ma te pombi Bi Yèsu\n\n
+            26. Pombi nga mbia’a, skwi mova’a tèlè a deɓa\n\n
+            27. Ko a matakwan mèmè, Zhiklè a ɓèr ka\n\n
+            28. Man ka woy nshèffè ngaya,\n
+            Washkè co ma Yèsu a ndav,\n\n
+            29. Mwoy-ndo Zhiklè a zhè a sam\n
+            nga tèlè a vava.\n
+            </item>
+
+
+        <item>
+            1. Dalahimam ga, vo-washkè a civèɗ Yèsu Kristi\n
+            Ndohi herkeda ta woy nshkè ɓai\n
+            Wobau, wobau, wobau, wobau.\n\n
+            2. A gèɗ ndohi herkda man ta woy ma Zhiklè ɓai\n
+            A pats ngiɗè kita a zhè\n
+            Nasa woba nga, nasa woba nga.\n\n
+            3. A pats man herkeda a n’ndev na,\n
+            Maya ngiɗè a ngècè asaɓai\n
+            Maya asaɓai a sam Zhiklè,\n
+            Maya asaɓai a sam Yèsu\n
+            Sèi nga da tsi ri a Zhiklè a gèɗ mali nga.\n\n
+            4. Dalahimam ga, nga-bezokoya a civèɗ Yèsu\n
+            Antanta civèɗ mwinè’a\n
+            A pats ngiɗè a da pizl na, a da pizl na.\n
+            </item>
+
+
+                    <item>
+            1. Skwi mwuffè te ndav ga,\n
+            man Zhiklè a bahayè.\n\n
+            2. I jèjèr Yèsu,\n
+            a diyè a sam Zhiklè.\n\n
+            3. A ngwoday ndav ga,\n
+            a Mèzhèɓ nkezla’a.\n\n
+            4. I kwola n’ngwèd rai,\n
+            a mbèh skwi tèlèba.\n\n
+            5. Te ɗèlèwèr nshèffè,\n
+            a windè nzlembaɗ ga.\n\n
+            6. Ngo-dokon tèlèba,\n
+            a civèɗ Yèsu Krist.\n\n
+            7. Arsa nga sun va,\n
+            a mwoy-ndo Yèsu Krist.\n\n
+            8. Antanta i wuffè,\n
+            man mwoy-ndo Zhiklè zhè.\n\n
+            9. Nga grè a ma ma,\n
+            man nga te Yèsu Krist.\n\n
+            10. A pombi Yèsu,\n
+            nga ndikè a sam Zhiklè.\n\n
+            11. Te m’metsi Yèsu,\n
+            mali nga mpra klèng.\n\n
+            12. Nslambaɗkaɗ Yèsu,\n
+            a ngwossaha m’metsai.\n\n
+            13. Yèsu a do zhiklè,\n
+            nga ba nga dè arsa.\n\n
+            14. T’herkeda antanta,\n
+            nga fi va a nshèffè nga.\n\n
+            15. Ndo n’nzi te Yèsu,\n
+            nshèffè na a nzi a mèdèp.\n\n
+            16. Antanta i wuffè,\n
+            man i dè a sam Zhiklè.\n\n
+            17. Man herkeda ndev na,\n
+            iyè a sam Yèsu ma.\n\n
+            18. Nshèffè a dè zhiklè,\n
+            man i ndo Yèsu Krist.\n\n
+            19. A hinè a pats sa,\n
+            njèl Zhiklè a ngredè auda.\n\n
+            20. Nga a nshèffè mɓua’a,\n
+            man a nzi a mèdèp.\n\n
+            </item>
+
+
+        <item>
+                    1. Ntétékè ara skwi ambalai\n
+                    I co a ndav, sèi Yèsu staɗ\n
+                    Skwi herkeda ndul ndul a ndiv na\n
+                    Yèsu a vay mwuffè ga tèlè.\n\n
+                    I shid gèɗ a Yèsu Kristi\n
+                    I slébèrdè Ndo nzi pèc pècèk\n
+                    A woy nga tèlè lèmèlèmè\n
+                    A woy nga arsa a mèdèp\n\n
+                    2. Nenga’a i co a ndav ga tèlè\n
+                    A nco zlau auda a sam ga\n
+                    Ka da gi a mali ngaya kè ?\n
+                    Yèsu, nenga’a ndo mɓeryè.\n\n
+                    3. N’nzi zura’a ara man a gada\n
+                    Yèsu Krist, skwi nhél sam ga,\n
+                    M’metsi zlèzlè’a a civèɗ ga\n
+                    Ma Yèsu movar nshèffè\n
+
+        </item>
+
+        <item>
+            1. Yèsu a n’ngul m’metsi a patsna\n
+            Allèluya Yèsu, Allèluya.\n\n
+            2. A fena wuɗi metsai\n\n
+            3. A nco wof ngézlèl na\n\n
+            4. Nga njèl Yèsu, kra Zhiklè\n\n
+            5. Nga sli dimèsh nenga’a\n\n
+            6. Yèsu civèɗ nshèffè ga\n\n
+            7. A m’mana a vèvèɗ makar\n\n
+            8. Nenga a sun mali ɓai\n\n
+            9. A nco mali nga t’herkeda\n\n
+            10. A nsumka nga a pombaz na\n\n
+            11. Nenga civèɗ ndè a zhiklè\n\n
+            12. Zhiklè a baha na ngwai\n\n
+            13. Zhiklè a zhè te géɗè’a\n\n
+            14. Man a dè a gèɗ herkeda\n\n
+            15. Zhiklè a ndo auda te ndev nga\n\n
+            16. A da kwor skwi ri Bab na\n\n
+            17. Ta slébèrdè nzlembaɗ na\n\n
+            18. Nga shid gèɗ a Bab Zhiklè\n\n
+            19. Nenga’a a nzlündo Yèsu Krist\n\n
+            20. I co ma na a ndav ga\n\n
+            21. A da nzi a sam n’nzi na\n\n
+            22. Te kokwar-Bi na a mèdèp\n\n
+            23. M’metsi a da gi asaɓai\n\n
+            24. Ani i hinè a i gi mè ?\n\n
+            25. Kos ani mpe ka a wi mè ?\n\n
+            26. Co ma na a ndav ngaya !\n\n
+            27. Hur maya nshèffè ngaya !\n\n
+            28. Ka woy njèjèr Yèsu ɗè ?\n\n
+            29. Ka dzodzor ntétékè herkeda ɓai !\n
+            </item>
+
+
+                    <item>
+            Ngodokoy a sam Bab nga !   Allèluya !\n
+            Yèsu Krist, kra nenga’a !   Allèluya !\n
+            Civèɗ a zhè a sam Bab nga !   Allèluya !\n
+            A vava, sèi nenga’a !   Allèluya !\n
+            Yèsu Kristi, nshèffè nga !   Allèluya !\n
+            Zhiklè Bab nga a va nga   Allèluya !\n
+            Yèsu a woy nga tèlèba !   Allèluya !\n
+            Yèsu nga shida ka gèɗ !   Allèluya !\n
+            Zhiklè nga shida ka gèɗ !   Allèluya !\n
+            </item>
+
+
+
+                    <item>
+            1. Yèsu a mshkè, a m’mets na(3)\n
+            A hala’a a wof\n\n
+            2. Ta co a ta rda a vèvèɗ\n
+            Zhiklè a nslambaɗda\n\n
+            3. Yèsu a baha nga a sam na,\n
+            nga dè a sam nshèk va\n\n
+            4. Pombaz na a pèn ndav nga\n
+            a cè mali nga auda\n\n
+            5. Sadan a woy mpiyè wai\n
+            Zhiklè ɓeryè\n\n
+            6. Yèsu staɗ i suna a vava\n
+            a slaha a m’mbel ndohai\n\n
+            7. Nga da nzi a nda nenga’a\n
+            a nshèffè a mèdèp\n\n
+            8. Matakwan ba asaɓai\n
+            nga nza te Yèsu.\n
+            </item>
+
+                    <item>
+            1. Maya maya, vaɗ a shkè ! Noël a patsna !\n
+            Marie a wuffè kumba, man a yi kra na\n
+            Yèsu man a n’ndha a pombai,\n
+            Noël a patsna.\n\n
+            2. Gol Zhiklè a n’ngreda auda…\n
+            Ndohi mɓer skwai ta rzl ta, a ta da rka’a\n
+            Ndo m’mbel ndo a pombi Zhiklè…\n\n
+            3. Ndohi mbia’a ta shkè dra…\n
+            A to do a sam Yèsu, a ta co a ndav\n
+            Nenga’a Zhiklè a yau te pombai…\n
+            4. Ka ba shkè a sam Bi mbel ndo…\n
+            Wina na ndav ngaya tèlè,\n
+            a woy ka patsna\n
+            Co pombi Yèsu, a va ka…\n
+            </item>
+
+
+                    <item>
+            1. Ngo-slubordokoy Yèsu te njèl nenga’a !\n
+            Yèsu Kristi a gi bai a gèɗ bihi tèlèba\n\n
+            2. Zhiklè a nzlündo kra na Yèsu a herkeda\n\n
+            3. Yèsu a m’mets na a gèɗ malihi nga\n\n
+            4. Ta gezlala Yèsu a wof te Golgotha\n\n
+            5. Zhiklè a nslambaɗda a wuɗi nenga’a\n\n
+            6. Yèsu a nza te njèlè bab na antanta\n\n
+            7. Yèsu a zlünda Mèzhèɓ na a hai a herkeda\n\n
+            8. Nenga’a herkeda a slaha a nkeɗa ɓai\n\n
+            9. Ndo man a nco a ndav, a da zi asaɓai\n\n
+            10. A mèdèp, Yèsu a gi Bai a gèɗ bihai\n
+            Halau, Yèsu a gi bai a gèɗ bihi tèlèba !\n
+
+            </item>
+
+                    <item>
+            1. Do, a ka gaɗa ta tèlè\n
+            Ndohi a vara, a ndohi te za ;\n
+            Do, a ka gaɗa ta tèlè :\n
+            Na haha, Yèsu Kristi nya ma !\n\n
+
+            A pats man kin sun ɓai\n
+            Zhiklè a hérè azɓai\n
+            Sèi kin sassaya ndav ɓai\n
+            A slebda kinè ntsi rai.\n\n
+
+            Nyi nenga’a te kuɗom\n
+            Ndohi mɓer skwi ta ngotso\n
+            Bi Zhiklè man a zlündo\n
+            Gabriel, aman ta do.\n\n
+            A gyè a ndo mɓer kokwar\n
+            Da tsun ma Bethléhem\n
+            Da tsu a Bi Yèsu\n
+            Da ngots m’mbel ndo te pa.\n
+            </item>
+
+
+                    <item>
+            1. Yèsu Bi m’mbel ndo klèng, nya ma\n
+            Ngo-slubordokoy Yèsu, kra Zhiklè\n
+            Yèsu Bi m’mbel ndo klèng, nya ma\n
+            Ngo-slokoy dimèsh nga tèlèba !\n\n
+            Mvi gozhèm faɗ ani ma\n
+            man ndo nhadka ma a gaɗa nga\n
+            Mvi gozhèm faɗ ani ma\n
+            man ta zhor nyi nenga’a.\n\n
+            Kra Zhiklè man a voko nga\n
+            A da mbel ta ndohi tèlè\n
+            Kra Zhiklè man a voko nga\n
+            A da hél ndo auda te malai\n\n
+            A woy nga va na ndav nga tèlè\n
+            A gi bi te pa a ri na\n
+            A woy nga va na ndav nga tèlè\n
+            A kwèr tèlèba a gèɗ na.\n\n
+            2. Yèsu Bi m’mbel ndo klèng, nya ma\n
+            Ngo-slubordokoy Yèsu, kra Zhiklè\n
+            Yèsu Bi m’mbel ndo klèng, nya ma\n
+            Ngo-slokoy dimèsh nga tèlèba !\n
+            </item>
+
+
+
+                    <item>
+            1. Washkè, tsena da’ai Zhiklè\n
+            Washkè, tsena da’ai Zhiklè\n
+            Washkè, tsena da’ai Zhiklè\n
+            Zhiklè a woy ndo kumba !\n\n
+            2. Washkè, tsu ri a Zhiklè (3)\n\n
+            3. Zhiklè a mva nga nshèffè (3)\n\n
+            4. Zhiklè a mva nga nshèk va (3)\n\n
+            5. Skwi tèlè te Yèsu Kristi (3)\n
+            Yèsu a woy ndo kumba !\n\n
+            </item>
+
+
+
+                    <item>
+            1. Ndo m’mbel ndo man i co a ndav,\n
+            A zhè te zhiklè.\n
+            A i suna, ko do ngiɗè\n
+            A goɗ ngèɗè ngiɗè\n
+            A i rka skwi man a gia’a\n
+            A i tsena man a gèɗè\n
+            Pèc pècèk man i woya’a\n
+            Ndul ndul a zhè.\n
+            A zhè, a zhè, Yèsu a zhè a nshèffè\n
+            A dè a iyè, a gèɗè a iyè.\n
+            A civèɗ ga pèc pècèk\n
+            A zhè, a zhè, nshèffè Yèsu a zhè\n
+            Man ka gaɗa : i sunko tema ?\n
+            A zhè te ndav ga.\n\n
+            2. Va nenga’a a nslambaɗa\n
+            A mshkè auda te m’metsai\n
+            A ndo na a sam Bab na\n
+            A Mèzhèɓ a mshkèhai\n
+            Ko pats ngiɗè ndav ga a mbeɗè\n
+            Yèsu a takahayè\n
+            A ndikèma skwi tèlèba\n
+            A da shkè deɓa\n\n
+            3. Wuffa, wuffa, gol Yèsu\n
+            Slu dimèsh a wuɗai\n
+            Allèluya, allèluya\n
+            A Yèsu Kristi, Bai !\n
+            Ndo man tèlè ta woya’a\n
+            Ndo man a takaha ta\n
+            A gu ndo nshèlèkura’a\n
+            Te ndav ndohi m’metsa.\n
+            </item>
+
+                    <item>
+            Kin rka nrkedi cè ? Nrkedi mè ?\n
+            Kin rka, kin sun ɓi ɗè ? Nga sun ɓi mè ?\n
+            Kin rka nhél sam ɓi ɗè ? Nhél sam mè ?\n
+            Ta yu Yèsu te Bethléhem Halau ɗè ?\n
+            Yèsu Kristi kra Zhiklè Ma mè ?\n
+            A ta yu te kuɗom Halau ɗè ?\n
+            A ta manda torok Ehèmè ?\n
+            Kra Zhiklè a n’ndu a kra ndo Halau ɗè ?\n
+            A giɗfèk a mwina twèng Ehèmè ?\n
+            A ta wuffè te pa klèk Mwuffè mè ?\n
+            Yèsu kra Zhiklè haha Ma mè ?\n
+            A shkè man a mbel nga A vava ɗè ?\n
+            Yèsu Bi a gèɗ bi tèlè Sussi di mènè !\n
+            </item>
+
+
+                    <item>
+            1. Vo-washkè ndo tèlè, vo-washkè tsam tsam !\n
+            Ta yu Yèsu Kristi te kokwar Bethléhem\n
+            Gar haha Zhiklè woy herkeda\n
+            Aman a mva ta Yèsu, kra nenga’a.\n\n
+            2. Te kuɗom, te torok, Yèsu, kra a zhè\n
+            A ta mandahai a kuza a nzhènènèm\n
+            A mshkè, skwi n’azɓai, ndo ntawassa’a\n
+            Aman sam nhela a mavar nenga’a. \n\n
+            3. Ndohi mɓer skwai ta shkè ta gurɓe a sam kra\n
+            Va-gurɓahai, va-shüd gèɗ ara tenga’a !\n
+            Va-gu langlanga’a, va-slu dimèsh a vata,\n
+            Aman Yèsu a nckoɗi gumai a herkeda !\n
+            </item>
+
+
+                    <item>
+            1. Mèzhèɓ Zhiklè man nkezla’a\n
+            Zhiklè a woy a nva nga\n
+            Yèsu ndo m’mbel nga te géɗè’a\n
+            A war a nzlündokoɗa\n\n
+            Mèzhèɓ Zhiklè nkezla’a\n
+            Ndha ndav ga sref-sreffa’a\n
+            Lamba a ndama nga ndav nga\n
+            Pshè nga ma kurv-kurva’a.\n\n
+            2. Nara halala a gèɗ herkeda\n
+            Ndav ga a ngwor a sam ngaya\n
+            Ntèl iyam a iyam cüf-cüfa’a\n
+            A slra ɓai man a ruɓa’a\n\n
+            3. Anai nga nju ma a sam Yèsu\n
+            Ngo-tsokoy ri a patsna\n
+            Mpèsl ri Zhiklè, a mpshè ma nenga’a\n
+            A patsna nga jhèɗè’a\n\n
+            4. Ruɓ ndav nga tèlè antanta\n
+            Pana a pombaz ngaya\n
+            Kezla nga a Mèzhèɓ ngaya\n
+            Ndha ndav nga tèlè a vna !\n
+            </item>
+
+
+                    <item>
+            1. Gu susai, gu susai, gu susai\n
+            Ndohi Yèsu pèc pècèk ta gi susai :\n
+            Susai a Bab Zhiklè\n\n
+            Civèɗ Yèsu a zhè\n
+            Gu susai, gu susai, gu susai\n
+            Ndohi Yèsu pèc pècèk ta gi susai :\n\n
+            2. Gu susai, gu susai, gu susai…\n
+            Skwi nga ngotso, nga suna\n
+            Nga ngotso sèi te ri na\n\n
+            3. Gu susai, gu susai, gu susai…\n
+            Skwi man Yèsu a mvay ɓai\n
+            Ko amba, n’ngray ɓai.\n\n
+            4. Gu susai, gu susai, gu susai…\n
+            Ko mwuffè, ko wobau\n
+            Nga shid gèɗ a ri cèw\n\n
+            5. Gu susai, gu susai, gu susai…\n
+            Skwi ndzi ba, a n’ngwod na\n
+            Te pombaz nenga’a.\n\n
+            6. Gu susai, gu susai, gu susai…\n
+            Skwi azɓai, a vava\n
+            A da ngela nga gèɗ a vna !\n\n
+            </item>
+
+                    <item>
+            1. Yèsu civèɗ nshèffè ga (3)\n
+            Takahayè Yèsu, i sun skwa bi fèt\n
+            Takahayè, Yèsu !\n\n
+            2. Yèsu wuɗi na zhè (3)\n\n
+            3. Pats man mwuffè ga zhè (3)\n\n
+            4. Pats man i te matakwan (3)\n\n
+            5. Pats man i mets ga ba (3)\n\n
+            6. Yèsu a m’mets na a mbel nga (3)\n\n
+            7. Yèsu a nco kita ga (3)\n\n
+            8. A ri ga i slaha ɓai (3)\n\n
+            9. Vay wuɗi te Mèzhèɓ ngaya (3)\n\n
+            10. Beryè a sam nshèffè ga (3)\n\n
+            11. Beryè a sam ncèkèl-ma (3)\n\n
+            12. Yèsu ka jèkyè a pa ɓai ! (3)\n
+            </item>
+
+
+                    <item>
+            1. Yèsu, kra Bi Zhiklè… Staɗgenè\n\n
+            2. Yèsu a n’nga a kra ndo… A mèdèp\n\n
+            3. Yèsu a ntsu gumai… A mèdèp\n\n
+            4. Yèsu a mpray malai… A mèdèp\n\n
+            5. Yèsu a mvay mwuffè… A mèdèp\n\n
+            6. Yèsu a waryè… A mèdèp\n\n
+            7. Ngo-do, nga njèl Yèsu A mèdèp\n\n
+            </item>
+
+
+                    <item>
+            1. A pats man Bi Yèsu\n
+            a mshkèhai a herkeda\n
+            A n’ngatsa gi ko staɗ ɓai\n
+            Te kokwar nyi nenga’a.\n\n
+            Te ndev skwi kuɗomhai\n
+            Sam m’mènè kra Zhiklè\n
+            Yèsu Bai a gèɗ bi tèlè\n
+            Aranta man a shkè.\n
+            2. Te kokwar Bethléhem sa,\n
+            Bi César a mɓic ndo\n
+            Ko Joseph a Marie,\n
+            mam Yèsu, to do.\n\n
+            3. Gi mbrokihi tèlè,\n
+            ta ndha tsam tsam a ndo\n
+            Ko staɗ a ntil ɓai,\n
+            man a va na Yèsu\n\n
+            4. Marie a nda Joseph,\n
+            to do, ta rka kuɗom\n
+            Gar haha gi skwi ndzhamhai\n
+            Ngu a gi Bi m’mbel ndo.\n\n
+            5. Bantai mbia’a a gèɗ gai\n
+            Bantai te Bethléhem\n
+            A n’ngra ta ndohi tèlè\n
+            Sam Yèsu, kra Zhiklè.\n
+            </item>
+
+
+
+                    <item>
+            1. Nga da ga na mbali a Bi nga\n
+            Bethléhem kokwar nyi na\n
+            Nga da slia te dimèsh nga\n
+            Ngo-slubordokoya !\n\n
+            Ndohi tèlè, va gurɓahai\n
+            Yèsu Bai a gèɗ bihai\n
+            Ndul ndul ma njèl nenga’a\n
+            A kwèr ndo tèlè t’herkeda.\n\n
+            2. Nga da ga na mbali a Bi nga\n
+            Ndo m’mbel ndo, ndo Zhiklè a nzlündo\n
+            A mco kita mali nga\n
+            A m’mbel nga a wuɗi na.\n\n
+            3. Nga da ga na mbali a Bi nga\n
+            Ndo mɓer ndohi nlèɓèslè’a\n
+            A mshkè, a mpre ta auda\n
+            Te skwi ndzaw ta tèlèba.\n
+            </item>
+
+                    <item>
+            Zhiklè a woy ndo nhadka ma, nhadka ma\n
+            Zhiklè a woy ndo nhadka ma, nhadka ma\n
+            A n’ngots Jonas, a mbaha na…\n
+            A nzlinda a kokwar Ninivè…\n
+            Jonas a woy man a ndè ɓai…\n
+            A wuc mwucè a wurom…\n
+            Kozlar mbia’a a slèmbèɗè…\n
+            A nkalda Jonas a va iyam…\n
+            Klèf mbia’a a nshkè a sam na…\n
+            A ngso Jonas, a ngreɗda hwaɗ…\n
+            A Jonas a nhur mali na…\n
+            T’ruva, t’hwaɗ klèf man a nju ma…\n
+            A klèf a mdo a ma woyam…\n
+            A mvinèhda Jonas auda…\n
+            Tsam-tsam Jonas a nslambaɗa…\n
+            A mdo a kokwar Ninivè…\n
+            Ndo nfa na gèɗ ɓai a ngècè arsa…\n
+            </item>
+
+
+                    <item>
+            1. Nga ɓica va a haha, nga hér Yèsu\n
+            A table nenga’a nga gi communion\n
+            Skwi man a gaɗa nga, nga gi arsa\n
+            Ha pats man a humda nga a sam na\n\n
+            2. Movar nga tsaka’a, ka, ka va nga\n
+            Iyam nyi wof nga sia, kokwi ngaya\n
+            Movar nga ndia haha, zluèɗ va ngaya\n
+            A nga hér ma nshèffè te pombaz ngaya\n\n
+            3. Yèsu movar nshèffè, ndo rèdèdè’a\n
+            Man mi a keɗ ta, a ta ngotso\n
+            Ndohi ta woy nshèffè, sèi ka va ta\n
+            Mèzhèɓ a pombi ngaya a ndav tenga’a\n\n
+            4. Yèsu tsaka nga skwai a ri ngaya\n
+            Ruɓ ndav nga zura’a a Mèzhèɓ ngaya\n
+            Gudko nga antanta, wuzhè ndav nga\n
+            Gaɗa nga ma ngaya te ɗèlèwèr ngaya\n\n
+            5. Ka pshè ta ma golahi ngaya hala’a\n
+            Ta gu a malwuɗai te ma mwoy-ndo ngaya\n
+            A woya ma nshèffè, nga co a ndav,\n
+            Da yu wuda man a ndiv ɓai t’herkeda !\n
+            </item>
+
+
+                    <item>
+            1. Wa ndohi Yèsu Kristi, ngo-gokoy malwuɗai\n
+            A ndohi herkeda tèlèba a ta rka\n
+            skwi nhél sam nga.\n\n
+            2. Ko a vara ko te hèshèkèɗ ngo-gokoy malwuɗai.\n
+            3. Madzagi a pe nga a wi ambalai,\n
+            ngo-gokoy var amba\n\n
+            4. Ndul ndul Yèsu a di a shkè, a nga wuffè tèlèba\n\n
+            5. A da mbél ndohi malwuɗai nenga’a te herkeda\n\n
+            6. Nga ba nga njokoy ma Yèsu pèc pècèk t’herkda\n\n
+            7. Yèsu a bèhè ndohai a ta co ma na a ndav ɓai\n\n
+            8. Man nga njè ta ma haha ɓai, ta zlak ta tèlèba\n\n
+            9. Yèsu a sumka nga deɓa, tèlè a pombaz na\n\n
+            10. Yèsu a woy ndohi tèlè ta ndikè a sam nshèk-va\n\n
+            11. Yèsu a slaha mvi nshèffè man a nzi a mèdèp\n\n
+            12. A sam nshèffè nga wèl-va nga wuffè pèc pècèk\n\n
+            13. Ngo-slubordokoy Zhiklè te Bi Yèsu Kristi.\n
+            Wa ndohi herkeda tèlèba, vo-washkè a nda nga\n\n
+            14. Nga-monokoy ndav tèlèba a sam bi herkeda\n\n
+            15. Ngo-pokoy di nga tèlèba a verzi Bi Yèsu.\n\n
+            16. Ngo-hurokoy Yèsu te ndav,\n
+            ko a sam matakwan\n
+            </item>
+
+
+
+                    <item>
+            1. Zhiklè a woy nga, a vava a woy nga\n
+            Zhiklè woy nga\n\n
+            2. Zhiklè a nzlündoko nga kra na,\n
+            A vava a woy nga, Zhiklè nzlündo kra na\n\n
+            3. A shkè herkeda, a vava a woy nga\n
+            A shkè herkeda\n\n
+            4. A m’mets na a gèɗ nga, a vava a woy nga\n
+            A m’mets na a gèɗ nga\n\n
+            5. Yèsu a nza nga deɓa, a vava a woy nga\n
+            Yèsu a nza nga deɓa.\n\n
+            6. Anai kala zhiklè, a vava a woy nga\n
+            Anai kala zhiklè\n\n
+            7. A til sam n’nzi nga, a vava a woy nga\n
+            A til sam n’nzi nga.\n\n
+            8. A di a shkè deɓa, a vava a woy nga\n
+            A di a shkè deɓa.\n\n
+            9. A da hil nga a sam na, a vava a woy nga\n
+            Nga da nzi a sam na\n\n
+            10. Nga da nzi a sam na, a vava a woy nga\n
+            Nga da nzi a sam na.\n\n
+            11. Herkeda a di a ndev na, a vava a woy nga\n
+            Herkeda a di a ndev na.\n\n
+            12. Nga slébèrdè Yèsu, a vava a woy nga\n
+            Nga slébèrdè Yèsu.\n\n
+            13. Ko pats nangwa nangwa (2)\n
+            Yèsu a woy nga\n\n
+            14. A gi a Zhiklè nga, a vava a woy nga\n
+            A gi a Zhiklè nga.\n\n
+            15. Sussi a Zhiklè, a vava a woy nga\n
+            Nga gi susi kumba.\n\n
+            16. Nga ngredè Allèluya, a vava a woy nga\n
+            Sèi man nga co a ndav.\n\n
+            </item>
+
+
+                    <item>
+            1. Ko wawa a nshèffè mɓua’a\n
+            Bab nga a Zhiklè (2)\n\n
+            2. Bab nga Zhiklè a zhè a ma nga\n
+            Yèsu Kristi (2)\n\n
+            3. Ndohi herkeda ngo-dokona\n
+            a sam Yèsu (2)\n\n
+            4. Wa mandal ga washkè dai\n
+            Yèsu a zhèr ka (2)\n\n
+            5. Yèsu Kristi a baha ka\n
+            A nshèffè mɓua’a (2)\n\n
+            6. Nshèffè mbia’a man a ndev ɓai\n
+            a sam Yèsu (2)\n\n
+            7. Mandazlihai vo-washkè,\n
+            Yèsu a zhèr nga (2)\n\n
+            8. Ndohi gedam vo-washkè,\n
+            Yèsu a zhèr nga (2)\n\n
+            9. Vo-co a ndav kinè, kin gi mè ?\n
+            Yèsu a zhèr nga (2)\n\n
+            10. Nshèffè mbia’a a zhè\n
+            te Yèsu Kristi (2)\n\n
+            11. Herkeda haha a ndiv na,\n
+            Yèsu a zhèr nga (2)\n\n
+            12. Kokwar-Bi na a ndiv azɓai,\n
+            Alleluya (2)\n\n
+            13. Allèluya, Allèluya, Allèluya\n
+            Allèluya (2)\n\n
+            14. Ko wawa a nshèffè mɓua’a\n
+            man a ndiv azɓai (2)\n\n
+            15. Nshèffè te herkeda a da ndiv na\n
+            ara votsok (2)\n\n
+            16. Nshèffè Zhiklè a ndiv azɓai\n
+            Allèluya (2)\n\n
+            17. Ko ahngwa ahngwa Yèsu a zhè,\n
+            a zhèr nga (2)\n\n
+            18. Te nhinkaɗ na Zhiklè a zhè,\n
+            Zhiklè a n’ngu ndo (2)\n\n
+            19. Zhiklè man nenga’a a n’ngau\n
+            skwi tèlèba (2)\n\n
+            20. Nslaha a mva nga nshèffè mɓua’a wa ?\n
+            Sèi Zhiklè (2)\n\n
+            21. Ndo mèshèlè a ndo ntawassa’a,\n
+            va-shkè dai (2)\n\n
+            22. Kokwar-Bi na a ndiv azɓai,\n
+            Allèluya (2)\n\n
+            23. Allèluya ! Allèluya, Allèluya\n
+            Allèluya, Amen (2)\n\n
+            </item>
+
+                    <item>
+            1. Ndo man a woy Yèsu, ngo-dokona Bethléhem !\n\n
+            2. A gol Bi Zhiklè a ngaɗa na Philippe na.\n\n
+            3. Slambaɗa, do antanta a kokwar Bethléhem\n\n
+            4. Nga woy man a nga ndikè a kokwar Bethléhem\n\n
+            5. Nga woy man a ta bizhè a civèɗ nlüha sa\n\n
+            6. Civèɗ nlüha’a sa a de ta a sam Yèsu\n\n
+            7. Civèɗ nlototo’a sa a de ta a ndev vogwa.\n\n
+            8. Aman ani ma kè ? Ngo-tsokoy ri a Yèsu\n\n
+            9. Kos nga da ndikè ma ? Nga da ndikè kokwar na\n\n
+            10. Kos nga da ndikè a ma ? A kokwar-Bi nenga’a\n\n
+            11. Nga da pi a va mè ? Ngo-pokoy skwi va nga.\n\n
+            12. A ngo-dokoy nga a pa, golahi Yèsu Kristi.\n
+            </item>
+
+
+                    <item>
+            1. Zhiklè a ntsu kokwar Egypte\n
+            a matakwanhi kula\n\n
+            2. Zhiklè a n’ngwoda gada a zhüzhok\n
+            a sam di ndohi Pharaon\n\n
+            Man Pharaon a rka zhüzhok\n
+            a mbaha na Moïse a sam na ;\n
+            Gaɗa na Zhiklè ndala’a klèng\n
+            I minè géɗè’a ar iyè asaɓai\n
+            Te deɓa’a a nsassaya ndav na\n
+            a woy a mva ta civèɗ asaɓai\n\n
+            3. Zhiklè a n’ngwod iyam a pombaz\n
+            tèlè te kokwar Egypte.\n\n
+            4. A Zhiklè a nzlündo kudofihi tèlè\n
+            a kokwar Egypte\n\n
+            5. A Zhiklè a nzlündo ndzandzalhi tèlè\n
+            a kokwar Egypte\n\n
+            6. Zhiklè a mbazla skwi kuɗomhai tèlè\n
+            te kokwar Egypte\n\n
+            7. A Zhiklè a nzlündo mblè kumba\n
+            a kokwar Egypte\n\n
+            8. A Zhiklè a nzlündo dzarai kumba\n
+            a kokwar Egypte\n\n
+            9. A Zhiklè a nzlündo zlrahi kumba\n
+            a kokwar Egypte\n\n
+            10. A Zhiklè a nzlündo ruva kumba\n
+            a kokwar Egypte\n\n
+            11. A Zhiklè a nzlündo vandzal kumba\n
+            a kokwar Egypte\n\n
+            12. Dalahimam ga, a kramamhai,\n
+            Ngo-hurokoy ma a gèɗ nshèffè nga !\n
+            </item>
+
+
+
+                    <item>
+            1. Herkeda haha, herkeda a da gedas na\n
+            Halau herkeda haha a da gedas na\n
+            Herkeda, herkeda, herkeda a da gedas na\n\n
+            2. Va-jèkeda skwi ambaɓia’a, Yèsu a mvau gèɗ na\n
+            Halau Yèsu a mvau gèɗ na a géɗ mali nga\n
+            Herkeda, herkeda, herkeda a da gedas na\n\n
+            3. Man nga zhor Yèsu a da shkè deɓa a herkeda\n
+            Halau, man Yèsu a da shkè deɓa a herkeda\n
+            Herkeda, herkeda, herkeda a da gedas na\n\n
+            4. Va-bakaɗda géɗ a kin pu di a wof ngézlèl na\n
+            Halau man i da pu dai, kuɗ ga a shkè na auda\n
+            Herkeda, herkeda, herkeda a da gedas na\n\n
+            5. Ndohi herkeda nga-ngredokoy wuɗi nenga auda\n
+            Halau nga-ngredokoy wuɗi nenga auda\n
+            Herkeda, herkeda, herkeda a da gedas na\n\n
+            6. Ndohi herkeda ta pec ta a herkeda sa’a\n
+            Halau ta hur pats njikedi Noé ɓai\n
+            Herkeda, herkeda, herkeda a da gedas na\n\n
+            7. Yèsu kal na, njèka nga Mèzhèɓ nenga’a\n
+            Halau Yèsu a njèka nga Mèzhèɓ nenga’a\n
+            Herkeda, herkeda, herkeda a da gedas na\n\n
+            8. Man ka tsi rai, golahi Zhiklè ta da wuffè\n
+            Halau man ka tsi rai, golahi Zhiklè ta wuffè\n
+            Herkeda, herkeda, herkeda a da gedas na\n\n
+            9. Yèsu a da shkè deɓa a herkeda haha za’a\n
+            Halau Yèsu a da shkè deɓa a herkeda za’a,\n
+            Herkeda, herkeda, herkeda a da gedas na\n\n
+            10. Nga gèɗè Allèluya, allèluya, allèluya amen\n
+            Halau nga gèɗè allèluya amen,\n
+            Herkeda, herkeda, herkeda a da gedas na\n
+            </item>
+
+
+                    <item>
+
+            1. Wa Zhiklè Ndo nzi pècèk nge skwi tèlè haha\n
+            Ka Bi a gèɗ bihi tèlèba\n
+            I gi malwuɗai a gèɗ man ka mbelyè ma\n
+            Ka Bab giɗfèk a gèɗ herkeda tèlèba.\n\n
+            2. Yowa Zhiklè !\n
+            Yowa Zhiklè ka gu maya a kra ngaya Yèsu\n
+            Nenga’a a nckayè auda t’hwaɗ malai\n
+            I hér mwoy-ndo ngaya pèc pècèk\n
+            Te nshèffè ga, te matakwan, te nlèy ga tèlèba\n\n
+            3. Zhiklè ga !\n
+            Zhiklè ga wara ka gu maya za’a\n
+            A gèɗ ndohi mizlinè ngaya\n
+            A ta shka na va a ta wosla va\n
+            A ta mbi a mizlinèhi tèlèba\n\n
+            4. Kramam ga !\n
+            Kramam ga i rka ka dè te ruva\n
+            Ngwodko ma, do a civèɗ m’mbela anai.\n\n
+            5. Demam ga !\n
+            Demam ga ka ba ka do te ruva\n
+            Ngwodko ma, do a civèɗ m’mbela anai.\n
+            Yèsu a su matakwan ba a gèɗ mali ngaya\n
+            Wora ka huro a ka mena deɓa asaɓai.\n\n
+            6. Ndul ndul ma !\n
+            Ndul ndul kin da rka nga a di asaɓai\n
+            Yèsu a hil ndohi na a ngolala\n
+            Ta da gi mè ? Nga da slébèrdè’a a dimèsh\n
+            A nshid gèɗ a mwuffè pèc pècèk\n
+            Arsa, arsa a mèdèp.\n
+            </item>
+
+
+
+                    <item>
+            1. Yèsu a woy ndo, Yèsu a woy ndo\n\n
+            Yèsu a woy ndo, m’mets na a gèɗ nga\n
+            M’mets na a gèɗ nga,\n
+            M’mets na a gèɗ nga te Golgotha,\n
+            Yèsu a woy ndo, m’mets na a gèɗ nga.\n\n
+            2. A ga i jèjèrè’a…\n\n
+            3. Yèsu a ngrayè…\n\n
+            4. Nga tèlè Ngo-dokoya !\n\n
+            5. Nshèffè a zhè a sam na.\n\n
+            6. Te zhiklè a zhèr nga…\n\n
+            7. Washkè, ngo-dokona !\n\n
+            8. Sèi ka cè a ndav !\n\n
+            9. Yèsu a ce ka ma.\n\n
+            10. A jèk ka azɓai.\n\n
+            11. Kita Zhiklè a zhèr ka.\n\n
+            12. Yèsu a mbel nga.\n\n
+            13. Zhiklè a nzlatseda.\n\n
+            14. Skwi ngiɗè a fena azɓai.\n\n
+            15. Mandal ga, shkè dai.\n\n
+            16. Yèsu a woy ka ba.\n\n
+            17. Ani sèi co a ndav !\n\n
+            18. Allèlu-allèluya !\n
+            </item>
+
+
+                    <item>
+            1. I gu zlau a géɗ Adam a Eve\n
+            Zhüzhok a mpe ta wai te gi lak te Eden\n\n
+            I ngots, i ngots, i ngotso te\n
+            ɗèlèwèr Jean\n
+            Yèsu a ngaɗa nga, kin gau zlau ɓi fèt.\n
+            Vo co Zhiklè a ndav,\n
+            a kin cyè a ndav ba\n
+            Gihi kumba ta zhè a sam Bab Zhiklè.\n
+            Man az arsa ɓai, ar i gaɗa kinè,\n
+            Ani i dè ga ma,\n
+            i da til sam n’nzi kinè hai\n
+            A di i shkè deɓa a i da hil kinè,\n
+            A sam man iyè a pa, kinè ba a pa.\n\n
+            2. I gu zlau a géɗ iyam mbia’a pats Noé,\n
+            Aman ndohi kumba te deɓa ta zlèzlèmè.\n\n
+            3. I gu zlau a géɗ Sodome a Gomorrhe,\n
+            A gèɗ mèdègèɗ ngwoz Lot a nde na a boma.\n\n
+            4. I gu zlau a géɗ zhüzhokihi pats Moïse,\n
+            A géɗ mèdègèɗ ndohi kumba ta ze ta.\n
+            </item>
+
+
+                    <item>
+            1. Va-war Yèsu kra Zhiklè,\n
+            a m’mets na a géɗ mali ga.\n
+            Ndohi Yèsu ta woy Bi ta,\n
+            a ta tsi ri a patsna.\n\n
+            Allèluya, allèluya\n
+            Nga woy Mèzhèɓ te ri nenga’a\n\n
+            2. Ndohi tèlèba ta ngècè’a\n
+            Man ta ngots a mbel ta ma\n
+            Ndohi tèlè ta sun Yèsu,\n
+            Ta woy man a ta cè ɓai.\n\n
+            3. Yèsu a mshkè man a takaha ndo,\n
+            A woy man a mva ta civèɗ.\n
+            Yèsu a zhè a til sam m’nzi nga,\n
+            A woy nhèl nga a sam na.\n\n
+            4. Nenga’a a ri na a mshkè deɓa,\n
+            A da shkè a pats staɗ genè.\n
+            Va-tila sam gi te ndav,\n
+            A ngo-dokona a sam na.\n
+            </item>
+
+
+
+                    <item>
+            1. Vo-washkè, va-tsena ma Zhiklè,\n
+            Ma m’mbel nga tèlèba, ma Zhiklè nkezla’a\n\n
+            Vo-washkè, vo-dzodzora.\n\n
+            2. Ma Zhiklè, ma nzura’a, a ngwèdè azɓai a mèdèp\n
+            Ma Zhiklè, Bi mbel nga, ara skwi nga ndia’a.\n\n
+            3. Ko wawa nco ma azɓai, pèc pècèk a mèdèp\n
+            Pombaz Yèsu skwi nsi nga man amba a vata.\n\n
+            4. Man ndo nsau, iyam a ndza na azɓai a mèdèp\n
+            Iyam haha, vayè Yèsu Kristi a iyam a dzayè asaɓai\n\n
+            5. Yèsu Kristi kra tambak Zhiklè,\n
+            Pombaz nenga’a a mbel ndo.\n
+            Pombaz ngaya man ka bada a mpan nga te malai\n\n
+            6. Va-nju ma a sam Yèsu Kristi,\n
+            Nenga’a ndo mbel ndo.\n
+            I ndo njèjèr Yèsu Kristi pats nshèffè ga tèlèba.\n\n
+            7. Ngo-slubordokoy Bab Zhiklè a ngau skwi tèlèba\n
+            Allèluya, allèluya, allèluya amen !\n
+            </item>
+
+
+
+                    <item>
+            1. Zhiklè a woy mandazlihai\n
+            A nda va ta kokwar-Bi na (2)\n\n
+            2. A woy ndohi ntawassa’a (2)\n\n
+            3. Yèsu a woy ndo-vedal (2)\n\n
+            4. Yèsu a woy ndo hutsoɗ (2)\n\n
+            5. Yèsu a woy ngwozi dikai (2)\n\n
+            6. Wa ndohi matakwanhi\n
+            Ngo-tsokoy ri a Zhiklè (2)\n\n
+            7. Yèsu a shkè ndul ndul ma\n
+            Ngo-cokoyè a ndav nga tèlè (2)\n\n
+            8. Va-jèkeda ngi shèwa a ndo (2)\n\n
+            9. Ngo-gokoy shèwa a shètènè (2)\n\n
+            10. Wa ngwozihi nyi wuda\n
+            Zhiklè da takaha kinè (2)\n\n
+            11. Yèsu Kristi kra Zhiklè\n
+            A winè di mandazlihai (2)\n\n
+            12. Woba ndohi ngèɗ vrai\n
+            Vogwa a zhèr ta ma (2)\n\n
+            13. Va-ngwod ndav kinè antanta\n
+            Allèluya Bi Yèsu (2)\n
+            </item>
+
+                    <item>
+            1. Wa Bi Zhiklè, i gi kè a i mbel ga ? (3)\n
+            Bi Zhiklè a rka, nga za a mèdèp\n
+            A nzlündoko nga Yèsu, kra nenga’a\n
+            A woy ndohi tèlè ta mbel ta.\n\n
+            2. A pats man herkeda a da ndiv na (3)\n
+            Herkeda tèlè a gudzai,\n
+            Gi dzavai tèlè ta win ta.\n\n
+            3. Ndohi mbazl ta a Yèsu te ndav\n
+            Ta slambaɗkaɗa nshèlèkura’a\n\n
+            4. Nga njèkèɗia man nga zhè a nshèffè (3)\n
+            Nga dè a nga da zli gèɗ a nda Bi mbel nga.\n\n
+            5. Bi madzagai a gaɗkata :\n
+            Do a ka woyko zom ngaya dai !\n\n
+            6. Do goko mphömè ngaya di ba ! (3)\n\n
+            7. Woykon ngwoz a va a ngi cèw ! (3)\n\n
+            8. Matakwan ngaya ha wuɗitepa (3)\n\n
+            9. Dara ka mboh skwi a ndal na (3)\n\n
+            10. Man ka jèjèr ma nkwer na (3)\n
+            Te deɓa za’a a ngwossaha ka.\n
+            </item>
+
+
+
+                    <item>
+            1. Ndo nwush tser skwai a mdo a tser skwi na\n
+            A nhur te gèɗ, a yi wuda amba\n
+            A ngu aman a wusheda pa a herkeda\n
+            Tser na kètè nkala a zolom civèɗ\n
+            Tser ngiɗè ba nkala a ndev vatakihai,\n
+            A verzi pra, herkeda a vata azɓai.\n\n
+            2. A nzlinde ndo, aman a dè a pizhè’a\n
+            Nshèlèkura’a, ɗiakihai ta ndedama\n
+            Macecèwa’a, nftsa tsam-tsam, ntsa zlozlor ɓai\n
+            A pats a dzai, a halala a ngwora’a\n
+            Ngiɗè a zhè, a grè te ndev vatakihai\n
+            Vatakihai ta grè a ta pizlèda pa.\n\n
+            3. Ngiɗè faɗkata, nkala a pa a sam mbela’a\n
+            Nshkè na auda, a grè yi wuda\n
+            Ngiɗè a yi – a gi kulkul makar ba\n
+            Ngiɗè a yi – kulkul mokwa a zhè\n
+            Ngiɗè a yi – skwi a gi tèmèrrè staɗ ba\n
+            Te verzi staɗ, a sam man mbela’a\n\n
+            4. Tsaval haha a senda nga ma Zhiklè\n
+            Nenga’a tser skwai herkeda ba ndav ngaya\n
+            Ma Zhiklè man ta wusheda a ndav nga\n
+            Madzagi a woy a gedassedaussa.\n
+            Ndo man a ngots ma Zhiklè a sam mbela’a\n
+            A tsena ma’a nco a yi wuda.\n
+            </item>
+
+
+
+                    <item>
+            Réf. Yèsu Kristi, Bethléhem\n
+            Kokwar-Bi ga\n\n
+            1. A ga i wuffè man kla (2)\n\n
+            2. Yèsu Kristi (2)\n\n
+            3. Kra Zhiklè a mbelyè (2)\n\n
+            4. Ta yu te kuɗom (2)\n\n
+            5. A ta manda a torok (2)\n\n
+            6. Te Bethléhem (2)\n\n
+            7. Yèsu Kristi (2)\n\n
+            8. A shkè ara ndo ntawassa’a (2)\n\n
+            9. A ga i wuffè man kla (2)\n\n
+            10. A nda woy ma be mè ? (2)\n\n
+            11. I gaɗa i te ɓelè (2)\n\n
+            12. I gaɗa i te dangai (2)\n\n
+            13. Nsumkayè a deɓa wa ? (2)\n\n
+            14. Yèsu Kristi (2)\n\n
+            15. Nvu nshèffè na (2)\n\n
+            16. Te di man a nga (2)\n\n
+            17. Yèsu Kristi (2)\n\n
+            18. Ndo mbel ndo (2)\n\n
+            19. A shkè ara ndo ntawassa’a (2)\n\n
+            20. I gèɗè ndohi tèlèba ma (2)\n\n
+            21. Kin co a ndav cè ? (2)\n\n
+            22. Man kin co ma ba (2)\n\n
+            23. Ngo-wufokoy man kla (2)\n
+            </item>
+
+
+
+
+                    <item>
+            1. Zhiklè a ngau giɗfèk, a ngau géɗ herkeda\n
+            A skwi tèlè te pa, te deɓa’a a ngu ndo Allèluya\n\n
+            2. Zhiklè a ngau gi dau a géɗ skwi n’ndi nga\n
+            a mva nga sam n’nzi ba man nga nzi a pa\n\n
+            3. A ngu gi lak Eden a mfeda ndo man a gu a pa\n
+            Man ambaha skwi na, man a nzi a nshèffè.\n\n
+            4. Te deɓa kèshkata a Eve a n’ndau nyi wof\n
+            Zhiklè a ndzar ta auda man a ta da pizhè\n\n
+            5. Zhiklè a ngaɗa na zhüzhok : Ka gu skwi ar haha\n
+            i para sak ngaya, a ka ndi mberfenèk herkeda\n\n
+            6. A ngaɗa na ngwoz ba : Ka tsena ngèɗè zhüzhok\n
+            a ka gu ara ngèɗè na, sèi ka yi kra wuɗai.\n\n
+            7. Va-hur ma Jean-Baptiste te hèshèkèɗ Judée\n
+            man a njè ta ndohai, a n’ndau dzari a vongwom\n\n
+            8. Esaïe a Jérémie, ta a nda Daniel\n
+            ta ndohi nhadka ma : Kos nga gi ar nga kè ?\n\n
+            9. Sussi a kra Zhiklè, nga gi sussi a vata\n
+            man ka shkè a herkeda, a ka mbel ndohai\n\n
+            10. Allèluya, Allèluya, ….\n
+            </item>
+
+
+
+
+                    <item>
+            1. Iyè a sam nangwa pats man Yèsu a shkè deɓa ?\n
+            A tolom Bi Zhiklè a hinè a tsi ma ?\n
+            Aman ndohi Kristi ta slambaɗkaɗauda ma ?\n
+            Iyè a sam nangwa, kramam ga ?\n\n
+            2. Ka a sam nangwa, pats man Yèsu a shkè deɓa ?\n
+            A tolom Bi Zhiklè a hinè a tsi ma ?\n
+            Aman ndohi Kristi ta slambaɗkaɗauda ma ?\n
+            Ka a sam nangwa, kramam ga ?\n\n
+            3. Na a sam nangwa, pats man Yèsu a shkè deɓa ?\n
+            A tolom Bi Zhiklè a hinè a tsi ma ?\n
+            Aman ndohi Kristi ta slambaɗkaɗauda ma ?\n
+            Na a sam nangwa, pats man Yèsu a shkè deɓa ?\n\n
+            4. Nga a sam nangwa, pats man Yèsu a shkè deɓa ?\n
+            A tolom Bi Zhiklè a hinè a tsi ma ?\n
+            Aman ndohi Kristi ta slambaɗkaɗauda ma ?\n
+            Nga a sam nangwa, pats ma Yèsu a shkè deɓa ?\n\n
+            5. Kin a sam nangwa, pats man Yèsu a shkè deɓa ?\n
+            A tolom Bi Zhiklè a hinè a tsi ma ?\n
+            Aman ndohi Kristi ta slambaɗkaɗauda ma ?\n
+            Kin a sam nangwa, pats man Yèsu a shkè deɓa ?\n\n
+            6. Ta a sam nangwa, pats man Yèsu a shkè deɓa ?\n
+            A tolom Bi Zhiklè a hinè a tsi ma ?\n
+            Aman ndohi Kristi ta slambaɗkaɗauda ma ?\n
+            Ta a sam nangwa, pats man Yèsu a shkè deɓa ?\n
+            </item>
+
+
+
+
+                    <item>
+            1. Bi Zhiklè a rka kinè te matakwan\n
+            Va-tsu rai, a da tsena’a\n\n
+            2. Bi Zhiklè a rka kinè te nlèyè\n\n
+            3. Bi Zhiklè a sun man kin pi géɗ cèw\n
+            Va-tsu rai, kin shinè’a\n\n
+            4. Bi Zhiklè a rka var kinè a madzagai\n
+            Va-tsu rai, a takaha kinè\n\n
+            5. Bi Zhiklè a suno man kin wuffè\n
+            Va-slubordo a da pshè kin ma.\n\n
+            6. Bi Zhiklè a rka kinè dalahimam ga\n\n
+            7. Bi Zhiklè a rka kinè kramamhi ga\n\n
+            8. A kin golahi ba va-gu maya maya\n
+            Bi Zhiklè a da pshè kin ma\n\n
+            9. Bidalihai ba va-ɓür va kinè\n\n
+            10. Wa wudahi, va-slubordo Bi sa\n
+            Nenga’a a nda pshè kin ma\n\n
+            11. Wa ndowi ngwozi, va-slubordo Bi sa\n\n
+            12. Gombambihi ba va-slubordo Bi sa\n\n
+            13. Gedam ndohi ngo-slubordokoy Bi sa\n
+            Nenga’a a nda pshè nga ma\n
+            </item>
+
+
+
+
+                    <item>
+            1. Wa Yèsu, kra Zhiklè\n
+            2. Zlündo Mèzhèɓ ngaya\n
+            3. A ndha ndav nga\n
+            4. Ngo-slubordokoy Bi nga\n
+            5. Ngo-slubordokoy Yèsu\n
+            6. Nenga’a ndo m’mbel nga\n
+            7. Ngo-slubordokoy Bi nga\n
+            8. Ngo-slubordokoy Yèsu\n
+            9. Washkè, ngo-dokoya\n
+            10. A civèɗ Yèsu Kristi\n
+            11. Ngo-slubordokoy Bi nga\n
+            12. Ngo-slubordokoy Yèsu\n
+            13. Mwuffè a zhè a patsna\n
+            14. A sam ndohi tèlè\n
+            15. Ngo-slubordokoy Bi nga\n
+            16. Ngo-slubordokoy Yèsu\n
+            17. Yèsu a baha nga\n
+            18. A woy man a hel nga\n
+            19. A ngwi a géɗè’a\n
+            20. Nga da nzi a nenga’a\n
+            21. Te kokwar-Bi na\n
+            22. Ngo-slubordokoy Bi nga\n
+            23. Ngo-slubordokoy Yèsu\n
+            24. Man a da nzi a mèdèp\n\n
+            A da til sam-n’nzi nga\n
+            Nga nzi a mèdèp.\n
+            </item>
+
+
+
+                    <item>
+            1. A mshkè herkeda a géɗ mali nga (bis)\n
+            A mshkè ara ndo ntawassa’a (bis)\n\n
+            Yèsu kra Zhiklè\n
+            Halau kra Zhiklè\n
+            Na zhè a nshèffè\n\n
+            2. A baha ta ndohi te malai…\n
+            A ta ngècè nshèffè a sam na…\n\n
+            3. Aman ndohi ta ca a ndav ɓai…\n
+            Ta woy man a ta keɗa’a…\n\n
+            4. A nslambaɗkaɗ na auda te vèvèɗ…\n
+            Yèsu Kristi na zhè a nshèffè…\n\n
+            5. Ndohi man ta co Yèsu a ndav…\n
+            Ta nda a wudahi Zhiklè…\n\n
+            6. Pats staɗ Yèsu a mshkè a herkeda…\n
+            A da hel nga ngwi a sam na\n\n
+            7. Nga da ngècè skwi ntul nga…\n
+            Mwuffè nga a da slébèrdè’a…\n\n
+            8. Nga da gi susi a Bab Zhiklè…\n
+            A mva nga Yèsu nshèffè nga…\n
+            </item>
+
+    </string-array>
+
 </resources>

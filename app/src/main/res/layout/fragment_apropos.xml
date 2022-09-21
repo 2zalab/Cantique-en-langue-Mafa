@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    tools:context=".AproposFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/id_logo"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@mipmap/cantiques_en_mafa"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:id="@+id/titre_mafa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/mafa_name"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_toRightOf="@id/id_logo"/>
+
+        <TextView
+            android:id="@+id/titre_francais"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Recueil de cantiques en Mafa"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="italic"
+            android:fontFamily="cursive"
+            android:textSize="18dp"
+            android:layout_below="@id/titre_mafa"
+            android:layout_toRightOf="@id/id_logo"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Version : 1.0"
+            android:layout_below="@id/titre_francais"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"/>
+    </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorPrimary"/>
+
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:lineSpacingExtra="1.5dp"
+            android:text="@string/description"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="10dp"
+            android:text="Les caracteristiques de cette application sont:"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/caracteristiques"
+            android:textColor="@android:color/black"
+            android:gravity="left"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="10dp"
+            android:text="Les coordonnées du developpeur sont:"/>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="3dp"
+               android:src="@drawable/ic_baseline_account_circle_24"
+               xmlns:app="http://schemas.android.com/apk/res-auto"
+               app:tint="@color/colorPrimary" />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_marginLeft="12dp"
+               android:textColor="#000000"
+               android:textSize="15dp"
+               android:layout_marginTop="3dp"
+               android:text="TOUZA Isaac"/>
+
+       </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/ic_baseline_local_phone_24"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                app:tint="@color/colorPrimary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:layout_marginTop="3dp"
+                android:autoLink="phone"
+                android:text="691805321 - 672277579"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/ic_baseline_place_24"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                app:tint="@color/colorPrimary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:layout_marginTop="3dp"
+                android:autoLink="phone"
+                android:linksClickable="true"
+                android:text="Maroua-Cameroun"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/ic_baseline_mail_24"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                app:tint="@color/colorPrimary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:layout_marginTop="3dp"
+                android:autoLink="email"
+                android:text="isaac_touza@outlook.fr"/>
+
+        </LinearLayout>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/encouragement"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            />
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/black"
+            android:text="@string/remarque"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -7,22 +7,37 @@
         android:id="@+id/search"
         android:title="Recherche"
         android:icon="@drawable/ic_baseline_search_24"
-        app:showAsAction="ifRoom"/>
+        app:showAsAction="collapseActionView|always"
+        app:actionViewClass="android.widget.SearchView" />
 
     <item
-        android:id="@+id/share"
-        android:title="Partager"
-        app:showAsAction="never" />
+        android:icon="@drawable/ic_baseline_more_vert_24"
+        app:showAsAction="always"
+        android:title="Menu">
 
-    <item
-        android:id="@+id/note"
-        android:title="Noter l'application"
-        app:showAsAction="never" />
+        <menu>
 
-    <item
-        android:id="@+id/action_exit"
-        android:title="Fermer"
-        app:showAsAction="never" />
+            <item
+                android:id="@+id/share"
+                android:title="Partager"
+                android:onClick="share"
+                app:showAsAction="never" />
+
+                <item
+                    android:id="@+id/note"
+                    android:title="Noter l'application"
+                    android:onClick="noter"
+                    app:showAsAction="never" />
+
+                    <item
+                        android:id="@+id/action_exit"
+                        android:title="Fermer"
+                        android:onClick="quit"
+                        app:showAsAction="never" />
+
+        </menu>
+
+    </item>
 
 
 </menu>
